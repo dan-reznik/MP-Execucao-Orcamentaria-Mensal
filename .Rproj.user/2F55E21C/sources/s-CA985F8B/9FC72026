@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1554757298246.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9FC72026",
+    "lastKnownWriteTime" : 1554821132,
+    "last_content_update" : 1554821132330,
+    "path" : "C:/Users/dreznik/Dropbox/Data Science/R Projects/MP-Execucao-Mensal/examine_file.Rmd",
+    "project_path" : "examine_file.Rmd",
+    "properties" : {
+        "chunk_output_type" : "inline",
+        "cursorPosition" : "225,24",
+        "scrollLine" : "219",
+        "tempName" : "Untitled2"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

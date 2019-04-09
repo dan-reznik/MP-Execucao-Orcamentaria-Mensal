@@ -1,0 +1,4 @@
+"0","locale_bra <- locale(encoding=""ISO-8859-1"")"
+"0","#read_file(fname1_txt,locale=locale_bra)%>%"
+"0","#  write_file(fname1_txt_utf8)"
+"0","#guess_encoding(fname1_txt_utf8)"

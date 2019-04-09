@@ -1,0 +1,6 @@
+"0","df_all %>% "
+"0","  mutate_if(is.character,as.factor)%>%"
+"0","  mutate(Data=dmy(Data))%>%"
+"0","  arrange(Data) %>%"
+"0","  write_rds(dir_slash_fname(data_dir,""Despesas MPRJ.rds""),"
+"0","            compress=""bz"")"
