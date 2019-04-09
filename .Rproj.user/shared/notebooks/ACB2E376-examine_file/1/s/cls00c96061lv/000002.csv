@@ -1,2 +1,0 @@
-"0","fname_zip <- dir_slash_fname(data_dir,""Despesas MRJ.zip"")"
-"0","zip::zip_list(fname_zip)"

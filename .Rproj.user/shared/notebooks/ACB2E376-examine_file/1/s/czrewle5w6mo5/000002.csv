@@ -1,2 +1,0 @@
-"0","bad_lines <- read_lines(fname1_txt,locale=locale_bra)%>%"
-"0","  keep(~str_count(.x,fixed("";""))!=45)"

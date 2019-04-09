@@ -1,0 +1,9 @@
+# https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line
+cd $proj_dir
+git init
+git add .
+git commit -m "First commit"
+git remote add origin https://github.com/<user>/<repo>
+git remote -v
+git push origin master
+
