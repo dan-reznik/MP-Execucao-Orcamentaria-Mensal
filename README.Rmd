@@ -1,0 +1,22 @@
+---
+title: "Despesas Mensais"
+output: github_output
+---
+
+```{r}
+library(tidyverse)
+library(fs)
+```
+
+Le arquivo
+
+```{r}
+fname_despesas <- "./data/Despesas MPRJ rds one.rds"
+df_despesas <- read_rds(fname_despesas)
+dim(df_despesas)
+```
+
+```{r}
+object.size(df_despesas)%>%format(units="Mb")
+```
+
