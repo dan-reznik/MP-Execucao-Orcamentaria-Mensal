@@ -1,0 +1,90 @@
+---
+title: "Análise dos dados, execução mensal"
+author: Daniel Lima (MP-RJ), Dan S. Reznik (PUC-CCE)
+date: Abril, 2019
+output: 
+  html_document:
+    mathjax: null
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    theme: united
+    highlight: tango
+---
+
+```{r,echo=F}
+knitr::opts_chunk$set(
+  cache=T,
+  collapse=T,
+  comment="#>",
+  dpi=96
+)
+```
+
+### Carrega pacotes
+
+```{r,message=F}
+library(tidyverse)
+library(lubridate)
+library(fs)
+library(tictoc) # mede tempo de execução
+source("util.R")
+```
+
+### Le arquivo de execuções (.rds)
+
+```{r}
+fname_despesas <- "./data/MP_EMPENHOS_ALL.rds"
+tic()
+df_despesas <- read_rds(fname_despesas)
+toc()
+```
+
+# Linhas x colunas
+
+```{r}
+dim(df_despesas)
+```
+
+### Tamanho em Mb
+
+```{r}
+object.size(df_despesas)%>%format(units="Mb")
+```
+
+### Examina superficialmente (glimpse) 
+
+```{r}
+df_despesas%>%glimpse
+```
+
+### Classes das colunas
+
+```{r}
+df_despesas %>% map_chr(class)%>%table
+```
+
+### Cardinalidade das nao-numericas
+
+```{r}
+df_despesas %>% get_card_fact
+```
+
+### Quais colunas numéricas?
+
+```{r}
+df_despesas %>% select_if(is.numeric) %>% colnames
+```
+
+### Sumariza-as
+
+```{r}
+df_despesas %>% select_if(is.numeric) %>% summary
+```
+
+### Algumas colunas numéricas tem NAs excessivos
+
+```{r}
+df_despesas %>% pct_na %>% filter(pct_na>.1)
+```
+
