@@ -21,7 +21,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-### Carrega pacotes
+## Carrega pacotes
 
 ```{r,message=F}
 library(tidyverse)
@@ -31,7 +31,9 @@ library(tictoc) # mede tempo de execução
 source("util.R")
 ```
 
-### Le arquivo de execuções (.rds)
+## Leitura do arquivo de execuções
+
+### Lê .rds
 
 ```{r}
 fname_despesas <- "./data/MP_EMPENHOS_ALL.rds"
@@ -40,7 +42,7 @@ df_despesas <- read_rds(fname_despesas)
 toc()
 ```
 
-# Linhas x colunas
+### Linhas x colunas
 
 ```{r}
 dim(df_despesas)
@@ -52,7 +54,9 @@ dim(df_despesas)
 object.size(df_despesas)%>%format(units="Mb")
 ```
 
-### Examina superficialmente (glimpse) 
+## Análise Estrutural, NAs
+
+### Examina c/ glimpse)
 
 ```{r}
 df_despesas%>%glimpse
@@ -88,3 +92,6 @@ df_despesas %>% select_if(is.numeric) %>% summary
 df_despesas %>% pct_na %>% filter(pct_na>.1)
 ```
 
+## Análise Quantitativa
+
+### To do

@@ -343,33 +343,39 @@ div.tocify {
 </div>
 
 
-<div id="carrega-pacotes" class="section level3">
-<h3>Carrega pacotes</h3>
+<div id="carrega-pacotes" class="section level2">
+<h2>Carrega pacotes</h2>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(tidyverse)
 <span class="kw">library</span>(lubridate)
 <span class="kw">library</span>(fs)
 <span class="kw">library</span>(tictoc) <span class="co"># mede tempo de execução</span>
 <span class="kw">source</span>(<span class="st">&quot;util.R&quot;</span>)</code></pre></div>
 </div>
-<div id="le-arquivo-de-execucoes-.rds" class="section level3">
-<h3>Le arquivo de execuções (.rds)</h3>
+<div id="leitura-do-arquivo-de-execucoes" class="section level2">
+<h2>Leitura do arquivo de execuções</h2>
+<div id="le-.rds" class="section level3">
+<h3>Lê .rds</h3>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">fname_despesas &lt;-<span class="st"> &quot;./data/MP_EMPENHOS_ALL.rds&quot;</span>
 <span class="kw">tic</span>()
 df_despesas &lt;-<span class="st"> </span><span class="kw">read_rds</span>(fname_despesas)
 <span class="kw">toc</span>()
 <span class="co">#&gt; 17.467 sec elapsed</span></code></pre></div>
 </div>
-<div id="linhas-x-colunas" class="section level1">
-<h1>Linhas x colunas</h1>
+<div id="linhas-x-colunas" class="section level3">
+<h3>Linhas x colunas</h3>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">dim</span>(df_despesas)
 <span class="co">#&gt; [1] 2252570      45</span></code></pre></div>
+</div>
 <div id="tamanho-em-mb" class="section level3">
 <h3>Tamanho em Mb</h3>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">object.size</span>(df_despesas)<span class="op">%&gt;%</span><span class="kw">format</span>(<span class="dt">units=</span><span class="st">&quot;Mb&quot;</span>)
 <span class="co">#&gt; [1] &quot;534.8 Mb&quot;</span></code></pre></div>
 </div>
-<div id="examina-superficialmente-glimpse" class="section level3">
-<h3>Examina superficialmente (glimpse)</h3>
+</div>
+<div id="analise-estrutural-nas" class="section level2">
+<h2>Análise Estrutural, NAs</h2>
+<div id="examina-c-glimpse" class="section level3">
+<h3>Examina c/ glimpse)</h3>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">df_despesas<span class="op">%&gt;%</span>glimpse
 <span class="co">#&gt; Observations: 2,252,570</span>
 <span class="co">#&gt; Variables: 45</span>
@@ -501,6 +507,12 @@ df_despesas &lt;-<span class="st"> </span><span class="kw">read_rds</span>(fname
 <span class="co">#&gt; 4 NumeroContrato    numeric 2252570 2029409  0.9  </span>
 <span class="co">#&gt; 5 Pagamento         numeric 2252570 1275498  0.570</span>
 <span class="co">#&gt; 6 Liquidacao        numeric 2252570  401498  0.18</span></code></pre></div>
+</div>
+</div>
+<div id="analise-quantitativa" class="section level2">
+<h2>Análise Quantitativa</h2>
+<div id="to-do" class="section level3">
+<h3>To do</h3>
 </div>
 </div>
 
