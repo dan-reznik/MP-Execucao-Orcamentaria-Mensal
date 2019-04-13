@@ -18,7 +18,8 @@ knitr::opts_chunk$set(
   cache=T,
   collapse=T,
   comment="#>",
-  dpi=96
+  dpi=96,
+  out.width='100%'
 )
 ```
 
@@ -110,7 +111,7 @@ df_despesas %>%
   theme(legend.position = "none")
 ```
 
-Valores por ano para top por total de valor
+Valores por ano
 
 ```{r}
 df_despesas %>%
@@ -123,4 +124,20 @@ df_despesas %>%
   ggplot(aes(ano,Valor,group=NomeFuncao,color=NomeFuncao)) +
   geom_line(size=1.2) +
   theme(legend.position = "top")
+```
+
+Valores por quartil para top por total de valor
+
+```{r}
+df_despesas %>%
+  mutate(NomeFuncao=NomeFuncao%>%
+           fct_reorder(Valor,sum,.desc=T)) %>%
+  filter(as.integer(NomeFuncao)<6) %>% # top by overall sum
+  mutate(yq=str_c(year(Data),"_",quarter(Data))%>%as.factor) %>%
+  group_by(yq,NomeFuncao) %>%
+  summarize(Valor=sum(Valor)) %>%
+  ggplot(aes(yq,Valor,group=NomeFuncao,color=NomeFuncao)) +
+  geom_line(size=1.2) +
+  theme(legend.position = "top",
+        axis.text.x = element_text(angle=45,hjust=1,vjust=1))
 ```
