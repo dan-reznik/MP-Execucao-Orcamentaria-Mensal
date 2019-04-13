@@ -57,7 +57,7 @@ object.size(df_despesas)%>%format(units="Mb")
 
 ## Análise Estrutural, NAs
 
-Examina c/ glimpse)
+Examina c/ `glimpse`
 
 ```{r}
 df_despesas%>%glimpse
@@ -95,4 +95,32 @@ df_despesas %>% pct_na %>% filter(pct_na>.1)
 
 ## Análise Quantitativa
 
-To do
+Distribuição de valores, top 5 soma de valores
+
+```{r}
+df_despesas %>%
+  mutate(NomeFuncao=NomeFuncao%>%
+           fct_reorder(Valor,sum,.desc=T)) %>%
+  filter(as.integer(NomeFuncao)<6) %>%
+  mutate(NomeFuncao=NomeFuncao%>%
+           fct_reorder(Valor,median,.desc=T)) %>%
+  ggplot(aes(NomeFuncao,Valor,fill=NomeFuncao)) +
+  geom_boxplot() +
+  scale_y_log10() +
+  theme(legend.position = "none")
+```
+
+Valores por ano para top por total de valor
+
+```{r}
+df_despesas %>%
+  mutate(NomeFuncao=NomeFuncao%>%
+           fct_reorder(Valor,sum,.desc=T)) %>%
+  filter(as.integer(NomeFuncao)<6) %>% # top by overall sum
+  mutate(ano=year(Data)) %>%
+  group_by(ano,NomeFuncao) %>%
+  summarize(Valor=sum(Valor)) %>%
+  ggplot(aes(ano,Valor,group=NomeFuncao,color=NomeFuncao)) +
+  geom_line(size=1.2) +
+  theme(legend.position = "top")
+```
