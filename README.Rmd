@@ -1,22 +1,36 @@
 ---
 title: "Despesas Mensais"
-output: github_output
+output: github_document
 ---
 
-```{r}
+```{r,echo=F}
+knitr::opts_chunk$set(
+  cache=T,
+  collapse=T,
+  comment="#>",
+  dpi=96
+)
+```
+
+Nota: preparo dos dados [aqui](preparo_mensal.html)
+
+```{r,message=F}
 library(tidyverse)
 library(fs)
 ```
 
 Le arquivo
 
-```{r}
-fname_despesas <- "./data/Despesas MPRJ rds one.rds"
+```{r,eval=F}
+fname_despesas <- "./data/MP_EMPENHOS_ALL.rds"
 df_despesas <- read_rds(fname_despesas)
+```
+
+```{r,eval=F}
 dim(df_despesas)
 ```
 
-```{r}
+```{r,eval=F}
 object.size(df_despesas)%>%format(units="Mb")
 ```
 
