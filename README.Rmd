@@ -16,21 +16,67 @@ Nota: preparo dos dados [aqui](preparo_mensal.html)
 
 ```{r,message=F}
 library(tidyverse)
+library(lubridate)
 library(fs)
+library(tictoc) # mede tempo de execução
+```
+
+```{r,cache=F}
+source("util.R")
 ```
 
 Le arquivo
 
-```{r,eval=F}
+```{r}
 fname_despesas <- "./data/MP_EMPENHOS_ALL.rds"
+tic()
 df_despesas <- read_rds(fname_despesas)
+toc()
 ```
 
-```{r,eval=F}
+Quais dimensões
+
+```{r}
 dim(df_despesas)
 ```
 
-```{r,eval=F}
+Qual tamanho 
+
+```{r}
 object.size(df_despesas)%>%format(units="Mb")
+```
+
+```{r}
+df_despesas%>%glimpse
+```
+
+Classes das colunas
+
+```{r}
+df_despesas %>% map_chr(class)%>%table
+```
+
+Cardinalidade
+
+```{r}
+df_despesas %>% get_card_fact
+```
+
+Quais colunas sao numéricas?
+
+```{r}
+df_despesas %>% select_if(is.numeric) %>% colnames
+```
+
+Sumariza-as
+
+```{r}
+df_despesas %>% select_if(is.numeric) %>% summary
+```
+
+Nota: algumas colunas numéricas tem NAs excessivos
+
+```{r}
+df_despesas %>% pct_na %>% filter(pct_na>.1)
 ```
 

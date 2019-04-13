@@ -13,6 +13,21 @@ get_card <- function(df) df %>%
       arrange(desc(unicos))
   }
 
+get_card_fact <- function(df) df %>%
+  summarize_if(is.factor,~length(levels(.))) %>%
+  {
+    tibble(colname=colnames(.),unicos=unlist(.)) %>%
+      arrange(desc(unicos))
+  }
+
+pct_na <- function(df) df %>%
+{tibble(col=colnames(.),
+        class=map_chr(.,class),
+        lines=nrow(.),
+        cnt_na=map_int(.,~sum(is.na(.))),
+        pct_na=round(cnt_na/lines,2))} %>%
+  arrange(class,desc(cnt_na))
+
 cnt_seps <- function(s_vec,sep) {
   df <- tibble(line=s_vec,
                cnt=str_count(line,fixed(sep)))
