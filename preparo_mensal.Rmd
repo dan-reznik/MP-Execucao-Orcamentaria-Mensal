@@ -1,0 +1,237 @@
+---
+title: "Preparo dos dados execução mensal"
+author: Daniel Lima (MP-RJ), Dan S. Reznik (PUC-CCE)
+date: Abril, 2019
+output: 
+  html_document:
+    mathjax: null
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    theme: united
+    highlight: tango
+---
+
+```{r,echo=F}
+knitr::opts_chunk$set(
+  cache=T,
+  collapse=T,
+  comment="#>",
+  dpi=96
+)
+```
+
+## Carrega bibliotecas
+
+```{r,message=F}
+library(tidyverse)
+library(lubridate)
+library(fs)
+library(stringi) # for %s+%
+library(furrr)
+library(zip)
+library(tictoc)
+source("util.R")
+```
+
+```{r}
+data_dir <- "data"
+dir_ls(data_dir,regexp=".*zip")
+```
+
+## Lista conteúdo do zip
+
+```{r}
+fname_zip <- dir_slash_fname(data_dir,"Despesas MRJ.zip")
+fnames_in_zip <- zip_list(fname_zip)
+fnames_in_zip
+```
+
+## Vamos analizar o primeiro arquivo
+
+```{r}
+fname1 <- fnames_in_zip$filename[1]
+zip::unzip(fname_zip,files=fname1,exdir=data_dir)
+dir_ls(data_dir,regexp="*.TXT")
+```
+
+### Adiciona o diretório
+
+```{r}
+fname1_txt <- dir_slash_fname(data_dir,fname1) %>%
+  path_norm
+fname1_txt
+```
+
+### Estima o encoding do arquivo
+
+```{r}
+guess_encoding(fname1_txt)
+```
+
+### Dados de localização típicos do Brasil
+
+```{r}
+locale_bra <- locale(encoding="ISO-8859-1",
+                     decimal_mark = ",",
+                     date_format="%d/%m/%Y")
+```
+
+### Olha para as primeiras 2 linhas
+
+```{r}
+first2 <- read_lines(fname1_txt,
+                     locale=locale_bra,n_max=2)
+first2
+```
+
+Quantos separadores nestas duas primeiras linhas
+
+```{r}
+first2 %>% cnt_seps(";")
+```
+
+Quantos separadores ";" por linha? Note que a maioria tem 45 mas algumas linhas tem 46 e 48 separadores
+
+```{r}
+read_lines(fname1_txt,locale=locale_bra) %>%
+  cnt_seps(";")
+```
+
+Usando melt_delim para ler "ragged"
+
+```{r}
+melt_delim(fname1_txt,
+           delim=fixed(";"),
+           locale=locale_bra,
+           n_max=100,
+           trim_ws = T,
+           skip_empty_rows = T) %>%
+  write_delim("tests/melt100.txt",delim='|')
+```
+
+Analize columns
+
+```{r}
+df_melt1 <- melt_delim(fname1_txt
+           ,delim=fixed(";")
+           ,locale=locale_bra
+           ,quote="@"
+           ,trim_ws = T
+           ,skip_empty_rows = T
+           ) %>%
+  count(row,name="seps") %>%
+  group_by(seps) %>%
+  summarize(n=n(),row_list=if_else(n()<20,
+                                   str_c(row,collapse=","),
+                                   NA_character_))
+df_melt1
+```
+
+Mostre quais linhas tem separadores anomalos
+
+```{r}
+cnt_seps_df(fname1_txt,locale_bra,";",45,5)
+```
+
+### Reporta quais linhas tem problemas no arquivo "bad_lines_txt"
+
+```{r}
+bad_lines <- read_lines(fname1_txt,locale=locale_bra)%>%
+  keep(~str_count(.x,fixed(";"))!=45)
+c(first2[1],bad_lines)%>%write_lines("tests/bad_lines.txt")
+```
+
+### Reporta campos lado a lado (transpostos) num arquivo "bad_lines_transp.txt" para análise
+
+```{r,message=F}
+{
+  lgts<-c(first2,bad_lines)%>%str_split(fixed(";"))%>%map_int(length)
+  cols<-str_c(c(letters,LETTERS),lgts)
+  df_transp <- c(first2,bad_lines)%>%
+    str_split(fixed(";"))%>%
+    map2(lgts,~c(.x,rep(NA,49-.y))) %>%
+    {l<-.;do.call(data.frame,l%>%set_names(cols%>%head(length(l))))}
+  df_transp%>%write_delim('tests/bad_lines_transp.txt',delim="|")
+}
+```
+
+### Linhas com colunas adicionais: colunas serão ignoradas, são anotações manuais
+
+```{r}
+read_delim("tests/bad_lines_transp.txt",
+           delim=fixed("|")) %>%
+  mutate_all(~str_sub(.,end=10))
+  #%>%View
+```
+
+### Verifica truncagem de todas as linhas para o numero correto de colunas (46)
+
+```{r}
+trunc_cols(fname1_txt,locale_bra,
+           max_cols=46,n_max=10)%>%
+  cnt_seps(";")
+```
+
+### Obtém lista de todos os arquivos no zip e deleta .rds com o mesmo nome se existirem
+
+```{r,eval=F}
+fnames <- zip_list(fname_zip) %>% pull(filename)
+repl_ext(fnames,"rds") %>%
+  dir_slash_fname(data_dir,.) %>%
+  walk(~if(file_exists(.))file_delete(.))
+```
+
+### Lento: trunca as colunas de todos os arquivos no .zip (usando processamento paralelo do library(furrr)) e converte cada um para .rds (com alta compressao)
+
+```{r,eval=F}
+tic()
+plan(multiprocess)
+# fnames[2] %>% 
+fnames %>%
+  future_map_chr(unzip_trunc_rds,fname_zip,data_dir,locale_bra,45)
+toc()
+```
+
+### Examinar o primeiro rds
+
+```{r}
+fname_rds1 <- dir_ls(data_dir,regexp="MP_EMPENHOS.*rds") %>%
+  sort %>%
+  first
+df_rds1 <- fname_rds1 %>% read_rds
+dim(df_rds1)
+```
+
+```{r}
+glimpse(df_rds1)
+```
+
+Verifica cardinalidade das colunas nao numericas
+
+```{r,eval=F}
+df_rds1 %>% get_card
+```
+
+### Combina todos os data frames num só usando "purrr::map_dfr"
+
+```{r,eval=F}
+fnames_rds <- dir_ls(path=data_dir,regexp="\\d{6}\\.rds$")
+df_all <- fnames_rds %>%
+  map_dfr(read_rds) %>%
+  mutate_if(is.character,as.factor) %>%
+  arrange(Data)
+fnames_rds %>% walk(file_delete)
+```
+
+### Salva o arquivo combinado
+
+```{r,eval=F}
+df_all %>% 
+  arrange(Data) %>%
+  write_rds(dir_slash_fname(data_dir,"MP_EMPENHOS_ALL.rds"),
+            compress="bz")
+```
+
+
+

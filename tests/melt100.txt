@@ -1,0 +1,4601 @@
+row|col|data_type|value
+1|1|character|Poder
+1|2|character|Grupo
+1|3|character|Modalidade
+1|4|character|Elemento
+1|5|character|NomeElemento
+1|6|character|SubElemento
+1|7|character|NomeSubElemento
+1|8|character|Orgao
+1|9|character|NomeOrgao
+1|10|character|UO
+1|11|character|NomeUO
+1|12|character|UG
+1|13|character|NomeUG
+1|14|character|Credor
+1|15|character|NomeCredor
+1|16|character|FonteRecursos
+1|17|character|NomeFonteRecursos
+1|18|character|Processo
+1|19|character|Funcao
+1|20|character|NomeFuncao
+1|21|character|SubFuncao
+1|22|character|NomeSubFuncao
+1|23|character|Programa
+1|24|character|NomePrograma
+1|25|character|Acao
+1|26|character|NomeAcao
+1|27|character|Licitacao
+1|28|character|Data
+1|29|character|TipoAto
+1|30|character|Valor
+1|31|character|Exercicio
+1|32|character|EmpenhoExercicio
+1|33|character|Liquidacao
+1|34|character|Pagamento
+1|35|character|Historico
+1|36|character|Banco
+1|37|character|NomeBanco
+1|38|character|Agencia
+1|39|character|ContaCorrente
+1|40|character|NomeContaCorrente
+1|41|character|ASPS
+1|42|character|MDE
+1|43|character|ExercicioContrato
+1|44|character|NumeroContrato
+1|45|character|ObjetoContrato
+1|46|missing|NA
+2|1|character|Executivo
+2|2|character|OUTRAS DESPESAS CORRENTES
+2|3|character|APLICACOES DIRETAS
+2|4|integer|30
+2|5|character|MATERIAL DE CONSUMO
+2|6|integer|27
+2|7|character|MATERIAIS DE PROTECAO E SEGURANCA
+2|8|integer|4351
+2|9|character|Companhia Municipal de Limpeza Urbana
+2|10|integer|4351
+2|11|character|Companhia Municipal de Limpeza Urbana
+2|12|integer|4351
+2|13|character|Companhia Municipal de Limpeza Urbana
+2|14|double|7913842000183
+2|15|character|DMX DO BRASIL COMERCIO LTDA ME
+2|16|integer|100
+2|17|character|ORDINARIOS NAO VINCULADOS
+2|18|double|15043092013
+2|19|integer|15
+2|20|character|URBANISMO
+2|21|integer|122
+2|22|character|ADMINISTRACAO GERAL
+2|23|character|0385
+2|24|character|GESTAO ADMINISTRATIVA - MEIO AMBIENTE E SUSTENTABILIDADE
+2|25|integer|4165
+2|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - MEIO AMBIENTE E SUSTENTABILIDADE
+2|27|character|PREGÃO
+2|28|date|02/01/2014
+2|29|character|EMPENHO
+2|30|double|5183,200000
+2|31|integer|2014
+2|32|character|48/2014
+2|33|missing|NA
+2|34|missing|NA
+2|35|character|AQUISIÇÃO DE CONE, POR SOLICITAÇÃO DA FGX        -ITENS -01 E 02        -PRAZO DE PAGAMENTO - 30 DIAS APÓS A ENTREGA DO MATERIAL        -DEMAIS CONDIÇÕES E ESPECIFICAÇÕES CONFORME EDITAL E SEUS ANEXOS
+2|36|integer|1
+2|37|character|BANCO DO BRASIL S/A
+2|38|integer|2234
+2|39|integer|73067
+2|40|character|CONTA MOVIMENTO
+2|41|character|N
+2|42|character|N
+2|43|missing|NA
+2|44|missing|NA
+2|45|missing|NA
+2|46|missing|NA
+3|1|character|Executivo
+3|2|character|OUTRAS DESPESAS CORRENTES
+3|3|character|APLICACOES DIRETAS
+3|4|integer|39
+3|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+3|6|integer|27
+3|7|character|FORNECIMENTO DE GAS
+3|8|integer|1876
+3|9|character|Hospital Municipal Francisco da Silva Telles
+3|10|integer|1876
+3|11|character|Hospital Municipal Francisco da Silva Telles
+3|12|integer|1876
+3|13|character|Hospital Municipal Francisco da Silva Telles
+3|14|double|33938119000240
+3|15|character|CEG COMPANHIA ESTADUAL DE GAS
+3|16|integer|100
+3|17|character|ORDINARIOS NAO VINCULADOS
+3|18|double|9720007362014
+3|19|integer|10
+3|20|character|SAUDE
+3|21|integer|302
+3|22|character|ASSISTENCIA HOSPITALAR E AMBULATORIAL
+3|23|character|0306
+3|24|character|ATENCAO HOSPITALAR
+3|25|integer|2009
+3|26|character|MANUTENCAO DO CUSTEIO DA REDE HOSPITALAR
+3|27|character|INEXIGIBILIDADE
+3|28|date|02/01/2014
+3|29|character|CANCELAMENTO EMPENHO
+3|30|double|69673,680000
+3|31|integer|2014
+3|32|character|1/2014
+3|33|missing|NA
+3|34|missing|NA
+3|35|character|FORNECIMENTO DE GÁS
+3|36|integer|1
+3|37|character|BANCO DO BRASIL S/A
+3|38|integer|2234
+3|39|integer|2951983
+3|40|character|CONTA MOVIMENTO
+3|41|character|S
+3|42|character|N
+3|43|missing|NA
+3|44|missing|NA
+3|45|missing|NA
+3|46|missing|NA
+4|1|character|Executivo
+4|2|character|OUTRAS DESPESAS CORRENTES
+4|3|character|APLICACOES DIRETAS
+4|4|integer|30
+4|5|character|MATERIAL DE CONSUMO
+4|6|character|02
+4|7|character|MATERIAIS PARA LIMPEZA, E HIGIENE
+4|8|integer|4351
+4|9|character|Companhia Municipal de Limpeza Urbana
+4|10|integer|4351
+4|11|character|Companhia Municipal de Limpeza Urbana
+4|12|integer|4351
+4|13|character|Companhia Municipal de Limpeza Urbana
+4|14|double|12749969000149
+4|15|character|JULIX INDUSTRIA E COMERCIO DE EMBALAGENS LTDA EPP
+4|16|integer|100
+4|17|character|ORDINARIOS NAO VINCULADOS
+4|18|double|15045332013
+4|19|integer|15
+4|20|character|URBANISMO
+4|21|integer|122
+4|22|character|ADMINISTRACAO GERAL
+4|23|character|0385
+4|24|character|GESTAO ADMINISTRATIVA - MEIO AMBIENTE E SUSTENTABILIDADE
+4|25|integer|4165
+4|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - MEIO AMBIENTE E SUSTENTABILIDADE
+4|27|character|PREGÃO
+4|28|date|02/01/2014
+4|29|character|EMPENHO
+4|30|double|154972,000000
+4|31|integer|2014
+4|32|character|51/2014
+4|33|missing|NA
+4|34|missing|NA
+4|35|character|AQUISIÇÃO DE SACO PLÁSTICO COM CAPACIDADE 200L, POR SOLICITAÇÃO DA FGX        -ITEM -01       -PRAZO DE PAGAMENTO - 30 DIAS APÓS A ENTREGA DE CADA PARCELA DO MATERIAL         -DEMAIS CONDIÇÕES E ESPECIFICAÇÕES CONFORME EDITAL E SEUS ANEXOS        -CONTRATO FORMAL
+4|36|integer|1
+4|37|character|BANCO DO BRASIL S/A
+4|38|integer|2234
+4|39|integer|73067
+4|40|character|CONTA MOVIMENTO
+4|41|character|N
+4|42|character|N
+4|43|missing|NA
+4|44|missing|NA
+4|45|missing|NA
+4|46|missing|NA
+5|1|character|Executivo
+5|2|character|OUTRAS DESPESAS CORRENTES
+5|3|character|APLICACOES DIRETAS
+5|4|integer|30
+5|5|character|MATERIAL DE CONSUMO
+5|6|integer|27
+5|7|character|MATERIAIS DE PROTECAO E SEGURANCA
+5|8|integer|4351
+5|9|character|Companhia Municipal de Limpeza Urbana
+5|10|integer|4351
+5|11|character|Companhia Municipal de Limpeza Urbana
+5|12|integer|4351
+5|13|character|Companhia Municipal de Limpeza Urbana
+5|14|double|7913842000183
+5|15|character|DMX DO BRASIL COMERCIO LTDA ME
+5|16|integer|100
+5|17|character|ORDINARIOS NAO VINCULADOS
+5|18|double|15015842013
+5|19|integer|15
+5|20|character|URBANISMO
+5|21|integer|122
+5|22|character|ADMINISTRACAO GERAL
+5|23|character|0385
+5|24|character|GESTAO ADMINISTRATIVA - MEIO AMBIENTE E SUSTENTABILIDADE
+5|25|integer|4165
+5|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - MEIO AMBIENTE E SUSTENTABILIDADE
+5|27|character|PREGÃO
+5|28|date|02/01/2014
+5|29|character|EMPENHO
+5|30|double|72810,500000
+5|31|integer|2014
+5|32|character|56/2014
+5|33|missing|NA
+5|34|missing|NA
+5|35|character|AQUISIÇÃO DE LUVA EM MALHA DE ALGODÃO COM BANHO NITRÍLICO, POR SOLICITAÇÃO DA FGX        -ITEM -03        -PRAZO DE PAGAMENTO - 30 DIAS APÓS A ENTREGA DE CADA PARCELA DO MATERIAL        -DEMAIS CONDIÇÕES E ESPECIFICAÇÕES CONFORME EDITAL E SEUS ANEXOS        -CONTRATO FORMAL
+5|36|integer|1
+5|37|character|BANCO DO BRASIL S/A
+5|38|integer|2234
+5|39|integer|73067
+5|40|character|CONTA MOVIMENTO
+5|41|character|N
+5|42|character|N
+5|43|missing|NA
+5|44|missing|NA
+5|45|missing|NA
+5|46|missing|NA
+6|1|character|Executivo
+6|2|character|OUTRAS DESPESAS CORRENTES
+6|3|character|APLICACOES DIRETAS
+6|4|integer|37
+6|5|character|LOCACAO DE MAO-DE-OBRA
+6|6|character|09
+6|7|character|SERVICOS DE APOIO ADMINISTRATIVO E OPERACIONAL
+6|8|integer|1815
+6|9|character|Subsecretaria de Vigilância, Fiscalização Sanitária e Controle de Zoonoses
+6|10|integer|1815
+6|11|character|Subsecretaria de Vigilância, Fiscalização Sanitária e Controle de Zoonoses
+6|12|integer|1815
+6|13|character|Subsecretaria de Vigilância, Fiscalização Sanitária e Controle de Zoonoses
+6|14|double|9042991000140
+6|15|character|TRANSPORTADORA RENNAN LTDA
+6|16|integer|195
+6|17|character|MULTAS POR INFRACAO A LEGISLACAO DE SAUDE
+6|18|double|99327012013
+6|19|integer|10
+6|20|character|SAUDE
+6|21|integer|304
+6|22|character|VIGILANCIA SANITARIA
+6|23|character|0309
+6|24|character|VIGILANCIA E CONTROLE DO RISCO SANITARIO
+6|25|integer|2292
+6|26|character|VIGILANCIA E FISCALIZACAO SANITARIA
+6|27|character|DISPENSA
+6|28|date|02/01/2014
+6|29|character|EMPENHO
+6|30|double|451195,120000
+6|31|integer|2014
+6|32|character|12/2014
+6|33|missing|NA
+6|34|missing|NA
+6|35|character|PRESTAÇÃO DE SERVIÇO DE 28(VINTE E OITO) CONDUTORES DE VEÍCULOS.
+6|36|integer|1
+6|37|character|BANCO DO BRASIL S/A
+6|38|integer|2234
+6|39|integer|2956985
+6|40|character|PCRJ MULTAS P/INFRAÇÃO LEG DA SAUDE
+6|41|character|N
+6|42|character|N
+6|43|missing|NA
+6|44|missing|NA
+6|45|missing|NA
+6|46|missing|NA
+7|1|character|Executivo
+7|2|character|OUTRAS DESPESAS CORRENTES
+7|3|character|APLICACOES DIRETAS
+7|4|integer|39
+7|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+7|6|integer|27
+7|7|character|FORNECIMENTO DE GAS
+7|8|integer|1605
+7|9|character|4a. Coordenadoria Regional de Educação
+7|10|integer|1605
+7|11|character|4a. Coordenadoria Regional de Educação
+7|12|integer|1605
+7|13|character|4a. Coordenadoria Regional de Educação
+7|14|double|33938119000169
+7|15|character|CEG  COMPANHIA ESTADUAL DE GAS DO RIO DE JANEIRO
+7|16|integer|142
+7|17|character|FUNDEB
+7|18|double|7040000032014
+7|19|integer|12
+7|20|character|EDUCACAO
+7|21|integer|361
+7|22|character|ENSINO FUNDAMENTAL
+7|23|character|0381
+7|24|character|GESTAO ADMINISTRATIVA - EDUCACAO
+7|25|integer|2411
+7|26|character|CONCESSIONARIAS DE SERVICOS PUBLICOS - ADM. DIRETA - EDUCACAO
+7|27|character|INEXIGIBILIDADE
+7|28|date|02/01/2014
+7|29|character|EMPENHO
+7|30|double|62051,000000
+7|31|integer|2014
+7|32|character|4/2014
+7|33|missing|NA
+7|34|missing|NA
+7|35|character|PR EXEC: 12 MESES
+7|36|integer|1
+7|37|character|BANCO DO BRASIL S/A
+7|38|integer|2234
+7|39|integer|74802
+7|40|character|C/MOVIMENTO - FUNDEB
+7|41|character|N
+7|42|character|S
+7|43|missing|NA
+7|44|missing|NA
+7|45|missing|NA
+7|46|missing|NA
+8|1|character|Executivo
+8|2|character|OUTRAS DESPESAS CORRENTES
+8|3|character|APLICACOES DIRETAS
+8|4|integer|39
+8|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+8|6|integer|75
+8|7|character|SERVICOS DE FISCALIZACAO ELETRONICA DE TRAFEGO
+8|8|integer|2951
+8|9|character|Companhia de Engenharia de Tráfego do Rio de Janeiro
+8|10|integer|2951
+8|11|character|Companhia de Engenharia de Tráfego do Rio de Janeiro
+8|12|integer|2951
+8|13|character|Companhia de Engenharia de Tráfego do Rio de Janeiro
+8|14|double|6965293000128
+8|15|character|SPLICE INDUSTRIA COMERCIO E SERVICOS LTDA
+8|16|integer|109
+8|17|character|MULTAS POR INFRACAO A LEGISLACAO DO TRANSITO
+8|18|double|32019492011
+8|19|integer|26
+8|20|character|TRANSPORTE
+8|21|integer|452
+8|22|character|SERVICOS URBANOS
+8|23|character|0414
+8|24|character|TRAFEGO INTELIGENTE
+8|25|integer|4005
+8|26|character|EQUIPAMENTOS E SISTEMAS INTELIGENTES
+8|27|character|CONCORRÊNCIA
+8|28|date|02/01/2014
+8|29|character|EMPENHO
+8|30|double|455881,900000
+8|31|integer|2014
+8|32|character|9/2014
+8|33|missing|NA
+8|34|missing|NA
+8|35|character|CONTRATO 2012/27 - LOTE 2 - PRESTAÇÃO DE SERVIÇOS DE ENGENHARIA PARA MONITORAMENTO E GESTÃO DE INFORMAÇÃO DE TRÁFEGO, ATRAVÉS DA FISCALIZAÇÃO ELETRÔNICA - AVANÇO DE SINAL, PARADA SOBRE FAIXA DE PEDESTRE, E EXCESSO DE VELOCIDADE - RD 2014/22
+8|36|integer|1
+8|37|character|BANCO DO BRASIL S/A
+8|38|integer|2234
+8|39|integer|2986728
+8|40|character|CET RIO - CTA MOVIMENTO - VINC. A MULTAS DE TRANSITO
+8|41|character|N
+8|42|character|N
+8|43|integer|2012
+8|44|integer|27
+8|45|character|PRESTAÇÃO DE SERVIÇOS DE ENGENHARIA PARA MONITORAMENTO E GESTÃO DE INFORMAÇÃO DE TRÁFEGO, ATRAVÉS DE FISCALIZAÇÃO ELETRÔNICA REFERENTE A AVANÇO DE SEMÁFORO, PARADA SOBRE FAIXA DE PEDESTRES, EXCESSO DE VELOCIDADE E OUTROS DISPOSITIVOS, REFERENTE AO LOTE II
+8|46|missing|NA
+9|1|character|Executivo
+9|2|character|OUTRAS DESPESAS CORRENTES
+9|3|character|APLICACOES DIRETAS
+9|4|integer|39
+9|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+9|6|integer|72
+9|7|character|DESPESAS DE TELEPROCESSAMENTO
+9|8|integer|2441
+9|9|character|Fundação Parques e Jardins
+9|10|integer|2441
+9|11|character|Fundação Parques e Jardins
+9|12|integer|2441
+9|13|character|Fundação Parques e Jardins
+9|14|double|2421421000111
+9|15|character|TIM S.A.
+9|16|integer|100
+9|17|character|ORDINARIOS NAO VINCULADOS
+9|18|double|143034152010
+9|19|integer|18
+9|20|character|GESTAO AMBIENTAL
+9|21|integer|126
+9|22|character|TECNOLOGIA DA INFORMACAO
+9|23|character|0385
+9|24|character|GESTAO ADMINISTRATIVA - MEIO AMBIENTE E SUSTENTABILIDADE
+9|25|integer|4765
+9|26|character|MANUTENCAO E DESENVOLVIMENTO DA INFORMATICA - ADM. INDIRETA - MEIO AMBIENTE E SUSTENTABILI
+9|27|character|PREGÃO
+9|28|date|02/01/2014
+9|29|character|EMPENHO
+9|30|double|37678,560000
+9|31|integer|2014
+9|32|character|13/2014
+9|33|missing|NA
+9|34|missing|NA
+9|35|character|PRESTAÇÃO DE SERVIÇOS DE REDE DE TRANSPORTE DE DADOS E TELECOMUNICAÇÕES.
+9|36|integer|1
+9|37|character|BANCO DO BRASIL S/A
+9|38|integer|2234
+9|39|integer|2951983
+9|40|character|CONTA MOVIMENTO
+9|41|character|N
+9|42|character|N
+9|43|missing|NA
+9|44|missing|NA
+9|45|missing|NA
+9|46|missing|NA
+10|1|character|Executivo
+10|2|character|OUTRAS DESPESAS CORRENTES
+10|3|character|APLICACOES DIRETAS
+10|4|integer|30
+10|5|character|MATERIAL DE CONSUMO
+10|6|integer|24
+10|7|character|GENEROS ALIMENTICIOS, INCLUSIVE BEBIDAS
+10|8|integer|2441
+10|9|character|Fundação Parques e Jardins
+10|10|integer|2441
+10|11|character|Fundação Parques e Jardins
+10|12|integer|2441
+10|13|character|Fundação Parques e Jardins
+10|14|double|768165000108
+10|15|character|HB MULTISERVICOS LTDA
+10|16|integer|100
+10|17|character|ORDINARIOS NAO VINCULADOS
+10|18|double|143030292009
+10|19|integer|18
+10|20|character|GESTAO AMBIENTAL
+10|21|integer|122
+10|22|character|ADMINISTRACAO GERAL
+10|23|character|0385
+10|24|character|GESTAO ADMINISTRATIVA - MEIO AMBIENTE E SUSTENTABILIDADE
+10|25|integer|4165
+10|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - MEIO AMBIENTE E SUSTENTABILIDADE
+10|27|character|PREGÃO
+10|28|date|02/01/2014
+10|29|character|EMPENHO
+10|30|double|36115,200000
+10|31|integer|2014
+10|32|character|14/2014
+10|33|missing|NA
+10|34|missing|NA
+10|35|character|FORNECIMENTO DE DESJEJUM PARA OS SERVIDORES DA FUNDAÇÃO PARQUES E JARDINS.
+10|36|integer|1
+10|37|character|BANCO DO BRASIL S/A
+10|38|integer|2234
+10|39|integer|2951983
+10|40|character|CONTA MOVIMENTO
+10|41|character|N
+10|42|character|N
+10|43|missing|NA
+10|44|missing|NA
+10|45|missing|NA
+10|46|missing|NA
+11|1|character|Executivo
+11|2|character|OUTRAS DESPESAS CORRENTES
+11|3|character|APLICACOES DIRETAS
+11|4|integer|39
+11|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+11|6|integer|39
+11|7|character|TICKET COMBUSTIVEL
+11|8|integer|2441
+11|9|character|Fundação Parques e Jardins
+11|10|integer|2441
+11|11|character|Fundação Parques e Jardins
+11|12|integer|2441
+11|13|character|Fundação Parques e Jardins
+11|14|double|604122000197
+11|15|character|TRIVALE ADMINISTRACAO LTDA.
+11|16|integer|100
+11|17|character|ORDINARIOS NAO VINCULADOS
+11|18|double|143035612012
+11|19|integer|18
+11|20|character|GESTAO AMBIENTAL
+11|21|integer|122
+11|22|character|ADMINISTRACAO GERAL
+11|23|character|0385
+11|24|character|GESTAO ADMINISTRATIVA - MEIO AMBIENTE E SUSTENTABILIDADE
+11|25|integer|4165
+11|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - MEIO AMBIENTE E SUSTENTABILIDADE
+11|27|character|PREGÃO
+11|28|date|02/01/2014
+11|29|character|EMPENHO
+11|30|double|54701,250000
+11|31|integer|2014
+11|32|character|15/2014
+11|33|missing|NA
+11|34|missing|NA
+11|35|character|APOIO OPERACIONAL A ADMINISTRAÇÃO E GERENCIAMENTO DO ABASTECIMENTO DE FROTA ATRAVÉS DO FORNECIMENTO DE CARTÕES MAGNÉTICOS.
+11|36|integer|1
+11|37|character|BANCO DO BRASIL S/A
+11|38|integer|2234
+11|39|integer|2951983
+11|40|character|CONTA MOVIMENTO
+11|41|character|N
+11|42|character|N
+11|43|missing|NA
+11|44|missing|NA
+11|45|missing|NA
+11|46|missing|NA
+12|1|character|Executivo
+12|2|character|OUTRAS DESPESAS CORRENTES
+12|3|character|APLICACOES DIRETAS
+12|4|integer|39
+12|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+12|6|integer|28
+12|7|character|SERVICOS DE AGUA E ESGOTO
+12|8|integer|1616
+12|9|character|11a. Coordenadoria Regional de Educação
+12|10|integer|1616
+12|11|character|11a. Coordenadoria Regional de Educação
+12|12|integer|1616
+12|13|character|11a. Coordenadoria Regional de Educação
+12|14|double|33352394000104
+12|15|character|CEDAE  CIA ESTADUAL DE AGUAS E ESGOTO
+12|16|integer|100
+12|17|character|ORDINARIOS NAO VINCULADOS
+12|18|double|7110000022014
+12|19|integer|12
+12|20|character|EDUCACAO
+12|21|integer|361
+12|22|character|ENSINO FUNDAMENTAL
+12|23|character|0381
+12|24|character|GESTAO ADMINISTRATIVA - EDUCACAO
+12|25|integer|2411
+12|26|character|CONCESSIONARIAS DE SERVICOS PUBLICOS - ADM. DIRETA - EDUCACAO
+12|27|character|INEXIGIBILIDADE
+12|28|date|02/01/2014
+12|29|character|EMPENHO
+12|30|double|1134000,000000
+12|31|integer|2014
+12|32|character|3/2014
+12|33|missing|NA
+12|34|missing|NA
+12|35|character|PRAZO DE EXECUÇÃO DE 02/01/2014 A 31/12/2014
+12|36|integer|1
+12|37|character|BANCO DO BRASIL S/A
+12|38|integer|2234
+12|39|integer|2951983
+12|40|character|CONTA MOVIMENTO
+12|41|character|N
+12|42|character|S
+12|43|missing|NA
+12|44|missing|NA
+12|45|missing|NA
+12|46|missing|NA
+13|1|character|Executivo
+13|2|character|OUTRAS DESPESAS CORRENTES
+13|3|character|APLICACOES DIRETAS
+13|4|integer|37
+13|5|character|LOCACAO DE MAO-DE-OBRA
+13|6|character|01
+13|7|character|SERVICOS DE LIMPEZA, CONSERVACAO, HIGIENE E COPA POR PESSOA JURIDICA
+13|8|integer|1815
+13|9|character|Subsecretaria de Vigilância, Fiscalização Sanitária e Controle de Zoonoses
+13|10|integer|1815
+13|11|character|Subsecretaria de Vigilância, Fiscalização Sanitária e Controle de Zoonoses
+13|12|integer|1815
+13|13|character|Subsecretaria de Vigilância, Fiscalização Sanitária e Controle de Zoonoses
+13|14|double|33285255000105
+13|15|character|CNS NACIONAL DE SERVICOS LTDA
+13|16|integer|120
+13|17|character|INSPECAO SANITARIA
+13|18|double|99215742010
+13|19|integer|10
+13|20|character|SAUDE
+13|21|integer|304
+13|22|character|VIGILANCIA SANITARIA
+13|23|character|0309
+13|24|character|VIGILANCIA E CONTROLE DO RISCO SANITARIO
+13|25|integer|2292
+13|26|character|VIGILANCIA E FISCALIZACAO SANITARIA
+13|27|character|PREGÃO
+13|28|date|02/01/2014
+13|29|character|EMPENHO
+13|30|double|243020,880000
+13|31|integer|2014
+13|32|character|4/2014
+13|33|missing|NA
+13|34|missing|NA
+13|35|character|PRESTAÇÃO DE SERVIÇO DE LIMPEZA E CONSERVAÇÃO PARA ATENDER A SEDE DA SUBVISA.
+13|36|integer|1
+13|37|character|BANCO DO BRASIL S/A
+13|38|integer|2234
+13|39|integer|2956837
+13|40|character|PCRJ TAXA INSPEÇAO SANITARIA
+13|41|character|N
+13|42|character|N
+13|43|missing|NA
+13|44|missing|NA
+13|45|missing|NA
+13|46|missing|NA
+14|1|character|Executivo
+14|2|character|OUTRAS DESPESAS CORRENTES
+14|3|character|APLICACOES DIRETAS
+14|4|integer|37
+14|5|character|LOCACAO DE MAO-DE-OBRA
+14|6|character|01
+14|7|character|SERVICOS DE LIMPEZA, CONSERVACAO, HIGIENE E COPA POR PESSOA JURIDICA
+14|8|integer|1815
+14|9|character|Subsecretaria de Vigilância, Fiscalização Sanitária e Controle de Zoonoses
+14|10|integer|1815
+14|11|character|Subsecretaria de Vigilância, Fiscalização Sanitária e Controle de Zoonoses
+14|12|integer|1815
+14|13|character|Subsecretaria de Vigilância, Fiscalização Sanitária e Controle de Zoonoses
+14|14|double|33285255000105
+14|15|character|CNS NACIONAL DE SERVICOS LTDA
+14|16|integer|120
+14|17|character|INSPECAO SANITARIA
+14|18|double|99215742010
+14|19|integer|10
+14|20|character|SAUDE
+14|21|integer|304
+14|22|character|VIGILANCIA SANITARIA
+14|23|character|0309
+14|24|character|VIGILANCIA E CONTROLE DO RISCO SANITARIO
+14|25|integer|2292
+14|26|character|VIGILANCIA E FISCALIZACAO SANITARIA
+14|27|character|PREGÃO
+14|28|date|02/01/2014
+14|29|character|EMPENHO
+14|30|double|181589,040000
+14|31|integer|2014
+14|32|character|5/2014
+14|33|missing|NA
+14|34|missing|NA
+14|35|character|PRESTAÇÃO DE SERVIÇO DE LIMPEZA E CONSERVAÇÃO PARA ATENDER A UNIDADE DE DIAGNOSTICO, VIGILÂNCIA, FISCALIZAÇÃO SANITÁRIA E MEDICINA VETERINÁRIA JORGE VAITSMAN
+14|36|integer|1
+14|37|character|BANCO DO BRASIL S/A
+14|38|integer|2234
+14|39|integer|2956837
+14|40|character|PCRJ TAXA INSPEÇAO SANITARIA
+14|41|character|N
+14|42|character|N
+14|43|missing|NA
+14|44|missing|NA
+14|45|missing|NA
+14|46|missing|NA
+15|1|character|Executivo
+15|2|character|OUTRAS DESPESAS CORRENTES
+15|3|character|APLICACOES DIRETAS
+15|4|integer|39
+15|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+15|6|integer|59
+15|7|character|SERVICOS DE ASSISTENCIA MEDICA, HOSPITALAR E ODONTOLOGICA
+15|8|integer|1134
+15|9|character|Fundo de Assistência à Saúde do Servidor
+15|10|integer|1134
+15|11|character|Fundo de Assistência à Saúde do Servidor
+15|12|integer|1134
+15|13|character|Fundo de Assistência à Saúde do Servidor
+15|14|double|29309127000179
+15|15|character|AMIL ASSISTENCIA MEDICA INTERNACIONAL SA
+15|16|integer|268
+15|17|character|FUNDO DE ASSISTENCIA A SAUDE DO SERVIDOR
+15|18|double|55006862012
+15|19|character|08
+15|20|character|ASSISTENCIA SOCIAL
+15|21|integer|122
+15|22|character|ADMINISTRACAO GERAL
+15|23|character|0389
+15|24|character|GESTAO ADMINISTRATIVA - GESTAO E FINANCAS PUBLICAS
+15|25|integer|4132
+15|26|character|ASSISTENCIA A SAUDE DOS SERVIDORES MUNICIPAIS
+15|27|character|PREGÃO
+15|28|date|02/01/2014
+15|29|character|EMPENHO
+15|30|double|23000000,000000
+15|31|integer|2014
+15|32|character|1/2014
+15|33|missing|NA
+15|34|missing|NA
+15|35|missing|NA
+15|36|integer|104
+15|37|character|CEF
+15|38|integer|4064
+15|39|character|0060005036
+15|40|character|FASS
+15|41|character|N
+15|42|character|N
+15|43|missing|NA
+15|44|missing|NA
+15|45|missing|NA
+15|46|missing|NA
+16|1|character|Executivo
+16|2|character|OUTRAS DESPESAS CORRENTES
+16|3|character|APLICACOES DIRETAS
+16|4|integer|39
+16|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+16|6|integer|58
+16|7|character|JUROS E MULTAS
+16|8|integer|2951
+16|9|character|Companhia de Engenharia de Tráfego do Rio de Janeiro
+16|10|integer|2951
+16|11|character|Companhia de Engenharia de Tráfego do Rio de Janeiro
+16|12|integer|2951
+16|13|character|Companhia de Engenharia de Tráfego do Rio de Janeiro
+16|14|double|394460010880
+16|15|character|SECRETARIA DA RECEITA FEDERAL  MF
+16|16|integer|100
+16|17|character|ORDINARIOS NAO VINCULADOS
+16|18|double|32009192005
+16|19|integer|26
+16|20|character|TRANSPORTE
+16|21|integer|122
+16|22|character|ADMINISTRACAO GERAL
+16|23|character|0386
+16|24|character|GESTAO ADMINISTRATIVA - TRANSPORTES
+16|25|integer|4166
+16|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - TRANSPORTES
+16|27|character|INEXIGIBILIDADE
+16|28|date|02/01/2014
+16|29|character|EMPENHO
+16|30|double|140000,040000
+16|31|integer|2014
+16|32|character|18/2014
+16|33|missing|NA
+16|34|missing|NA
+16|35|character|JUROS E MULTA REFERENTE AO IRRF, INSS, COFINS, CSLL, PIS/PASEP REF. RAG N°349/2010 - RD 2014/30
+16|36|integer|1
+16|37|character|BANCO DO BRASIL S/A
+16|38|integer|2234
+16|39|integer|2980177
+16|40|character|CET RIO - CTA MOVIMENTO
+16|41|character|N
+16|42|character|N
+16|43|missing|NA
+16|44|missing|NA
+16|45|missing|NA
+16|46|missing|NA
+17|1|character|Executivo
+17|2|character|OUTRAS DESPESAS CORRENTES
+17|3|character|APLICACOES DIRETAS
+17|4|integer|30
+17|5|character|MATERIAL DE CONSUMO
+17|6|integer|10
+17|7|character|MATERIAL PARA CONSERVACAO E MANUTENCAO DE BENS MOVEIS E IMOVEIS
+17|8|integer|4351
+17|9|character|Companhia Municipal de Limpeza Urbana
+17|10|integer|4351
+17|11|character|Companhia Municipal de Limpeza Urbana
+17|12|integer|4351
+17|13|character|Companhia Municipal de Limpeza Urbana
+17|14|double|43843358000512
+17|15|character|AIR PRODUCTS BRASIL LTDA
+17|16|integer|100
+17|17|character|ORDINARIOS NAO VINCULADOS
+17|18|double|15061582012
+17|19|integer|15
+17|20|character|URBANISMO
+17|21|integer|122
+17|22|character|ADMINISTRACAO GERAL
+17|23|character|0385
+17|24|character|GESTAO ADMINISTRATIVA - MEIO AMBIENTE E SUSTENTABILIDADE
+17|25|integer|4165
+17|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - MEIO AMBIENTE E SUSTENTABILIDADE
+17|27|character|PREGÃO
+17|28|date|02/01/2014
+17|29|character|EMPENHO
+17|30|double|3313,430000
+17|31|integer|2014
+17|32|character|3/2014
+17|33|missing|NA
+17|34|missing|NA
+17|35|character|AQUISIÇÃO DE GÁS ACETILENO E OXIGÊNIO GASOSO, POR SOLICITAÇÃO DA FGX       -PRAZO DE PAGAMENTO - 30 DIAS APÓS A ENTREGA DO MATERIAL       -DEMAIS CONDIÇÕES E ESPECIFICAÇÕES CONFORME EDITAL E SEUS ANEXOS        -CONTRATO FORMAL
+17|36|integer|1
+17|37|character|BANCO DO BRASIL S/A
+17|38|integer|2234
+17|39|integer|73067
+17|40|character|CONTA MOVIMENTO
+17|41|character|N
+17|42|character|N
+17|43|missing|NA
+17|44|missing|NA
+17|45|missing|NA
+17|46|missing|NA
+18|1|character|Executivo
+18|2|character|OUTRAS DESPESAS CORRENTES
+18|3|character|APLICACOES DIRETAS
+18|4|integer|39
+18|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+18|6|integer|68
+18|7|character|SERVICO DE LIMPEZA, CONSERVACAO, HIGIENE E COPA POR PESSOA JURIDICA
+18|8|integer|1869
+18|9|character|Hospital Municipal Paulino Werneck - Coordenadoria Geral de Emergência da AP 3.7
+18|10|integer|1869
+18|11|character|Hospital Municipal Paulino Werneck - Coordenadoria Geral de Emergência da AP 3.7
+18|12|integer|1869
+18|13|character|Hospital Municipal Paulino Werneck - Coordenadoria Geral de Emergência da AP 3.7
+18|14|double|1805305000133
+18|15|character|FGF COMERCIO E SERVICOS DE ESTERILIZACAO EM OXIDO DE ETILENO LTDA
+18|16|integer|181
+18|17|character|ATENCAO DE MEDIA E ALTA COMPLEXIDADE AMBULATORIAL E HOSPITALAR
+18|18|double|9710000372013
+18|19|integer|10
+18|20|character|SAUDE
+18|21|integer|302
+18|22|character|ASSISTENCIA HOSPITALAR E AMBULATORIAL
+18|23|character|0306
+18|24|character|ATENCAO HOSPITALAR
+18|25|integer|2009
+18|26|character|MANUTENCAO DO CUSTEIO DA REDE HOSPITALAR
+18|27|character|DISPENSA
+18|28|date|02/01/2014
+18|29|character|EMPENHO
+18|30|double|5261,290000
+18|31|integer|2014
+18|32|character|5/2014
+18|33|missing|NA
+18|34|missing|NA
+18|35|missing|NA
+18|36|integer|1
+18|37|character|BANCO DO BRASIL S/A
+18|38|integer|2234
+18|39|integer|82279
+18|40|character|FMS/FNS - MEDIA E ALTA COMPLEXIDADE - MAC
+18|41|character|N
+18|42|character|N
+18|43|missing|NA
+18|44|missing|NA
+18|45|missing|NA
+18|46|missing|NA
+19|1|character|Executivo
+19|2|character|OUTRAS DESPESAS CORRENTES
+19|3|character|APLICACOES DIRETAS
+19|4|integer|39
+19|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+19|6|integer|77
+19|7|character|MANUTENCAO E SUPORTE DE SOFTWARE
+19|8|integer|1135
+19|9|character|Instituto Municipal de Urbanismo Pereira Passos
+19|10|integer|1135
+19|11|character|Instituto Municipal de Urbanismo Pereira Passos
+19|12|integer|1135
+19|13|character|Instituto Municipal de Urbanismo Pereira Passos
+19|14|double|29262102000167
+19|15|character|SCE SISTEMAS COMPUTACIONAIS E ENGENHARIA LTDA.
+19|16|integer|100
+19|17|character|ORDINARIOS NAO VINCULADOS
+19|18|double|24004372012
+19|19|integer|23
+19|20|character|COMERCIO E SERVICOS
+19|21|integer|126
+19|22|character|TECNOLOGIA DA INFORMACAO
+19|23|character|0384
+19|24|character|GESTAO ADMINISTRATIVA - HABITACAO E URBANIZACAO
+19|25|integer|4764
+19|26|character|MANUTENCAO E DESENVOLVIMENTO DA INFORMATICA - ADM. INDIRETA - HABITACAO E URBANIZACAO
+19|27|character|INEXIGIBILIDADE
+19|28|date|02/01/2014
+19|29|character|EMPENHO
+19|30|double|2588,740000
+19|31|integer|2014
+19|32|character|18/2014
+19|33|missing|NA
+19|34|missing|NA
+19|35|character|"PRESTAÇÃO DE SEVIÇO TÉCNICO PARA ASSISTÊNCIA, MANUTENÇÃO CORRETIVA E PREVENTIVA PARA ATUALIZAÇÃO DAS NOVAS VERSÕES DO SISTEMA DE COMPUTADOR ""AUTOMAGAZINE""."
+19|36|integer|1
+19|37|character|BANCO DO BRASIL S/A
+19|38|integer|2234
+19|39|integer|2951983
+19|40|character|CONTA MOVIMENTO
+19|41|character|N
+19|42|character|N
+19|43|missing|NA
+19|44|missing|NA
+19|45|missing|NA
+19|46|missing|NA
+20|1|character|Executivo
+20|2|character|OUTRAS DESPESAS CORRENTES
+20|3|character|APLICACOES DIRETAS
+20|4|integer|39
+20|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+20|6|character|01
+20|7|character|SERVICOS DE CORRESPONDENCIA
+20|8|integer|1135
+20|9|character|Instituto Municipal de Urbanismo Pereira Passos
+20|10|integer|1135
+20|11|character|Instituto Municipal de Urbanismo Pereira Passos
+20|12|integer|1135
+20|13|character|Instituto Municipal de Urbanismo Pereira Passos
+20|14|double|34028316000294
+20|15|character|EMP. BRASILEIRA DE CORREIOS E TELEGRAFOS
+20|16|integer|200
+20|17|character|RECEITA PROPRIA DE AUTARQUIAS, FUNDACOES E EMPRESAS
+20|18|double|24005352011
+20|19|integer|23
+20|20|character|COMERCIO E SERVICOS
+20|21|integer|122
+20|22|character|ADMINISTRACAO GERAL
+20|23|character|0384
+20|24|character|GESTAO ADMINISTRATIVA - HABITACAO E URBANIZACAO
+20|25|integer|4164
+20|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - HABITACAO E URBANIZACAO
+20|27|character|DISPENSA
+20|28|date|02/01/2014
+20|29|character|EMPENHO
+20|30|double|2496,000000
+20|31|integer|2014
+20|32|character|19/2014
+20|33|missing|NA
+20|34|missing|NA
+20|35|character|PRESTAÇÃO DE SERVIÇOS POSTAIS, TELEMÁICOS E ADICIONAIS, VISANDO ATENDER AS NECESSIDADES DO INSTITUTO
+20|36|integer|1
+20|37|character|BANCO DO BRASIL S/A
+20|38|integer|2234
+20|39|integer|2982293
+20|40|character|IPP RECEITAS PRÓPRIAS
+20|41|character|N
+20|42|character|N
+20|43|missing|NA
+20|44|missing|NA
+20|45|missing|NA
+20|46|missing|NA
+21|1|character|Executivo
+21|2|character|OUTRAS DESPESAS CORRENTES
+21|3|character|APLICACOES DIRETAS
+21|4|integer|39
+21|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+21|6|integer|14
+21|7|character|ASSINATURAS E PUBLICACOES
+21|8|integer|1135
+21|9|character|Instituto Municipal de Urbanismo Pereira Passos
+21|10|integer|1135
+21|11|character|Instituto Municipal de Urbanismo Pereira Passos
+21|12|integer|1135
+21|13|character|Instituto Municipal de Urbanismo Pereira Passos
+21|14|double|72820822002769
+21|15|character|SKY BRASIL SERVICOS LTDA
+21|16|integer|100
+21|17|character|ORDINARIOS NAO VINCULADOS
+21|18|double|24001402013
+21|19|integer|23
+21|20|character|COMERCIO E SERVICOS
+21|21|integer|122
+21|22|character|ADMINISTRACAO GERAL
+21|23|character|0384
+21|24|character|GESTAO ADMINISTRATIVA - HABITACAO E URBANIZACAO
+21|25|integer|4164
+21|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - HABITACAO E URBANIZACAO
+21|27|character|DISPENSA
+21|28|date|02/01/2014
+21|29|character|CANCELAMENTO EMPENHO
+21|30|double|1741,200000
+21|31|integer|2014
+21|32|character|2/2014
+21|33|missing|NA
+21|34|missing|NA
+21|35|character|CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE ASSINATURA DE TV A CABO.
+21|36|integer|1
+21|37|character|BANCO DO BRASIL S/A
+21|38|integer|2234
+21|39|integer|2951983
+21|40|character|CONTA MOVIMENTO
+21|41|character|N
+21|42|character|N
+21|43|missing|NA
+21|44|missing|NA
+21|45|missing|NA
+21|46|missing|NA
+22|1|character|Executivo
+22|2|character|OUTRAS DESPESAS CORRENTES
+22|3|character|APLICACOES DIRETAS
+22|4|integer|34
+22|5|character|OUTRAS DESPESAS DE PESSOAL DECORRENTES DE CONTRATOS DE TERCEIRIZACAO
+22|6|character|04
+22|7|character|SERVICOS DE LIMPEZA URBANA DE CARATER CONTINUADO
+22|8|integer|4351
+22|9|character|Companhia Municipal de Limpeza Urbana
+22|10|integer|4351
+22|11|character|Companhia Municipal de Limpeza Urbana
+22|12|integer|4351
+22|13|character|Companhia Municipal de Limpeza Urbana
+22|14|double|4149145000100
+22|15|character|ASSOCIACAO COMUNITARIA CIDADE DE DEUS E ADJACENCIAS
+22|16|integer|100
+22|17|character|ORDINARIOS NAO VINCULADOS
+22|18|double|15027972013
+22|19|integer|17
+22|20|character|SANEAMENTO
+22|21|integer|512
+22|22|character|SANEAMENTO BASICO URBANO
+22|23|character|0051
+22|24|character|GESTAO SUSTENTAVEL DA LIMPEZA URBANA
+22|25|integer|4060
+22|26|character|LIMPEZA E COLETA DE RESIDUOS EM COMUNIDADES CARENTES
+22|27|character|INEXIGIBILIDADE
+22|28|date|02/01/2014
+22|29|character|EMPENHO
+22|30|double|197538,720000
+22|31|integer|2014
+22|32|character|38/2014
+22|33|missing|NA
+22|34|missing|NA
+22|35|character|DESPESA REFERENTE A PRESTAÇÃO DE SERVIÇOS DE LIMPEZA URBANA E DE EDUCAÇÃO AMBIENTAL
+22|36|integer|1
+22|37|character|BANCO DO BRASIL S/A
+22|38|integer|2234
+22|39|integer|73067
+22|40|character|CONTA MOVIMENTO
+22|41|character|N
+22|42|character|N
+22|43|missing|NA
+22|44|missing|NA
+22|45|missing|NA
+22|46|missing|NA
+23|1|character|Executivo
+23|2|character|OUTRAS DESPESAS CORRENTES
+23|3|character|APLICACOES DIRETAS
+23|4|integer|34
+23|5|character|OUTRAS DESPESAS DE PESSOAL DECORRENTES DE CONTRATOS DE TERCEIRIZACAO
+23|6|character|04
+23|7|character|SERVICOS DE LIMPEZA URBANA DE CARATER CONTINUADO
+23|8|integer|4351
+23|9|character|Companhia Municipal de Limpeza Urbana
+23|10|integer|4351
+23|11|character|Companhia Municipal de Limpeza Urbana
+23|12|integer|4351
+23|13|character|Companhia Municipal de Limpeza Urbana
+23|14|double|30870018000105
+23|15|character|ASS MOR DO MORRO DO ADEUS
+23|16|integer|100
+23|17|character|ORDINARIOS NAO VINCULADOS
+23|18|double|15027962013
+23|19|integer|17
+23|20|character|SANEAMENTO
+23|21|integer|512
+23|22|character|SANEAMENTO BASICO URBANO
+23|23|character|0051
+23|24|character|GESTAO SUSTENTAVEL DA LIMPEZA URBANA
+23|25|integer|4060
+23|26|character|LIMPEZA E COLETA DE RESIDUOS EM COMUNIDADES CARENTES
+23|27|character|INEXIGIBILIDADE
+23|28|date|02/01/2014
+23|29|character|EMPENHO
+23|30|double|83174,160000
+23|31|integer|2014
+23|32|character|39/2014
+23|33|missing|NA
+23|34|missing|NA
+23|35|character|DESPESA REFERENTE A PRESTAÇÃO DE SERVIÇOS DE LIMPEZA URBANA E DE EDUCAÇÃO AMBIENTAL
+23|36|integer|1
+23|37|character|BANCO DO BRASIL S/A
+23|38|integer|2234
+23|39|integer|73067
+23|40|character|CONTA MOVIMENTO
+23|41|character|N
+23|42|character|N
+23|43|missing|NA
+23|44|missing|NA
+23|45|missing|NA
+23|46|missing|NA
+24|1|character|Executivo
+24|2|character|OUTRAS DESPESAS CORRENTES
+24|3|character|APLICACOES DIRETAS
+24|4|integer|34
+24|5|character|OUTRAS DESPESAS DE PESSOAL DECORRENTES DE CONTRATOS DE TERCEIRIZACAO
+24|6|character|04
+24|7|character|SERVICOS DE LIMPEZA URBANA DE CARATER CONTINUADO
+24|8|integer|4351
+24|9|character|Companhia Municipal de Limpeza Urbana
+24|10|integer|4351
+24|11|character|Companhia Municipal de Limpeza Urbana
+24|12|integer|4351
+24|13|character|Companhia Municipal de Limpeza Urbana
+24|14|double|29238615000132
+24|15|character|ASSOC.DOS MOR.DE TRES PORTES E ADJ
+24|16|integer|100
+24|17|character|ORDINARIOS NAO VINCULADOS
+24|18|double|15027942013
+24|19|integer|17
+24|20|character|SANEAMENTO
+24|21|integer|512
+24|22|character|SANEAMENTO BASICO URBANO
+24|23|character|0051
+24|24|character|GESTAO SUSTENTAVEL DA LIMPEZA URBANA
+24|25|integer|4060
+24|26|character|LIMPEZA E COLETA DE RESIDUOS EM COMUNIDADES CARENTES
+24|27|character|INEXIGIBILIDADE
+24|28|date|02/01/2014
+24|29|character|EMPENHO
+24|30|double|218332,260000
+24|31|integer|2014
+24|32|character|40/2014
+24|33|missing|NA
+24|34|missing|NA
+24|35|character|DESPESA REFERENTE A PRESTAÇÃO DE SERVIÇOS DE LIMPEZA URBANA E DE EDUCAÇÃO AMBIENTAL
+24|36|integer|1
+24|37|character|BANCO DO BRASIL S/A
+24|38|integer|2234
+24|39|integer|73067
+24|40|character|CONTA MOVIMENTO
+24|41|character|N
+24|42|character|N
+24|43|missing|NA
+24|44|missing|NA
+24|45|missing|NA
+24|46|missing|NA
+25|1|character|Executivo
+25|2|character|OUTRAS DESPESAS CORRENTES
+25|3|character|APLICACOES DIRETAS
+25|4|integer|39
+25|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+25|6|integer|78
+25|7|character|LOCACAO DE EQUIPAMENTOS COM OPERACAO E INSUMOS
+25|8|integer|2441
+25|9|character|Fundação Parques e Jardins
+25|10|integer|2441
+25|11|character|Fundação Parques e Jardins
+25|12|integer|2441
+25|13|character|Fundação Parques e Jardins
+25|14|double|4530781000187
+25|15|character|ZIULEO COPY COMERCIO E SERVICOS LTDA
+25|16|integer|100
+25|17|character|ORDINARIOS NAO VINCULADOS
+25|18|double|143006462010
+25|19|integer|18
+25|20|character|GESTAO AMBIENTAL
+25|21|integer|126
+25|22|character|TECNOLOGIA DA INFORMACAO
+25|23|character|0385
+25|24|character|GESTAO ADMINISTRATIVA - MEIO AMBIENTE E SUSTENTABILIDADE
+25|25|integer|4765
+25|26|character|MANUTENCAO E DESENVOLVIMENTO DA INFORMATICA - ADM. INDIRETA - MEIO AMBIENTE E SUSTENTABILI
+25|27|character|PREGÃO
+25|28|date|02/01/2014
+25|29|character|EMPENHO
+25|30|double|13320,370000
+25|31|integer|2014
+25|32|character|22/2014
+25|33|missing|NA
+25|34|missing|NA
+25|35|character|SERVIÇO DE DOCUMENTO DEPARTAMENTAIS - IMPRESSÃO COM FORNECIMENTO DE SOFTWARES E SUPRIMENTOS.
+25|36|integer|1
+25|37|character|BANCO DO BRASIL S/A
+25|38|integer|2234
+25|39|integer|2951983
+25|40|character|CONTA MOVIMENTO
+25|41|character|N
+25|42|character|N
+25|43|missing|NA
+25|44|missing|NA
+25|45|missing|NA
+25|46|missing|NA
+26|1|character|Executivo
+26|2|character|OUTRAS DESPESAS CORRENTES
+26|3|character|APLICACOES DIRETAS
+26|4|integer|39
+26|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+26|6|integer|29
+26|7|character|MAQUINAS E EQUIPAMENTOS, MOVEIS E UTENSILIOS - LOCACAO
+26|8|integer|2441
+26|9|character|Fundação Parques e Jardins
+26|10|integer|2441
+26|11|character|Fundação Parques e Jardins
+26|12|integer|2441
+26|13|character|Fundação Parques e Jardins
+26|14|double|1579387000145
+26|15|character|INVESTIPLAN COMPUTADORES E SISTEMAS DE REFRIGERACAO EIRELI
+26|16|integer|100
+26|17|character|ORDINARIOS NAO VINCULADOS
+26|18|double|143007082012
+26|19|integer|18
+26|20|character|GESTAO AMBIENTAL
+26|21|integer|126
+26|22|character|TECNOLOGIA DA INFORMACAO
+26|23|character|0385
+26|24|character|GESTAO ADMINISTRATIVA - MEIO AMBIENTE E SUSTENTABILIDADE
+26|25|integer|4765
+26|26|character|MANUTENCAO E DESENVOLVIMENTO DA INFORMATICA - ADM. INDIRETA - MEIO AMBIENTE E SUSTENTABILI
+26|27|character|PREGÃO
+26|28|date|02/01/2014
+26|29|character|EMPENHO
+26|30|double|823,770000
+26|31|integer|2014
+26|32|character|24/2014
+26|33|missing|NA
+26|34|missing|NA
+26|35|character|LOCAÇÃO DE LEITORA DE CÓDIGO DE BARRAS SEM FIO.
+26|36|integer|1
+26|37|character|BANCO DO BRASIL S/A
+26|38|integer|2234
+26|39|integer|2951983
+26|40|character|CONTA MOVIMENTO
+26|41|character|N
+26|42|character|N
+26|43|missing|NA
+26|44|missing|NA
+26|45|missing|NA
+26|46|missing|NA
+27|1|character|Executivo
+27|2|character|OUTRAS DESPESAS CORRENTES
+27|3|character|APLICACOES DIRETAS
+27|4|integer|30
+27|5|character|MATERIAL DE CONSUMO
+27|6|character|03
+27|7|character|MATERIAIS PARA ESCRITORIO E EXPEDIENTE
+27|8|integer|4351
+27|9|character|Companhia Municipal de Limpeza Urbana
+27|10|integer|4351
+27|11|character|Companhia Municipal de Limpeza Urbana
+27|12|integer|4351
+27|13|character|Companhia Municipal de Limpeza Urbana
+27|14|double|10467477000135
+27|15|character|MG COMERCIO DISTRIBUIDORA E SERVICOS LTDA ME
+27|16|integer|100
+27|17|character|ORDINARIOS NAO VINCULADOS
+27|18|double|15044642013
+27|19|integer|15
+27|20|character|URBANISMO
+27|21|integer|122
+27|22|character|ADMINISTRACAO GERAL
+27|23|character|0385
+27|24|character|GESTAO ADMINISTRATIVA - MEIO AMBIENTE E SUSTENTABILIDADE
+27|25|integer|4165
+27|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - MEIO AMBIENTE E SUSTENTABILIDADE
+27|27|character|PREGÃO
+27|28|date|02/01/2014
+27|29|character|EMPENHO
+27|30|double|19048,860000
+27|31|integer|2014
+27|32|character|47/2014
+27|33|missing|NA
+27|34|missing|NA
+27|35|character|AQUISIÇÃO DE PAPEL PARA CÓPIA ELETROSTÁTICA, POR SOLICITAÇÃO DA FGX       -ITEM -01       -PRAZO DE PAGAMENTO - 30 DIAS APÓS A ENTREGA DO MATERIAL        -DEMAIS CONDIÇÕES E ESPECIFICAÇÕES CONFORME EDITAL E SEUS ANEXOS
+27|36|integer|1
+27|37|character|BANCO DO BRASIL S/A
+27|38|integer|2234
+27|39|integer|73067
+27|40|character|CONTA MOVIMENTO
+27|41|character|N
+27|42|character|N
+27|43|missing|NA
+27|44|missing|NA
+27|45|missing|NA
+27|46|missing|NA
+28|1|character|Executivo
+28|2|character|OUTRAS DESPESAS CORRENTES
+28|3|character|APLICACOES DIRETAS
+28|4|integer|39
+28|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+28|6|integer|74
+28|7|character|SERVICOS DE MANUTENCAO DE MAQUINAS E EQUIPAMENTOS
+28|8|integer|1135
+28|9|character|Instituto Municipal de Urbanismo Pereira Passos
+28|10|integer|1135
+28|11|character|Instituto Municipal de Urbanismo Pereira Passos
+28|12|integer|1135
+28|13|character|Instituto Municipal de Urbanismo Pereira Passos
+28|14|double|7992421000195
+28|15|character|PRESTENG COMERCIO E SERVICOS DE  ELETRICIDADE EIRELI ME
+28|16|integer|100
+28|17|character|ORDINARIOS NAO VINCULADOS
+28|18|double|24008092012
+28|19|integer|23
+28|20|character|COMERCIO E SERVICOS
+28|21|integer|126
+28|22|character|TECNOLOGIA DA INFORMACAO
+28|23|character|0384
+28|24|character|GESTAO ADMINISTRATIVA - HABITACAO E URBANIZACAO
+28|25|integer|4764
+28|26|character|MANUTENCAO E DESENVOLVIMENTO DA INFORMATICA - ADM. INDIRETA - HABITACAO E URBANIZACAO
+28|27|character|DISPENSA
+28|28|date|02/01/2014
+28|29|character|EMPENHO
+28|30|double|1400,000000
+28|31|integer|2014
+28|32|character|20/2014
+28|33|missing|NA
+28|34|missing|NA
+28|35|character|"CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM REALIZAÇÃO DE SERVIÇOS TÉCNICOS DE MANUTENÇÃO PREVENTIVA E CORRETIVA DE UM EQUIPAMENTO ""NO-BREAK"" QUE SUPORTA OS SERVIDORES DE REDE DO INSTITUTO MUNICIPAL DE URBANISMO PEREIRA PASSOS - IPP."
+28|36|integer|1
+28|37|character|BANCO DO BRASIL S/A
+28|38|integer|2234
+28|39|integer|2951983
+28|40|character|CONTA MOVIMENTO
+28|41|character|N
+28|42|character|N
+28|43|missing|NA
+28|44|missing|NA
+28|45|missing|NA
+28|46|missing|NA
+29|1|character|Executivo
+29|2|character|OUTRAS DESPESAS CORRENTES
+29|3|character|APLICACOES DIRETAS
+29|4|integer|39
+29|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+29|6|integer|29
+29|7|character|MAQUINAS E EQUIPAMENTOS, MOVEIS E UTENSILIOS - LOCACAO
+29|8|integer|1135
+29|9|character|Instituto Municipal de Urbanismo Pereira Passos
+29|10|integer|1135
+29|11|character|Instituto Municipal de Urbanismo Pereira Passos
+29|12|integer|1135
+29|13|character|Instituto Municipal de Urbanismo Pereira Passos
+29|14|double|40298275000178
+29|15|character|TTUDO COMERCIO E SERVICOS LTDA
+29|16|integer|100
+29|17|character|ORDINARIOS NAO VINCULADOS
+29|18|double|24002082013
+29|19|integer|23
+29|20|character|COMERCIO E SERVICOS
+29|21|integer|122
+29|22|character|ADMINISTRACAO GERAL
+29|23|character|0384
+29|24|character|GESTAO ADMINISTRATIVA - HABITACAO E URBANIZACAO
+29|25|integer|4164
+29|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - HABITACAO E URBANIZACAO
+29|27|character|PREGÃO
+29|28|date|02/01/2014
+29|29|character|CANCELAMENTO EMPENHO
+29|30|double|29040,000000
+29|31|integer|2014
+29|32|character|8/2014
+29|33|missing|NA
+29|34|missing|NA
+29|35|character|PRESTAÇÃO DE SERVIÇOS DE LOCAÇÃO DE 01(UMA) MÁQUINA DE IMPRESSORA E COPIADORA DIGITAL DE ENGENHARIA (GRANDES FORMATOS), INCLUINDO ASSISTÊNCIA TÉCNICA E SERVIÇOS DE MANUTENÇÃO, COM  REPOSIÇÃO DE PEÇAS E FORNECIMENTO DE MA TERIAL DE CONSUMO(TONER, CILINDRO, REVELADOR, ETC, EXCETO PAPEL), PARA A CARTOGRAFIA DO INSTITUTO MUNICIPAL DE URBANISMO PEREIRA PASSOS - IPP
+29|36|integer|1
+29|37|character|BANCO DO BRASIL S/A
+29|38|integer|2234
+29|39|integer|2951983
+29|40|character|CONTA MOVIMENTO
+29|41|character|N
+29|42|character|N
+29|43|missing|NA
+29|44|missing|NA
+29|45|missing|NA
+29|46|missing|NA
+30|1|character|Executivo
+30|2|character|OUTRAS DESPESAS CORRENTES
+30|3|character|APLICACOES DIRETAS
+30|4|integer|39
+30|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+30|6|integer|30
+30|7|character|MAQUINAS E EQUIPAMENTOS DE INFORMATICA E TELECOMUNICACOES - LOCACAO
+30|8|integer|2441
+30|9|character|Fundação Parques e Jardins
+30|10|integer|2441
+30|11|character|Fundação Parques e Jardins
+30|12|integer|2441
+30|13|character|Fundação Parques e Jardins
+30|14|double|4602789000101
+30|15|character|DATEN TECNOLOGIA LTDA.
+30|16|integer|100
+30|17|character|ORDINARIOS NAO VINCULADOS
+30|18|double|143017862011
+30|19|integer|18
+30|20|character|GESTAO AMBIENTAL
+30|21|integer|126
+30|22|character|TECNOLOGIA DA INFORMACAO
+30|23|character|0385
+30|24|character|GESTAO ADMINISTRATIVA - MEIO AMBIENTE E SUSTENTABILIDADE
+30|25|integer|4765
+30|26|character|MANUTENCAO E DESENVOLVIMENTO DA INFORMATICA - ADM. INDIRETA - MEIO AMBIENTE E SUSTENTABILI
+30|27|character|PREGÃO
+30|28|date|02/01/2014
+30|29|character|EMPENHO
+30|30|double|65088,480000
+30|31|integer|2014
+30|32|character|25/2014
+30|33|missing|NA
+30|34|missing|NA
+30|35|character|LOCAÇÃO DE EQUIPAMENTOS ELETRÔNICOS PARA PROCESSAMENTO DE DADOS - MICROCOMPUTADORES ESTAÇÃO TIPO II E III, INCLUINDO GARANTIA E MANUTENÇÃO CORRETIVA.
+30|36|integer|1
+30|37|character|BANCO DO BRASIL S/A
+30|38|integer|2234
+30|39|integer|2951983
+30|40|character|CONTA MOVIMENTO
+30|41|character|N
+30|42|character|N
+30|43|missing|NA
+30|44|missing|NA
+30|45|missing|NA
+30|46|missing|NA
+31|1|character|Executivo
+31|2|character|OUTRAS DESPESAS CORRENTES
+31|3|character|APLICACOES DIRETAS
+31|4|integer|39
+31|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+31|6|integer|29
+31|7|character|MAQUINAS E EQUIPAMENTOS, MOVEIS E UTENSILIOS - LOCACAO
+31|8|integer|2441
+31|9|character|Fundação Parques e Jardins
+31|10|integer|2441
+31|11|character|Fundação Parques e Jardins
+31|12|integer|2441
+31|13|character|Fundação Parques e Jardins
+31|14|double|845661000118
+31|15|character|OFFICE TOTAL SOLUCAO EM TECNOLOGIA PARA ESCRITORIOS LTDA.
+31|16|integer|100
+31|17|character|ORDINARIOS NAO VINCULADOS
+31|18|double|143009812012
+31|19|integer|18
+31|20|character|GESTAO AMBIENTAL
+31|21|integer|126
+31|22|character|TECNOLOGIA DA INFORMACAO
+31|23|character|0385
+31|24|character|GESTAO ADMINISTRATIVA - MEIO AMBIENTE E SUSTENTABILIDADE
+31|25|integer|4765
+31|26|character|MANUTENCAO E DESENVOLVIMENTO DA INFORMATICA - ADM. INDIRETA - MEIO AMBIENTE E SUSTENTABILI
+31|27|character|PREGÃO
+31|28|date|02/01/2014
+31|29|character|EMPENHO
+31|30|double|12287,500000
+31|31|integer|2014
+31|32|character|26/2014
+31|33|missing|NA
+31|34|missing|NA
+31|35|character|LOCAÇÃO DE 1 (UMA) COPIADORA DE ENGENHARIA, INCLUINDO ASSISTÊNCIA TÉCNICA , TREINAMENTO E MATERIAL DE CONSUMO.
+31|36|integer|1
+31|37|character|BANCO DO BRASIL S/A
+31|38|integer|2234
+31|39|integer|2951983
+31|40|character|CONTA MOVIMENTO
+31|41|character|N
+31|42|character|N
+31|43|missing|NA
+31|44|missing|NA
+31|45|missing|NA
+31|46|missing|NA
+32|1|character|Executivo
+32|2|character|OUTRAS DESPESAS CORRENTES
+32|3|character|APLICACOES DIRETAS
+32|4|integer|39
+32|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+32|6|integer|29
+32|7|character|MAQUINAS E EQUIPAMENTOS, MOVEIS E UTENSILIOS - LOCACAO
+32|8|integer|3351
+32|9|character|Empresa de Turismo do Município do Rio de Janeiro
+32|10|integer|3351
+32|11|character|Empresa de Turismo do Município do Rio de Janeiro
+32|12|integer|3351
+32|13|character|Empresa de Turismo do Município do Rio de Janeiro
+32|14|double|12703983000101
+32|15|character|JUPT REFRIGERACAO LTDA ME
+32|16|integer|100
+32|17|character|ORDINARIOS NAO VINCULADOS
+32|18|double|181006442013
+32|19|integer|23
+32|20|character|COMERCIO E SERVICOS
+32|21|integer|695
+32|22|character|TURISMO
+32|23|character|0045
+32|24|character|RIO CAPITAL DO TURISMO
+32|25|integer|3551
+32|26|character|PROJETO CARNAVAL
+32|27|character|PREGÃO
+32|28|date|02/01/2014
+32|29|character|EMPENHO
+32|30|double|11232,000000
+32|31|integer|2014
+32|32|character|34/2014
+32|33|missing|NA
+32|34|missing|NA
+32|35|character|DESPESA REFERENTE AO COMPLEMENTO DO EMPENHO 2013/00851, RELATIVO A LOCAÇÃO DE APARELHOS DE AR CONDICIONADO DE JANELAS E SPLIT, VISANDO O EVENTO CARNAVAL 2014, CORRESPONDENTE A 40% FINAIS DO SERVIÇO.
+32|36|integer|104
+32|37|character|CEF
+32|38|integer|4064
+32|39|integer|9991
+32|40|character|CONTA MOVIMENTO
+32|41|character|N
+32|42|character|N
+32|43|missing|NA
+32|44|missing|NA
+32|45|missing|NA
+32|46|missing|NA
+33|1|character|Executivo
+33|2|character|OUTRAS DESPESAS CORRENTES
+33|3|character|APLICACOES DIRETAS
+33|4|integer|36
+33|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA FISICA
+33|6|character|07
+33|7|character|SERVICOS PRESTADOS POR ESTUDANTES
+33|8|integer|3351
+33|9|character|Empresa de Turismo do Município do Rio de Janeiro
+33|10|integer|3351
+33|11|character|Empresa de Turismo do Município do Rio de Janeiro
+33|12|integer|3351
+33|13|character|Empresa de Turismo do Município do Rio de Janeiro
+33|14|double|14156975746
+33|15|character|ANDRE HOLANDA POTASCHEFF
+33|16|integer|100
+33|17|character|ORDINARIOS NAO VINCULADOS
+33|18|double|181005882013
+33|19|integer|23
+33|20|character|COMERCIO E SERVICOS
+33|21|integer|695
+33|22|character|TURISMO
+33|23|character|0045
+33|24|character|RIO CAPITAL DO TURISMO
+33|25|integer|4233
+33|26|character|MARKETING DO PRODUTO TURISTICO RIO
+33|27|character|INEXIGIBILIDADE
+33|28|date|02/01/2014
+33|29|character|EMPENHO
+33|30|double|6184,590000
+33|31|integer|2014
+33|32|character|54/2014
+33|33|missing|NA
+33|34|missing|NA
+33|35|character|DESPESA REFERENTE AO COMPLEMENTO DO EMPENHO 2013/00696, RELATIVO A BOLSA AUXÍLIO A ESTAGIÁRIO DE NÍVEL SUPERIOR, PELO PERÍODO DE 01/01 A 09/09/2014.
+33|36|integer|104
+33|37|character|CEF
+33|38|integer|4064
+33|39|integer|9991
+33|40|character|CONTA MOVIMENTO
+33|41|character|N
+33|42|character|N
+33|43|missing|NA
+33|44|missing|NA
+33|45|missing|NA
+33|46|missing|NA
+34|1|character|Executivo
+34|2|character|OUTRAS DESPESAS CORRENTES
+34|3|character|APLICACOES DIRETAS
+34|4|integer|39
+34|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+34|6|integer|29
+34|7|character|MAQUINAS E EQUIPAMENTOS, MOVEIS E UTENSILIOS - LOCACAO
+34|8|integer|3351
+34|9|character|Empresa de Turismo do Município do Rio de Janeiro
+34|10|integer|3351
+34|11|character|Empresa de Turismo do Município do Rio de Janeiro
+34|12|integer|3351
+34|13|character|Empresa de Turismo do Município do Rio de Janeiro
+34|14|double|1256154000101
+34|15|character|CARFILUB LOGISTICA E TRANSPORTE LTDA.
+34|16|integer|100
+34|17|character|ORDINARIOS NAO VINCULADOS
+34|18|double|181002682013
+34|19|integer|23
+34|20|character|COMERCIO E SERVICOS
+34|21|integer|122
+34|22|character|ADMINISTRACAO GERAL
+34|23|character|0383
+34|24|character|GESTAO ADMINISTRATIVA - DESENVOLVIMENTO ECONOMICO
+34|25|integer|4163
+34|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - DESENVOLVIMENTO ECONOMICO
+34|27|character|DISPENSA
+34|28|date|02/01/2014
+34|29|character|EMPENHO
+34|30|double|1518,000000
+34|31|integer|2014
+34|32|character|10/2014
+34|33|missing|NA
+34|34|missing|NA
+34|35|character|DESPESA REFERENTE AO COMPLEMENTO DO EMPENHO 2013/000651, RELATIVO OS SERVIÇOS DE LOCAÇÃO DE CAÇAMBA ESTACIONÁRIA, MEDINDO 5M², PARA A RETIRADA DE ENTULHO DA PASSARELA DO SAMBA PROFESSOR DARCY RIBEIRO, COM ESTIMATIVA DE 04 UNIDADES MENSAL, PELO PERÍODO DE 01/01 A 10/03/2014.
+34|36|integer|104
+34|37|character|CEF
+34|38|integer|4064
+34|39|integer|9991
+34|40|character|CONTA MOVIMENTO
+34|41|character|N
+34|42|character|N
+34|43|missing|NA
+34|44|missing|NA
+34|45|missing|NA
+34|46|missing|NA
+35|1|character|Executivo
+35|2|character|OUTRAS DESPESAS CORRENTES
+35|3|character|APLICACOES DIRETAS
+35|4|integer|39
+35|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+35|6|integer|29
+35|7|character|MAQUINAS E EQUIPAMENTOS, MOVEIS E UTENSILIOS - LOCACAO
+35|8|integer|3351
+35|9|character|Empresa de Turismo do Município do Rio de Janeiro
+35|10|integer|3351
+35|11|character|Empresa de Turismo do Município do Rio de Janeiro
+35|12|integer|3351
+35|13|character|Empresa de Turismo do Município do Rio de Janeiro
+35|14|double|68566926000182
+35|15|character|ALARMEFORTE SIST ELET DE SEGURANCA LTDA
+35|16|integer|100
+35|17|character|ORDINARIOS NAO VINCULADOS
+35|18|double|181006072013
+35|19|integer|23
+35|20|character|COMERCIO E SERVICOS
+35|21|integer|122
+35|22|character|ADMINISTRACAO GERAL
+35|23|character|0383
+35|24|character|GESTAO ADMINISTRATIVA - DESENVOLVIMENTO ECONOMICO
+35|25|integer|4163
+35|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - DESENVOLVIMENTO ECONOMICO
+35|27|character|DISPENSA
+35|28|date|02/01/2014
+35|29|character|EMPENHO
+35|30|double|5265,000000
+35|31|integer|2014
+35|32|character|29/2014
+35|33|missing|NA
+35|34|missing|NA
+35|35|character|DESPESA REFERENTE AO COMPLEMENTO DO EMPENHO 2013/00698, RELATIVO A LOCÇÃO DE SISTEMA ELETRÔNICO DE SEGURANÇA -CFTU, COM INSTALAÇÃO DE CÂMERAS, MONITORES, GRAVADOR E DEMAIS MATERIAIS MATERIAIS NECESSÁRIAS A SEGURANÇA DO ALMOXARIFADO E OUTROS DEPARTAMENTOS DA RIOTUR NA PASSARELA DO SAMBA - SETOR 1, NO PERÍODO DE 01/01 A 05/09/2014.
+35|36|integer|104
+35|37|character|CEF
+35|38|integer|4064
+35|39|integer|9991
+35|40|character|CONTA MOVIMENTO
+35|41|character|N
+35|42|character|N
+35|43|missing|NA
+35|44|missing|NA
+35|45|missing|NA
+35|46|missing|NA
+36|1|character|Executivo
+36|2|character|OUTRAS DESPESAS CORRENTES
+36|3|character|APLICACOES DIRETAS
+36|4|integer|36
+36|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA FISICA
+36|6|character|07
+36|7|character|SERVICOS PRESTADOS POR ESTUDANTES
+36|8|integer|3351
+36|9|character|Empresa de Turismo do Município do Rio de Janeiro
+36|10|integer|3351
+36|11|character|Empresa de Turismo do Município do Rio de Janeiro
+36|12|integer|3351
+36|13|character|Empresa de Turismo do Município do Rio de Janeiro
+36|14|double|10441784771
+36|15|character|LEONARDO TOBIAS RIBEIRO ARAUJO
+36|16|integer|100
+36|17|character|ORDINARIOS NAO VINCULADOS
+36|18|double|181005432013
+36|19|integer|23
+36|20|character|COMERCIO E SERVICOS
+36|21|integer|695
+36|22|character|TURISMO
+36|23|character|0045
+36|24|character|RIO CAPITAL DO TURISMO
+36|25|integer|4233
+36|26|character|MARKETING DO PRODUTO TURISTICO RIO
+36|27|character|INEXIGIBILIDADE
+36|28|date|02/01/2014
+36|29|character|EMPENHO
+36|30|double|6251,100000
+36|31|integer|2014
+36|32|character|31/2014
+36|33|missing|NA
+36|34|missing|NA
+36|35|character|DESPESA REFERENTE AO COMPLEMENTO DO EMPENHO 2013/00638, RELATIVO A BOLSA AUXÍLIO A ESTAGIÁRIO DE NÍVEL SUPERIOR, PELO PERÍODO DE 01/01 A 26/08/2014.
+36|36|integer|104
+36|37|character|CEF
+36|38|integer|4064
+36|39|integer|9991
+36|40|character|CONTA MOVIMENTO
+36|41|character|N
+36|42|character|N
+36|43|missing|NA
+36|44|missing|NA
+36|45|missing|NA
+36|46|missing|NA
+37|1|character|Executivo
+37|2|character|OUTRAS DESPESAS CORRENTES
+37|3|character|APLICACOES DIRETAS
+37|4|integer|39
+37|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+37|6|integer|29
+37|7|character|MAQUINAS E EQUIPAMENTOS, MOVEIS E UTENSILIOS - LOCACAO
+37|8|integer|3351
+37|9|character|Empresa de Turismo do Município do Rio de Janeiro
+37|10|integer|3351
+37|11|character|Empresa de Turismo do Município do Rio de Janeiro
+37|12|integer|3351
+37|13|character|Empresa de Turismo do Município do Rio de Janeiro
+37|14|double|9149835000182
+37|15|character|TELAVIVA EQUIPAMENTOS E ESTRUTURAS LTDA
+37|16|integer|100
+37|17|character|ORDINARIOS NAO VINCULADOS
+37|18|double|181008442013
+37|19|integer|23
+37|20|character|COMERCIO E SERVICOS
+37|21|integer|695
+37|22|character|TURISMO
+37|23|character|0045
+37|24|character|RIO CAPITAL DO TURISMO
+37|25|integer|3551
+37|26|character|PROJETO CARNAVAL
+37|27|character|PREGÃO
+37|28|date|02/01/2014
+37|29|character|EMPENHO
+37|30|double|26776,000000
+37|31|integer|2014
+37|32|character|32/2014
+37|33|missing|NA
+37|34|missing|NA
+37|35|character|DESPESA REFERENTE AO COMPLEMENTO DO EMPENHO 2013/01013, RELATIVO A LOCAÇÃO DE LED PARA ATENDER O TERREIRÃO DO SAMBA, VISANDO O CARNAVAL 2014, CORRESPONDENTE A 40% DOS SERVIÇOS FINAIS.
+37|36|integer|104
+37|37|character|CEF
+37|38|integer|4064
+37|39|integer|9991
+37|40|character|CONTA MOVIMENTO
+37|41|character|N
+37|42|character|N
+37|43|missing|NA
+37|44|missing|NA
+37|45|missing|NA
+37|46|missing|NA
+38|1|character|Executivo
+38|2|character|OUTRAS DESPESAS CORRENTES
+38|3|character|APLICACOES DIRETAS
+38|4|integer|39
+38|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+38|6|character|01
+38|7|character|SERVICOS DE CORRESPONDENCIA
+38|8|integer|3351
+38|9|character|Empresa de Turismo do Município do Rio de Janeiro
+38|10|integer|3351
+38|11|character|Empresa de Turismo do Município do Rio de Janeiro
+38|12|integer|3351
+38|13|character|Empresa de Turismo do Município do Rio de Janeiro
+38|14|double|34028316000294
+38|15|character|EMP. BRASILEIRA DE CORREIOS E TELEGRAFOS
+38|16|integer|100
+38|17|character|ORDINARIOS NAO VINCULADOS
+38|18|double|124004312010
+38|19|integer|23
+38|20|character|COMERCIO E SERVICOS
+38|21|integer|122
+38|22|character|ADMINISTRACAO GERAL
+38|23|character|0383
+38|24|character|GESTAO ADMINISTRATIVA - DESENVOLVIMENTO ECONOMICO
+38|25|integer|4163
+38|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - DESENVOLVIMENTO ECONOMICO
+38|27|character|INEXIGIBILIDADE
+38|28|date|02/01/2014
+38|29|character|EMPENHO
+38|30|double|47400,000000
+38|31|integer|2014
+38|32|character|33/2014
+38|33|missing|NA
+38|34|missing|NA
+38|35|character|DESPESA REFERENTE AO COMPLEMENTO DO EMPENHO 2013/00589, RELATIVO AOS SERVIÇOS POSTAIS E TELEGRÁFICOS PARA O PERÍODO DO EXERCÍCIO DE 2014. EM JANEIRO DE 2015, DEVERÁ SERE EMITIDO EMPENHO COMPLEMENTAR AO EXECÍCIO.
+38|36|integer|104
+38|37|character|CEF
+38|38|integer|4064
+38|39|integer|9991
+38|40|character|CONTA MOVIMENTO
+38|41|character|N
+38|42|character|N
+38|43|missing|NA
+38|44|missing|NA
+38|45|missing|NA
+38|46|missing|NA
+39|1|character|Executivo
+39|2|character|OUTRAS DESPESAS CORRENTES
+39|3|character|APLICACOES DIRETAS
+39|4|integer|36
+39|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA FISICA
+39|6|character|07
+39|7|character|SERVICOS PRESTADOS POR ESTUDANTES
+39|8|integer|3351
+39|9|character|Empresa de Turismo do Município do Rio de Janeiro
+39|10|integer|3351
+39|11|character|Empresa de Turismo do Município do Rio de Janeiro
+39|12|integer|3351
+39|13|character|Empresa de Turismo do Município do Rio de Janeiro
+39|14|double|13624738712
+39|15|character|SABRINA CHEYENNE DOS SANTOS
+39|16|integer|100
+39|17|character|ORDINARIOS NAO VINCULADOS
+39|18|double|181007312013
+39|19|integer|23
+39|20|character|COMERCIO E SERVICOS
+39|21|integer|695
+39|22|character|TURISMO
+39|23|character|0045
+39|24|character|RIO CAPITAL DO TURISMO
+39|25|integer|4233
+39|26|character|MARKETING DO PRODUTO TURISTICO RIO
+39|27|character|INEXIGIBILIDADE
+39|28|date|02/01/2014
+39|29|character|EMPENHO
+39|30|double|8002,290000
+39|31|integer|2014
+39|32|character|36/2014
+39|33|missing|NA
+39|34|missing|NA
+39|35|character|DESPESA REFERENTE AO COMPLEMENTO DO EMPENHO 2013/000841, RELATIVO A BOLSA AUXÍLIO A ESTAGIÁRIO DE NÍVEL SUPERIOR, PELO PERÍODO DE 01/01 A 01/12/2014.
+39|36|integer|104
+39|37|character|CEF
+39|38|integer|4064
+39|39|integer|9991
+39|40|character|CONTA MOVIMENTO
+39|41|character|N
+39|42|character|N
+39|43|missing|NA
+39|44|missing|NA
+39|45|missing|NA
+39|46|missing|NA
+40|1|character|Executivo
+40|2|character|OUTRAS DESPESAS CORRENTES
+40|3|character|APLICACOES DIRETAS
+40|4|integer|30
+40|5|character|MATERIAL DE CONSUMO
+40|6|character|03
+40|7|character|MATERIAIS PARA ESCRITORIO E EXPEDIENTE
+40|8|integer|3351
+40|9|character|Empresa de Turismo do Município do Rio de Janeiro
+40|10|integer|3351
+40|11|character|Empresa de Turismo do Município do Rio de Janeiro
+40|12|integer|3351
+40|13|character|Empresa de Turismo do Município do Rio de Janeiro
+40|14|double|4960002000183
+40|15|character|DIBOA COMERCIAL LTDA
+40|16|integer|100
+40|17|character|ORDINARIOS NAO VINCULADOS
+40|18|double|181007152013
+40|19|integer|23
+40|20|character|COMERCIO E SERVICOS
+40|21|integer|122
+40|22|character|ADMINISTRACAO GERAL
+40|23|character|0383
+40|24|character|GESTAO ADMINISTRATIVA - DESENVOLVIMENTO ECONOMICO
+40|25|integer|4163
+40|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - DESENVOLVIMENTO ECONOMICO
+40|27|character|PREÇO REGISTRADO/PREGÃO
+40|28|date|02/01/2014
+40|29|character|EMPENHO
+40|30|double|7443,000000
+40|31|integer|2014
+40|32|character|41/2014
+40|33|missing|NA
+40|34|missing|NA
+40|35|character|DESPESA REFERENTE AO COMPLEMENTO DO EMPENHO 2013/00796, RELATIVO A AQUISIÇÃO DE PAPEL REPROGR´FICO PARA O EXERCÍCIO DE 2014.
+40|36|integer|104
+40|37|character|CEF
+40|38|integer|4064
+40|39|integer|9991
+40|40|character|CONTA MOVIMENTO
+40|41|character|N
+40|42|character|N
+40|43|missing|NA
+40|44|missing|NA
+40|45|missing|NA
+40|46|missing|NA
+41|1|character|Executivo
+41|2|character|OUTRAS DESPESAS CORRENTES
+41|3|character|APLICACOES DIRETAS
+41|4|integer|36
+41|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA FISICA
+41|6|character|07
+41|7|character|SERVICOS PRESTADOS POR ESTUDANTES
+41|8|integer|3351
+41|9|character|Empresa de Turismo do Município do Rio de Janeiro
+41|10|integer|3351
+41|11|character|Empresa de Turismo do Município do Rio de Janeiro
+41|12|integer|3351
+41|13|character|Empresa de Turismo do Município do Rio de Janeiro
+41|14|double|14737033790
+41|15|character|ANA CAROLINA FERREIRA LOPES MELO VIEIRA
+41|16|integer|100
+41|17|character|ORDINARIOS NAO VINCULADOS
+41|18|double|181002602013
+41|19|integer|23
+41|20|character|COMERCIO E SERVICOS
+41|21|integer|695
+41|22|character|TURISMO
+41|23|character|0045
+41|24|character|RIO CAPITAL DO TURISMO
+41|25|integer|4233
+41|26|character|MARKETING DO PRODUTO TURISTICO RIO
+41|27|character|INEXIGIBILIDADE
+41|28|date|02/01/2014
+41|29|character|EMPENHO
+41|30|double|2416,210000
+41|31|integer|2014
+41|32|character|30/2014
+41|33|missing|NA
+41|34|missing|NA
+41|35|character|DESPESA REFERENTE AO COMPLEMENTO DO EMPENHO 2013/00356, RELATIVO A BOLSA AUXÍLIO E RECESSO REMUNERADO PARA ESTAGIÁRIO DE NÍVEL SUPERIOR, PELO PERÍODO DE 01/01 A 10/03/2014.
+41|36|integer|104
+41|37|character|CEF
+41|38|integer|4064
+41|39|integer|9991
+41|40|character|CONTA MOVIMENTO
+41|41|character|N
+41|42|character|N
+41|43|missing|NA
+41|44|missing|NA
+41|45|missing|NA
+41|46|missing|NA
+42|1|character|Executivo
+42|2|character|OUTRAS DESPESAS CORRENTES
+42|3|character|APLICACOES DIRETAS
+42|4|integer|39
+42|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+42|6|integer|53
+42|7|character|SERVICOS DE MEDICINA E SEGURANCA DO TRABALHO
+42|8|integer|1153
+42|9|character|Empresa Municipal de Informática S.A.
+42|10|integer|1153
+42|11|character|Empresa Municipal de Informática S.A.
+42|12|integer|1153
+42|13|character|Empresa Municipal de Informática S.A.
+42|14|double|6189991000189
+42|15|character|ENFEMED SAUDE E SERVICOS LTDA
+42|16|integer|200
+42|17|character|RECEITA PROPRIA DE AUTARQUIAS, FUNDACOES E EMPRESAS
+42|18|double|13004402012
+42|19|character|04
+42|20|character|ADMINISTRACAO
+42|21|integer|122
+42|22|character|ADMINISTRACAO GERAL
+42|23|character|0389
+42|24|character|GESTAO ADMINISTRATIVA - GESTAO E FINANCAS PUBLICAS
+42|25|integer|4169
+42|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - GESTAO E FNINANCAS PUBLICAS
+42|27|character|PREGÃO
+42|28|date|02/01/2014
+42|29|character|EMPENHO
+42|30|double|22200,000000
+42|31|integer|2014
+42|32|character|1/2014
+42|33|missing|NA
+42|34|missing|NA
+42|35|character|PRESTAÇÃO DE SERVIÇOS DE ANÁLISE ERGONÔMICA PARA OS SERVIDORES DA IPLANRIO.
+42|36|integer|1
+42|37|character|BANCO DO BRASIL S/A
+42|38|integer|1577
+42|39|integer|2980304
+42|40|character|CONTA MOVIMENTO
+42|41|character|N
+42|42|character|N
+42|43|integer|2014
+42|44|integer|4
+42|45|character|SERVIÇO DE ANÁLISE ERGONOMICA PARA SERVIDORES DA IPLANRIO
+42|46|missing|NA
+43|1|character|Executivo
+43|2|character|OUTRAS DESPESAS CORRENTES
+43|3|character|APLICACOES DIRETAS
+43|4|integer|37
+43|5|character|LOCACAO DE MAO-DE-OBRA
+43|6|character|09
+43|7|character|SERVICOS DE APOIO ADMINISTRATIVO E OPERACIONAL
+43|8|integer|3351
+43|9|character|Empresa de Turismo do Município do Rio de Janeiro
+43|10|integer|3351
+43|11|character|Empresa de Turismo do Município do Rio de Janeiro
+43|12|integer|3351
+43|13|character|Empresa de Turismo do Município do Rio de Janeiro
+43|14|double|5885789000129
+43|15|character|MAZA COMERCIAL LTDA
+43|16|integer|100
+43|17|character|ORDINARIOS NAO VINCULADOS
+43|18|double|181008062011
+43|19|integer|23
+43|20|character|COMERCIO E SERVICOS
+43|21|integer|695
+43|22|character|TURISMO
+43|23|character|0045
+43|24|character|RIO CAPITAL DO TURISMO
+43|25|integer|3551
+43|26|character|PROJETO CARNAVAL
+43|27|character|PREGÃO
+43|28|date|02/01/2014
+43|29|character|EMPENHO
+43|30|double|31786,970000
+43|31|integer|2014
+43|32|character|58/2014
+43|33|missing|NA
+43|34|missing|NA
+43|35|character|DESPESA REFERENTE AO COMPLEMENTO DO EMPENHO 2013/01059, RELATIVO AOS SERVIÇOS DE MÃO DE OBRA ESPECIAIZADA PARA ATENDER AO EVENTO CARNAVAL 2014, NO PERÍODO DE 01/01 A 28/02/2014.
+43|36|integer|104
+43|37|character|CEF
+43|38|integer|4064
+43|39|integer|9991
+43|40|character|CONTA MOVIMENTO
+43|41|character|N
+43|42|character|N
+43|43|missing|NA
+43|44|missing|NA
+43|45|missing|NA
+43|46|missing|NA
+44|1|character|Executivo
+44|2|character|OUTRAS DESPESAS CORRENTES
+44|3|character|APLICACOES DIRETAS
+44|4|integer|39
+44|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+44|6|integer|35
+44|7|character|SERVICOS DE CONSERVACAO E MANUTENCAO DE VIAS ESPECIAIS
+44|8|integer|1500
+44|9|character|Secretaria Municipal de Infraestrutura e Habitação
+44|10|integer|1502
+44|11|character|Coordenadoria Geral de Projetos
+44|12|integer|1500
+44|13|character|Secretaria Municipal de Infraestrutura e Habitação
+44|14|double|3285661000107
+44|15|character|ENGREST ENGENHARIA DE RECUPERACAO ESTRUTURAL LTDA
+44|16|integer|100
+44|17|character|ORDINARIOS NAO VINCULADOS
+44|18|double|63500252012
+44|19|integer|15
+44|20|character|URBANISMO
+44|21|integer|451
+44|22|character|INFRA-ESTRUTURA URBANA
+44|23|character|0200
+44|24|character|RIO OBRAS VIARIAS
+44|25|integer|2143
+44|26|character|MANUTENCAO ESTRUTURAL DE OBRAS DE ARTE ESPECIAIS
+44|27|character|TOMADA DE PREÇOS
+44|28|date|02/01/2014
+44|29|character|EMPENHO
+44|30|double|808527,070000
+44|31|integer|2014
+44|32|character|5/2014
+44|33|missing|NA
+44|34|missing|NA
+44|35|missing|NA
+44|36|integer|1
+44|37|character|BANCO DO BRASIL S/A
+44|38|integer|2234
+44|39|integer|2951983
+44|40|character|CONTA MOVIMENTO
+44|41|character|N
+44|42|character|N
+44|43|missing|NA
+44|44|missing|NA
+44|45|missing|NA
+44|46|missing|NA
+45|1|character|Executivo
+45|2|character|OUTRAS DESPESAS CORRENTES
+45|3|character|APLICACOES DIRETAS
+45|4|integer|39
+45|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+45|6|integer|37
+45|7|character|SERVICOS DE RECREACAO E ASSISTENCIA SOCIAL
+45|8|integer|2800
+45|9|character|Secretaria Especial do Envelhecimento Saudável e Qualidade de Vida
+45|10|integer|2801
+45|11|character|Gabinete da Secretaria Especial do Envelhecimento Saudável e Qualidade de Vida
+45|12|integer|2800
+45|13|character|Secretaria Especial do Envelhecimento Saudável e Qualidade de Vida
+45|14|double|8097817000131
+45|15|character|SERVLOG RIO CONSULTORIA E ASSESSORIA EMPRESARIAL LTDA
+45|16|integer|100
+45|17|character|ORDINARIOS NAO VINCULADOS
+45|18|double|280000442013
+45|19|character|08
+45|20|character|ASSISTENCIA SOCIAL
+45|21|integer|241
+45|22|character|ASSISTENCIA AO IDOSO
+45|23|character|0099
+45|24|character|RIO - CAPITAL DO BEM ESTAR E DO ENVELHECIMENTO ATIVO
+45|25|integer|2861
+45|26|character|SAUDE, LAZER E INTEGRACAO SOCIAL PARA IDOSOS E ELEVACAO DA QUALIDADE DE VIDA DA POPULACAO
+45|27|character|PREGÃO
+45|28|date|02/01/2014
+45|29|character|EMPENHO
+45|30|double|3047504,230000
+45|31|integer|2014
+45|32|character|9/2014
+45|33|missing|NA
+45|34|missing|NA
+45|35|character|PRESTAÇÃO DE SERVIÇO - SERVLOG
+45|36|integer|1
+45|37|character|BANCO DO BRASIL S/A
+45|38|integer|2234
+45|39|integer|2951983
+45|40|character|CONTA MOVIMENTO
+45|41|character|N
+45|42|character|N
+45|43|missing|NA
+45|44|missing|NA
+45|45|missing|NA
+45|46|missing|NA
+46|1|character|Executivo
+46|2|character|OUTRAS DESPESAS CORRENTES
+46|3|character|APLICACOES DIRETAS
+46|4|integer|39
+46|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+46|6|integer|37
+46|7|character|SERVICOS DE RECREACAO E ASSISTENCIA SOCIAL
+46|8|integer|2800
+46|9|character|Secretaria Especial do Envelhecimento Saudável e Qualidade de Vida
+46|10|integer|2801
+46|11|character|Gabinete da Secretaria Especial do Envelhecimento Saudável e Qualidade de Vida
+46|12|integer|2800
+46|13|character|Secretaria Especial do Envelhecimento Saudável e Qualidade de Vida
+46|14|double|31315120000101
+46|15|character|INSTITUTO DE DESENVOLVIMENTO HUMANO DOM PIXOTE
+46|16|integer|100
+46|17|character|ORDINARIOS NAO VINCULADOS
+46|18|double|280006242012
+46|19|character|08
+46|20|character|ASSISTENCIA SOCIAL
+46|21|integer|241
+46|22|character|ASSISTENCIA AO IDOSO
+46|23|character|0099
+46|24|character|RIO - CAPITAL DO BEM ESTAR E DO ENVELHECIMENTO ATIVO
+46|25|integer|2861
+46|26|character|SAUDE, LAZER E INTEGRACAO SOCIAL PARA IDOSOS E ELEVACAO DA QUALIDADE DE VIDA DA POPULACAO
+46|27|character|INEXIGIBILIDADE
+46|28|date|02/01/2014
+46|29|character|EMPENHO
+46|30|double|1089042,000000
+46|31|integer|2014
+46|32|character|3/2014
+46|33|missing|NA
+46|34|missing|NA
+46|35|character|"PROJETO ""ACADEMIA DA TERCEIRA IDADE"""
+46|36|integer|1
+46|37|character|BANCO DO BRASIL S/A
+46|38|integer|2234
+46|39|integer|2951983
+46|40|character|CONTA MOVIMENTO
+46|41|character|N
+46|42|character|N
+46|43|missing|NA
+46|44|missing|NA
+46|45|missing|NA
+46|46|missing|NA
+47|1|character|Executivo
+47|2|character|OUTRAS DESPESAS CORRENTES
+47|3|character|APLICACOES DIRETAS
+47|4|integer|39
+47|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+47|6|integer|13
+47|7|character|SERVICOS DE TRANSPORTE, FRETE E CARRETOS
+47|8|integer|1608
+47|9|character|7a. Coordenadoria Regional de Educação
+47|10|integer|1608
+47|11|character|7a. Coordenadoria Regional de Educação
+47|12|integer|1608
+47|13|character|7a. Coordenadoria Regional de Educação
+47|14|double|27608256000132
+47|15|character|TRANSRIVER TRANSPORTES LTDA
+47|16|integer|142
+47|17|character|FUNDEB
+47|18|double|7070006762010
+47|19|integer|12
+47|20|character|EDUCACAO
+47|21|integer|361
+47|22|character|ENSINO FUNDAMENTAL
+47|23|character|0315
+47|24|character|MODERNIZACAO DA GESTAO E MELHORIA DA INFRAESTRUTURA NA EDUCACAO
+47|25|integer|2081
+47|26|character|MANUTENCAO E REVITALIZACAO DAS UNIDADES DA REDE DE ENSINO
+47|27|character|PREGÃO
+47|28|date|02/01/2014
+47|29|character|EMPENHO
+47|30|double|1529568,000000
+47|31|integer|2014
+47|32|character|7/2014
+47|33|missing|NA
+47|34|missing|NA
+47|35|character|CONTRATO 22/2010
+47|36|integer|1
+47|37|character|BANCO DO BRASIL S/A
+47|38|integer|2234
+47|39|integer|74802
+47|40|character|C/MOVIMENTO - FUNDEB
+47|41|character|N
+47|42|character|S
+47|43|missing|NA
+47|44|missing|NA
+47|45|missing|NA
+47|46|missing|NA
+48|1|character|Executivo
+48|2|character|OUTRAS DESPESAS CORRENTES
+48|3|character|APLICACOES DIRETAS
+48|4|integer|30
+48|5|character|MATERIAL DE CONSUMO
+48|6|character|07
+48|7|character|GENEROS ALIMENTICIOS, INCLUSIVE BEBIDAS - MERENDA
+48|8|integer|1608
+48|9|character|7a. Coordenadoria Regional de Educação
+48|10|integer|1608
+48|11|character|7a. Coordenadoria Regional de Educação
+48|12|integer|1608
+48|13|character|7a. Coordenadoria Regional de Educação
+48|14|double|2552893000103
+48|15|character|AGRIGEL COMERCIO LTDA
+48|16|integer|107
+48|17|character|SALARIO EDUCACAO
+48|18|double|7070039012011
+48|19|integer|12
+48|20|character|EDUCACAO
+48|21|integer|306
+48|22|character|ALIMENTACAO E NUTRICAO
+48|23|character|0316
+48|24|character|MELHORIA DA QUALIDADE DA EDUCACAO CARIOCA
+48|25|integer|2136
+48|26|character|MERENDA ESCOLAR
+48|27|character|PREGÃO
+48|28|date|02/01/2014
+48|29|character|EMPENHO
+48|30|double|4530739,190000
+48|31|integer|2014
+48|32|character|12/2014
+48|33|missing|NA
+48|34|missing|NA
+48|35|character|CONTRATO 06/2012
+48|36|integer|1
+48|37|character|BANCO DO BRASIL S/A
+48|38|integer|2234
+48|39|integer|57150
+48|40|character|TRANSFERÊNCIA MEC/FNDE - SALÁRIO EDUCAÇÃO
+48|41|character|N
+48|42|character|N
+48|43|missing|NA
+48|44|missing|NA
+48|45|missing|NA
+48|46|missing|NA
+49|1|character|Executivo
+49|2|character|OUTRAS DESPESAS CORRENTES
+49|3|character|APLICACOES DIRETAS
+49|4|integer|39
+49|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+49|6|integer|68
+49|7|character|SERVICO DE LIMPEZA, CONSERVACAO, HIGIENE E COPA POR PESSOA JURIDICA
+49|8|integer|4141
+49|9|character|Fundação Cidade das Artes
+49|10|integer|4141
+49|11|character|Fundação Cidade das Artes
+49|12|integer|4141
+49|13|character|Fundação Cidade das Artes
+49|14|double|2938554000160
+49|15|character|MANGARA SERVICOS LTDA
+49|16|integer|100
+49|17|character|ORDINARIOS NAO VINCULADOS
+49|18|double|19002202013
+49|19|integer|13
+49|20|character|CULTURA
+49|21|integer|392
+49|22|character|DIFUSAO CULTURAL
+49|23|character|0154
+49|24|character|REVISAO DA REDE DE EQUIPAMENTOS CULTURAIS
+49|25|integer|4013
+49|26|character|GESTAO E MANUTENCAO DE ESPACOS CULTURAIS
+49|27|character|PREGÃO
+49|28|date|02/01/2014
+49|29|character|EMPENHO
+49|30|double|88467,660000
+49|31|integer|2014
+49|32|character|7/2014
+49|33|missing|NA
+49|34|missing|NA
+49|35|character|PRESTAÇÃO DE SERVIÇOS DE JARDINAGEM, CONFORME TR
+49|36|integer|1
+49|37|character|BANCO DO BRASIL S/A
+49|38|integer|2234
+49|39|integer|2951983
+49|40|character|CONTA MOVIMENTO
+49|41|character|N
+49|42|character|N
+49|43|missing|NA
+49|44|missing|NA
+49|45|missing|NA
+49|46|missing|NA
+50|1|character|Executivo
+50|2|character|OUTRAS DESPESAS CORRENTES
+50|3|character|APLICACOES DIRETAS
+50|4|integer|37
+50|5|character|LOCACAO DE MAO-DE-OBRA
+50|6|character|09
+50|7|character|SERVICOS DE APOIO ADMINISTRATIVO E OPERACIONAL
+50|8|integer|1877
+50|9|character|Hospital Maternidade Alexander Fleming
+50|10|integer|1877
+50|11|character|Hospital Maternidade Alexander Fleming
+50|12|integer|1877
+50|13|character|Hospital Maternidade Alexander Fleming
+50|14|double|33285255000105
+50|15|character|CNS NACIONAL DE SERVICOS LTDA
+50|16|integer|181
+50|17|character|ATENCAO DE MEDIA E ALTA COMPLEXIDADE AMBULATORIAL E HOSPITALAR
+50|18|double|9670003712010
+50|19|integer|10
+50|20|character|SAUDE
+50|21|integer|302
+50|22|character|ASSISTENCIA HOSPITALAR E AMBULATORIAL
+50|23|character|0306
+50|24|character|ATENCAO HOSPITALAR
+50|25|integer|2009
+50|26|character|MANUTENCAO DO CUSTEIO DA REDE HOSPITALAR
+50|27|character|PREGÃO
+50|28|date|02/01/2014
+50|29|character|EMPENHO
+50|30|double|608784,000000
+50|31|integer|2014
+50|32|character|3/2014
+50|33|missing|NA
+50|34|missing|NA
+50|35|character|3º TERMO ADITIVO AOCONTRATO 013/2011 DE PRESTAÇÃO DE SERVIÇOS DE RECEPÇÃO. NAD 209/2013. VIGÊNCIA 15/05/2013 A 14/05/2015.
+50|36|integer|1
+50|37|character|BANCO DO BRASIL S/A
+50|38|integer|2234
+50|39|integer|82279
+50|40|character|FMS/FNS - MEDIA E ALTA COMPLEXIDADE - MAC
+50|41|character|N
+50|42|character|N
+50|43|missing|NA
+50|44|missing|NA
+50|45|missing|NA
+50|46|missing|NA
+51|1|character|Executivo
+51|2|character|OUTRAS DESPESAS CORRENTES
+51|3|character|APLICACOES DIRETAS
+51|4|integer|37
+51|5|character|LOCACAO DE MAO-DE-OBRA
+51|6|character|09
+51|7|character|SERVICOS DE APOIO ADMINISTRATIVO E OPERACIONAL
+51|8|integer|1877
+51|9|character|Hospital Maternidade Alexander Fleming
+51|10|integer|1877
+51|11|character|Hospital Maternidade Alexander Fleming
+51|12|integer|1877
+51|13|character|Hospital Maternidade Alexander Fleming
+51|14|double|33285255000105
+51|15|character|CNS NACIONAL DE SERVICOS LTDA
+51|16|integer|181
+51|17|character|ATENCAO DE MEDIA E ALTA COMPLEXIDADE AMBULATORIAL E HOSPITALAR
+51|18|double|9670003712010
+51|19|integer|10
+51|20|character|SAUDE
+51|21|integer|302
+51|22|character|ASSISTENCIA HOSPITALAR E AMBULATORIAL
+51|23|character|0306
+51|24|character|ATENCAO HOSPITALAR
+51|25|integer|2009
+51|26|character|MANUTENCAO DO CUSTEIO DA REDE HOSPITALAR
+51|27|character|PREGÃO
+51|28|date|02/01/2014
+51|29|character|EMPENHO
+51|30|double|76281,120000
+51|31|integer|2014
+51|32|character|4/2014
+51|33|missing|NA
+51|34|missing|NA
+51|35|character|2º APOSTILAMENTO REFERENTE AO REAJUSTE DO CONTRATO 013/2011. NAD 414/2013.
+51|36|integer|1
+51|37|character|BANCO DO BRASIL S/A
+51|38|integer|2234
+51|39|integer|82279
+51|40|character|FMS/FNS - MEDIA E ALTA COMPLEXIDADE - MAC
+51|41|character|N
+51|42|character|N
+51|43|missing|NA
+51|44|missing|NA
+51|45|missing|NA
+51|46|missing|NA
+52|1|character|Executivo
+52|2|character|OUTRAS DESPESAS CORRENTES
+52|3|character|APLICACOES DIRETAS
+52|4|integer|39
+52|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+52|6|integer|13
+52|7|character|SERVICOS DE TRANSPORTE, FRETE E CARRETOS
+52|8|integer|1883
+52|9|character|Hospital Municipal Barata Ribeiro
+52|10|integer|1883
+52|11|character|Hospital Municipal Barata Ribeiro
+52|12|integer|1883
+52|13|character|Hospital Municipal Barata Ribeiro
+52|14|double|7613502000137
+52|15|character|M3RIO LOGISTICA LTDA. ME
+52|16|integer|181
+52|17|character|ATENCAO DE MEDIA E ALTA COMPLEXIDADE AMBULATORIAL E HOSPITALAR
+52|18|double|9780000392012
+52|19|integer|10
+52|20|character|SAUDE
+52|21|integer|302
+52|22|character|ASSISTENCIA HOSPITALAR E AMBULATORIAL
+52|23|character|0306
+52|24|character|ATENCAO HOSPITALAR
+52|25|integer|2009
+52|26|character|MANUTENCAO DO CUSTEIO DA REDE HOSPITALAR
+52|27|character|PREGÃO
+52|28|date|02/01/2014
+52|29|character|EMPENHO
+52|30|double|31680,000000
+52|31|integer|2014
+52|32|character|9/2014
+52|33|missing|NA
+52|34|missing|NA
+52|35|character|NAD 16/2013 - 1º TERMO ADITIVO AO CONTRATO DE LOCAÇÃO DE VEICULO COM MOTORISTA E COMBUSTIVE
+52|36|integer|1
+52|37|character|BANCO DO BRASIL S/A
+52|38|integer|2234
+52|39|integer|82279
+52|40|character|FMS/FNS - MEDIA E ALTA COMPLEXIDADE - MAC
+52|41|character|N
+52|42|character|N
+52|43|missing|NA
+52|44|missing|NA
+52|45|missing|NA
+52|46|missing|NA
+53|1|character|Executivo
+53|2|character|OUTRAS DESPESAS CORRENTES
+53|3|character|TRANSFERENCIAS A INSTITUICOES PRIVADAS SEM FINS LUCRATIVOS
+53|4|integer|39
+53|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+53|6|character|02
+53|7|character|SERVICOS DE GERENCIAMENTO, OPERACIONALIZACAO E EXECUCAO DE ATIVIDADES DIRIGIDAS A SAUDE
+53|8|integer|1805
+53|9|character|Coordenadoria Geral de Atenção Primária da AP1
+53|10|integer|1805
+53|11|character|Coordenadoria Geral de Atenção Primária da AP1
+53|12|integer|1805
+53|13|character|Coordenadoria Geral de Atenção Primária da AP1
+53|14|double|61699567000192
+53|15|character|ASSOCIACAO PAULISTA PARA DESENVOLVIMENTO DA MEDICINA
+53|16|integer|180
+53|17|character|ATENCAO BASICA
+53|18|double|90019072013
+53|19|integer|10
+53|20|character|SAUDE
+53|21|integer|301
+53|22|character|ATENCAO BASICA
+53|23|character|0330
+53|24|character|SAUDE PRESENTE
+53|25|integer|2854
+53|26|character|MANUTENCAO DO CUSTEIO DA REDE DE ATENCAO PRIMARIA A SAUDE
+53|27|character|DISPENSA
+53|28|date|02/01/2014
+53|29|character|EMPENHO
+53|30|double|20785120,000000
+53|31|integer|2014
+53|32|character|1/2014
+53|33|missing|NA
+53|34|missing|NA
+53|35|character|META 4241.
+53|36|integer|1
+53|37|character|BANCO DO BRASIL S/A
+53|38|integer|2234
+53|39|integer|82252
+53|40|character|FMS/FNS -  ATENÇÃO BÁSICA
+53|41|character|N
+53|42|character|N
+53|43|missing|NA
+53|44|missing|NA
+53|45|missing|NA
+53|46|missing|NA
+54|1|character|Executivo
+54|2|character|OUTRAS DESPESAS CORRENTES
+54|3|character|TRANSFERENCIAS A INSTITUICOES PRIVADAS SEM FINS LUCRATIVOS
+54|4|integer|39
+54|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+54|6|character|02
+54|7|character|SERVICOS DE GERENCIAMENTO, OPERACIONALIZACAO E EXECUCAO DE ATIVIDADES DIRIGIDAS A SAUDE
+54|8|integer|1814
+54|9|character|Coordenadoria Geral de Atenção Primária da AP5.3
+54|10|integer|1814
+54|11|character|Coordenadoria Geral de Atenção Primária da AP5.3
+54|12|integer|1814
+54|13|character|Coordenadoria Geral de Atenção Primária da AP5.3
+54|14|double|61699567000192
+54|15|character|ASSOCIACAO PAULISTA PARA DESENVOLVIMENTO DA MEDICINA
+54|16|integer|100
+54|17|character|ORDINARIOS NAO VINCULADOS
+54|18|double|90046032009
+54|19|integer|10
+54|20|character|SAUDE
+54|21|integer|301
+54|22|character|ATENCAO BASICA
+54|23|character|0330
+54|24|character|SAUDE PRESENTE
+54|25|integer|2854
+54|26|character|MANUTENCAO DO CUSTEIO DA REDE DE ATENCAO PRIMARIA A SAUDE
+54|27|character|DISPENSA
+54|28|date|02/01/2014
+54|29|character|CANCELAMENTO EMPENHO
+54|30|double|52679,790000
+54|31|integer|2014
+54|32|character|1/2014
+54|33|missing|NA
+54|34|missing|NA
+54|35|character|SERVIÇOS DE SAÚDE PÚBLICA - META 4241
+54|36|integer|1
+54|37|character|BANCO DO BRASIL S/A
+54|38|integer|2234
+54|39|integer|2951983
+54|40|character|CONTA MOVIMENTO
+54|41|character|S
+54|42|character|N
+54|43|missing|NA
+54|44|missing|NA
+54|45|missing|NA
+54|46|missing|NA
+55|1|character|Executivo
+55|2|character|OUTRAS DESPESAS CORRENTES
+55|3|character|TRANSFERENCIAS A INSTITUICOES PRIVADAS SEM FINS LUCRATIVOS
+55|4|integer|39
+55|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+55|6|character|02
+55|7|character|SERVICOS DE GERENCIAMENTO, OPERACIONALIZACAO E EXECUCAO DE ATIVIDADES DIRIGIDAS A SAUDE
+55|8|integer|1814
+55|9|character|Coordenadoria Geral de Atenção Primária da AP5.3
+55|10|integer|1814
+55|11|character|Coordenadoria Geral de Atenção Primária da AP5.3
+55|12|integer|1814
+55|13|character|Coordenadoria Geral de Atenção Primária da AP5.3
+55|14|double|61699567000192
+55|15|character|ASSOCIACAO PAULISTA PARA DESENVOLVIMENTO DA MEDICINA
+55|16|integer|100
+55|17|character|ORDINARIOS NAO VINCULADOS
+55|18|double|90046032009
+55|19|integer|10
+55|20|character|SAUDE
+55|21|integer|305
+55|22|character|VIGILANCIA EPIDEMIOLOGICA
+55|23|character|0308
+55|24|character|VIGILANCIA EM SAUDE, INFORMACAO EPIDEMIOLOGICA, PREVENCAO E CONTROLE DE DOENCAS E AGRAVOS
+55|25|integer|2003
+55|26|character|ACOES DE INTEGRACAO DA VIGILANCIA, ATENCAO PRIMARIA E PROMOCAO EM SAUDE
+55|27|character|DISPENSA
+55|28|date|02/01/2014
+55|29|character|CANCELAMENTO EMPENHO
+55|30|double|1314,830000
+55|31|integer|2014
+55|32|character|3/2014
+55|33|missing|NA
+55|34|missing|NA
+55|35|character|SERVIÇOS DE SAÚDE PÚBLICA - META 4247
+55|36|integer|1
+55|37|character|BANCO DO BRASIL S/A
+55|38|integer|2234
+55|39|integer|2951983
+55|40|character|CONTA MOVIMENTO
+55|41|character|S
+55|42|character|N
+55|43|missing|NA
+55|44|missing|NA
+55|45|missing|NA
+55|46|missing|NA
+56|1|character|Executivo
+56|2|character|OUTRAS DESPESAS CORRENTES
+56|3|character|APLICACOES DIRETAS
+56|4|integer|36
+56|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA FISICA
+56|6|character|07
+56|7|character|SERVICOS PRESTADOS POR ESTUDANTES
+56|8|integer|3351
+56|9|character|Empresa de Turismo do Município do Rio de Janeiro
+56|10|integer|3351
+56|11|character|Empresa de Turismo do Município do Rio de Janeiro
+56|12|integer|3351
+56|13|character|Empresa de Turismo do Município do Rio de Janeiro
+56|14|double|16236036764
+56|15|character|MATEUS VIEIRA GASPAR
+56|16|integer|100
+56|17|character|ORDINARIOS NAO VINCULADOS
+56|18|double|181007042013
+56|19|integer|23
+56|20|character|COMERCIO E SERVICOS
+56|21|integer|695
+56|22|character|TURISMO
+56|23|character|0045
+56|24|character|RIO CAPITAL DO TURISMO
+56|25|integer|4233
+56|26|character|MARKETING DO PRODUTO TURISTICO RIO
+56|27|character|INEXIGIBILIDADE
+56|28|date|02/01/2014
+56|29|character|EMPENHO
+56|30|double|7381,610000
+56|31|integer|2014
+56|32|character|37/2014
+56|33|missing|NA
+56|34|missing|NA
+56|35|character|DESPESA REFERENTE AO COMPLEMENTO DO EMPENHO 2013/000790, RELATIVO A BOLSA AUXÍLIO A ESTAGIÁRIO DE NÍVEL SUPERIOR, PELO PERÍODO DE 01/01 A 03/11/2014.
+56|36|integer|104
+56|37|character|CEF
+56|38|integer|4064
+56|39|integer|9991
+56|40|character|CONTA MOVIMENTO
+56|41|character|N
+56|42|character|N
+56|43|missing|NA
+56|44|missing|NA
+56|45|missing|NA
+56|46|missing|NA
+57|1|character|Executivo
+57|2|character|OUTRAS DESPESAS CORRENTES
+57|3|character|APLICACOES DIRETAS
+57|4|integer|39
+57|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+57|6|integer|17
+57|7|character|SERVICOS PARA FINS EDUCATIVOS, CULTURAIS E SOCIAIS, INCLUSIVE DIVULGACAO
+57|8|integer|3351
+57|9|character|Empresa de Turismo do Município do Rio de Janeiro
+57|10|integer|3351
+57|11|character|Empresa de Turismo do Município do Rio de Janeiro
+57|12|integer|3351
+57|13|character|Empresa de Turismo do Município do Rio de Janeiro
+57|14|double|11382327000191
+57|15|character|ATAF CONSTRUCAO E REFORMAS LTDA
+57|16|integer|100
+57|17|character|ORDINARIOS NAO VINCULADOS
+57|18|double|181007642013
+57|19|integer|23
+57|20|character|COMERCIO E SERVICOS
+57|21|integer|695
+57|22|character|TURISMO
+57|23|character|0045
+57|24|character|RIO CAPITAL DO TURISMO
+57|25|integer|3551
+57|26|character|PROJETO CARNAVAL
+57|27|character|PREGÃO
+57|28|date|02/01/2014
+57|29|character|EMPENHO
+57|30|double|960,000000
+57|31|integer|2014
+57|32|character|42/2014
+57|33|missing|NA
+57|34|missing|NA
+57|35|character|DESPESA REFERENTE AO COMPLEMENTO DO EMPENHO 2013/00998, RELATIVO AOS SERVIÇOS DE MONTAGEM E DESMONTAGEM DE DIVISÓRIAS NO TERREIRÃO DO SAMBA, NO EVENTO CARNAVAL 2014, CORRESPONDENTE A 40% FINAIS DOS SERVIÇOS.
+57|36|integer|104
+57|37|character|CEF
+57|38|integer|4064
+57|39|integer|9991
+57|40|character|CONTA MOVIMENTO
+57|41|character|N
+57|42|character|N
+57|43|missing|NA
+57|44|missing|NA
+57|45|missing|NA
+57|46|missing|NA
+58|1|character|Executivo
+58|2|character|OUTRAS DESPESAS CORRENTES
+58|3|character|APLICACOES DIRETAS
+58|4|integer|39
+58|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+58|6|integer|23
+58|7|character|VALE REFEICAO VALE ALIMENTACAO E FORNECIMENTO DE CAFE DA MANHA
+58|8|integer|1541
+58|9|character|Fundação Instituto de Geotécnica do Município do Rio de Janeiro
+58|10|integer|1541
+58|11|character|Fundação Instituto de Geotécnica do Município do Rio de Janeiro
+58|12|integer|1541
+58|13|character|Fundação Instituto de Geotécnica do Município do Rio de Janeiro
+58|14|double|69034668000156
+58|15|character|SODEXO PASS DO BRASIL SERVICOS E COMERCIO SA
+58|16|integer|100
+58|17|character|ORDINARIOS NAO VINCULADOS
+58|18|double|61009932012
+58|19|integer|15
+58|20|character|URBANISMO
+58|21|integer|452
+58|22|character|SERVICOS URBANOS
+58|23|character|0384
+58|24|character|GESTAO ADMINISTRATIVA - HABITACAO E URBANIZACAO
+58|25|integer|4344
+58|26|character|DESPESAS OBRIGATORIAS E OUTROS CUSTEIOS - ADM. INDIRETA - HABITACAO E URBANIZACAO
+58|27|character|PREÇO REGISTRADO/PREGÃO
+58|28|date|02/01/2014
+58|29|character|EMPENHO
+58|30|double|96789,740000
+58|31|integer|2014
+58|32|character|3/2014
+58|33|missing|NA
+58|34|missing|NA
+58|35|missing|NA
+58|36|integer|1
+58|37|character|BANCO DO BRASIL S/A
+58|38|integer|2234
+58|39|integer|2951983
+58|40|character|CONTA MOVIMENTO
+58|41|character|N
+58|42|character|N
+58|43|missing|NA
+58|44|missing|NA
+58|45|missing|NA
+58|46|missing|NA
+59|1|character|Executivo
+59|2|character|OUTRAS DESPESAS CORRENTES
+59|3|character|APLICACOES DIRETAS
+59|4|integer|39
+59|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+59|6|integer|26
+59|7|character|SERVICOS DE TELEFONIA
+59|8|integer|1616
+59|9|character|11a. Coordenadoria Regional de Educação
+59|10|integer|1616
+59|11|character|11a. Coordenadoria Regional de Educação
+59|12|integer|1616
+59|13|character|11a. Coordenadoria Regional de Educação
+59|14|double|33000118000179
+59|15|character|TELEMAR NORTE LESTE S.A
+59|16|integer|100
+59|17|character|ORDINARIOS NAO VINCULADOS
+59|18|double|7110000092013
+59|19|integer|12
+59|20|character|EDUCACAO
+59|21|integer|361
+59|22|character|ENSINO FUNDAMENTAL
+59|23|character|0381
+59|24|character|GESTAO ADMINISTRATIVA - EDUCACAO
+59|25|integer|2411
+59|26|character|CONCESSIONARIAS DE SERVICOS PUBLICOS - ADM. DIRETA - EDUCACAO
+59|27|character|PREGÃO
+59|28|date|02/01/2014
+59|29|character|EMPENHO
+59|30|double|130657,910000
+59|31|integer|2014
+59|32|character|5/2014
+59|33|missing|NA
+59|34|missing|NA
+59|35|character|TÉRMINO DO CONTRATO EM 28/02/2014
+59|36|integer|1
+59|37|character|BANCO DO BRASIL S/A
+59|38|integer|2234
+59|39|integer|2951983
+59|40|character|CONTA MOVIMENTO
+59|41|character|N
+59|42|character|S
+59|43|missing|NA
+59|44|missing|NA
+59|45|missing|NA
+59|46|missing|NA
+60|1|character|Executivo
+60|2|character|OUTRAS DESPESAS CORRENTES
+60|3|character|APLICACOES DIRETAS
+60|4|integer|30
+60|5|character|MATERIAL DE CONSUMO
+60|6|integer|26
+60|7|character|MATERIAIS PARA COLETA DE LIXO
+60|8|integer|4351
+60|9|character|Companhia Municipal de Limpeza Urbana
+60|10|integer|4351
+60|11|character|Companhia Municipal de Limpeza Urbana
+60|12|integer|4351
+60|13|character|Companhia Municipal de Limpeza Urbana
+60|14|double|7913842000183
+60|15|character|DMX DO BRASIL COMERCIO LTDA ME
+60|16|integer|200
+60|17|character|RECEITA PROPRIA DE AUTARQUIAS, FUNDACOES E EMPRESAS
+60|18|double|15045322013
+60|19|integer|15
+60|20|character|URBANISMO
+60|21|integer|122
+60|22|character|ADMINISTRACAO GERAL
+60|23|character|0385
+60|24|character|GESTAO ADMINISTRATIVA - MEIO AMBIENTE E SUSTENTABILIDADE
+60|25|integer|4165
+60|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - MEIO AMBIENTE E SUSTENTABILIDADE
+60|27|character|PREGÃO
+60|28|date|02/01/2014
+60|29|character|EMPENHO
+60|30|double|254975,000000
+60|31|integer|2014
+60|32|character|52/2014
+60|33|missing|NA
+60|34|missing|NA
+60|35|character|AQUISIÇÃO DE CESTA COLETORA PLÁSTICA DE 50L, POR SOLICITAÇÃO DA LFJ        -ITEM -01       -PRAZO DE PAGAMENTO - 30 DIAS APÓS A ENTREGA DE CADA PARCELA DO MATERIAL        -DEMAIS CONDIÇÕES E ESPECIFICAÇÕES CONFORME EDITAL E SEUS ANEXOS        -CONTRATO FORMAL
+60|36|integer|1
+60|37|character|BANCO DO BRASIL S/A
+60|38|integer|2234
+60|39|integer|151203
+60|40|character|CONTA MOVIMENTO
+60|41|character|N
+60|42|character|N
+60|43|missing|NA
+60|44|missing|NA
+60|45|missing|NA
+60|46|missing|NA
+61|1|character|Executivo
+61|2|character|OUTRAS DESPESAS CORRENTES
+61|3|character|APLICACOES DIRETAS
+61|4|integer|39
+61|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+61|6|integer|12
+61|7|character|BENS IMOVEIS - LOCACAO DE PESSOA JURIDICA
+61|8|integer|1815
+61|9|character|Subsecretaria de Vigilância, Fiscalização Sanitária e Controle de Zoonoses
+61|10|integer|1815
+61|11|character|Subsecretaria de Vigilância, Fiscalização Sanitária e Controle de Zoonoses
+61|12|integer|1815
+61|13|character|Subsecretaria de Vigilância, Fiscalização Sanitária e Controle de Zoonoses
+61|14|double|33217019000143
+61|15|character|CONSTRUTORA INTERNACIONAL LTDA
+61|16|integer|120
+61|17|character|INSPECAO SANITARIA
+61|18|double|90095982008
+61|19|integer|10
+61|20|character|SAUDE
+61|21|integer|304
+61|22|character|VIGILANCIA SANITARIA
+61|23|character|0309
+61|24|character|VIGILANCIA E CONTROLE DO RISCO SANITARIO
+61|25|integer|2292
+61|26|character|VIGILANCIA E FISCALIZACAO SANITARIA
+61|27|character|DISPENSA
+61|28|date|02/01/2014
+61|29|character|EMPENHO
+61|30|double|1090000,000000
+61|31|integer|2014
+61|32|character|13/2014
+61|33|missing|NA
+61|34|missing|NA
+61|35|character|LOCAÇÃO DE IMOVEL DA SEDE DA SUBVISA NA RUA DO LAVRADIO, 180, CENTRO.
+61|36|integer|1
+61|37|character|BANCO DO BRASIL S/A
+61|38|integer|2234
+61|39|integer|2956837
+61|40|character|PCRJ TAXA INSPEÇAO SANITARIA
+61|41|character|N
+61|42|character|N
+61|43|missing|NA
+61|44|missing|NA
+61|45|missing|NA
+61|46|missing|NA
+62|1|character|Executivo
+62|2|character|OUTRAS DESPESAS CORRENTES
+62|3|character|APLICACOES DIRETAS
+62|4|integer|39
+62|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+62|6|integer|35
+62|7|character|SERVICOS DE CONSERVACAO E MANUTENCAO DE VIAS ESPECIAIS
+62|8|integer|1500
+62|9|character|Secretaria Municipal de Infraestrutura e Habitação
+62|10|integer|1502
+62|11|character|Coordenadoria Geral de Projetos
+62|12|integer|1500
+62|13|character|Secretaria Municipal de Infraestrutura e Habitação
+62|14|double|2756729000118
+62|15|character|ENGEUM GEOLOGIA E ENGENHARIA LTDA.
+62|16|integer|100
+62|17|character|ORDINARIOS NAO VINCULADOS
+62|18|double|63500242012
+62|19|integer|15
+62|20|character|URBANISMO
+62|21|integer|451
+62|22|character|INFRA-ESTRUTURA URBANA
+62|23|character|0200
+62|24|character|RIO OBRAS VIARIAS
+62|25|integer|2143
+62|26|character|MANUTENCAO ESTRUTURAL DE OBRAS DE ARTE ESPECIAIS
+62|27|character|TOMADA DE PREÇOS
+62|28|date|02/01/2014
+62|29|character|EMPENHO
+62|30|double|1070047,840000
+62|31|integer|2014
+62|32|character|2/2014
+62|33|missing|NA
+62|34|missing|NA
+62|35|missing|NA
+62|36|integer|1
+62|37|character|BANCO DO BRASIL S/A
+62|38|integer|2234
+62|39|integer|2951983
+62|40|character|CONTA MOVIMENTO
+62|41|character|N
+62|42|character|N
+62|43|missing|NA
+62|44|missing|NA
+62|45|missing|NA
+62|46|missing|NA
+63|1|character|Executivo
+63|2|character|OUTRAS DESPESAS CORRENTES
+63|3|character|APLICACOES DIRETAS
+63|4|integer|39
+63|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+63|6|integer|14
+63|7|character|ASSINATURAS E PUBLICACOES
+63|8|integer|1815
+63|9|character|Subsecretaria de Vigilância, Fiscalização Sanitária e Controle de Zoonoses
+63|10|integer|1815
+63|11|character|Subsecretaria de Vigilância, Fiscalização Sanitária e Controle de Zoonoses
+63|12|integer|1815
+63|13|character|Subsecretaria de Vigilância, Fiscalização Sanitária e Controle de Zoonoses
+63|14|double|29418316000180
+63|15|character|ADINP DISTRIBUIDORA DE DIARIOS OFICIAIS LTDA EPP
+63|16|integer|195
+63|17|character|MULTAS POR INFRACAO A LEGISLACAO DE SAUDE
+63|18|double|99296462011
+63|19|integer|10
+63|20|character|SAUDE
+63|21|integer|304
+63|22|character|VIGILANCIA SANITARIA
+63|23|character|0309
+63|24|character|VIGILANCIA E CONTROLE DO RISCO SANITARIO
+63|25|integer|2292
+63|26|character|VIGILANCIA E FISCALIZACAO SANITARIA
+63|27|character|PREGÃO
+63|28|date|02/01/2014
+63|29|character|EMPENHO
+63|30|double|1611,680000
+63|31|integer|2014
+63|32|character|15/2014
+63|33|missing|NA
+63|34|missing|NA
+63|35|character|SERVIÇO DE DISTRIBUIÇÃO DE EXEMPLARES DE DIARIOS OFICIAIS PARA ATENDER A SUBVISA
+63|36|integer|1
+63|37|character|BANCO DO BRASIL S/A
+63|38|integer|2234
+63|39|integer|2956985
+63|40|character|PCRJ MULTAS P/INFRAÇÃO LEG DA SAUDE
+63|41|character|N
+63|42|character|N
+63|43|missing|NA
+63|44|missing|NA
+63|45|missing|NA
+63|46|missing|NA
+64|1|character|Executivo
+64|2|character|OUTRAS DESPESAS CORRENTES
+64|3|character|APLICACOES DIRETAS
+64|4|integer|93
+64|5|character|INDENIZACOES E RESTITUICOES
+64|6|character|02
+64|7|character|OUTRAS INDENIZACOES E RESTITUICOES
+64|8|integer|4351
+64|9|character|Companhia Municipal de Limpeza Urbana
+64|10|integer|4351
+64|11|character|Companhia Municipal de Limpeza Urbana
+64|12|integer|4351
+64|13|character|Companhia Municipal de Limpeza Urbana
+64|14|double|34595503768
+64|15|character|WAGNER DE PONTES CARDOSO
+64|16|integer|200
+64|17|character|RECEITA PROPRIA DE AUTARQUIAS, FUNDACOES E EMPRESAS
+64|18|double|15075242013
+64|19|integer|15
+64|20|character|URBANISMO
+64|21|integer|122
+64|22|character|ADMINISTRACAO GERAL
+64|23|character|0385
+64|24|character|GESTAO ADMINISTRATIVA - MEIO AMBIENTE E SUSTENTABILIDADE
+64|25|integer|4165
+64|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - MEIO AMBIENTE E SUSTENTABILIDADE
+64|27|character|NÃO SUJEITO
+64|28|date|02/01/2014
+64|29|character|EMPENHO
+64|30|double|200,000000
+64|31|integer|2014
+64|32|character|60/2014
+64|33|missing|NA
+64|34|missing|NA
+64|35|character|DESPESA REFERENTE AO PAGAMENTO DE RESSARCIMENTO PELOS DANOS CAUSADOS POR CEIFADEIRA
+64|36|integer|1
+64|37|character|BANCO DO BRASIL S/A
+64|38|integer|2234
+64|39|integer|151203
+64|40|character|CONTA MOVIMENTO
+64|41|character|N
+64|42|character|N
+64|43|missing|NA
+64|44|missing|NA
+64|45|missing|NA
+64|46|missing|NA
+65|1|character|Executivo
+65|2|character|OUTRAS DESPESAS CORRENTES
+65|3|character|APLICACOES DIRETAS
+65|4|integer|39
+65|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+65|6|integer|13
+65|7|character|SERVICOS DE TRANSPORTE, FRETE E CARRETOS
+65|8|integer|2800
+65|9|character|Secretaria Especial do Envelhecimento Saudável e Qualidade de Vida
+65|10|integer|2801
+65|11|character|Gabinete da Secretaria Especial do Envelhecimento Saudável e Qualidade de Vida
+65|12|integer|2800
+65|13|character|Secretaria Especial do Envelhecimento Saudável e Qualidade de Vida
+65|14|double|17162280000137
+65|15|character|EMPRESA BRASILEIRA DE ENGENHARIA E COMERCIO S.A. EBEC
+65|16|integer|100
+65|17|character|ORDINARIOS NAO VINCULADOS
+65|18|double|280005622009
+65|19|character|04
+65|20|character|ADMINISTRACAO
+65|21|integer|122
+65|22|character|ADMINISTRACAO GERAL
+65|23|character|0388
+65|24|character|GESTAO ADMINISTRATIVA - DESENVOLVIMENTO SOCIAL
+65|25|integer|2168
+65|26|character|APOIO ADMINISTRATIVO - DESENVOLVIMENTO SOCIAL
+65|27|character|PREGÃO
+65|28|date|02/01/2014
+65|29|character|EMPENHO
+65|30|double|35924,340000
+65|31|integer|2014
+65|32|character|7/2014
+65|33|missing|NA
+65|34|missing|NA
+65|35|character|ALUGUEL DE VEÍCULOS AUTOMOTORES - EBEC
+65|36|integer|1
+65|37|character|BANCO DO BRASIL S/A
+65|38|integer|2234
+65|39|integer|2951983
+65|40|character|CONTA MOVIMENTO
+65|41|character|N
+65|42|character|N
+65|43|missing|NA
+65|44|missing|NA
+65|45|missing|NA
+65|46|missing|NA
+66|1|character|Executivo
+66|2|character|OUTRAS DESPESAS CORRENTES
+66|3|character|APLICACOES DIRETAS
+66|4|integer|39
+66|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+66|6|integer|75
+66|7|character|SERVICOS DE FISCALIZACAO ELETRONICA DE TRAFEGO
+66|8|integer|2951
+66|9|character|Companhia de Engenharia de Tráfego do Rio de Janeiro
+66|10|integer|2951
+66|11|character|Companhia de Engenharia de Tráfego do Rio de Janeiro
+66|12|integer|2951
+66|13|character|Companhia de Engenharia de Tráfego do Rio de Janeiro
+66|14|double|8188016000181
+66|15|character|CONSORCIO INTERSECOES
+66|16|integer|109
+66|17|character|MULTAS POR INFRACAO A LEGISLACAO DO TRANSITO
+66|18|double|32009192005
+66|19|integer|26
+66|20|character|TRANSPORTE
+66|21|integer|452
+66|22|character|SERVICOS URBANOS
+66|23|character|0414
+66|24|character|TRAFEGO INTELIGENTE
+66|25|integer|4005
+66|26|character|EQUIPAMENTOS E SISTEMAS INTELIGENTES
+66|27|character|CONCORRÊNCIA
+66|28|date|02/01/2014
+66|29|character|EMPENHO
+66|30|double|2285572,800000
+66|31|integer|2014
+66|32|character|16/2014
+66|33|missing|NA
+66|34|missing|NA
+66|35|character|CONTRATO 2006/30 - PRESTAÇÃO DE SERVIÇOS DE ENGENHARIA PARA CONTROLE DE 51 INTERSECÇÕES SEMAFÓRICAS NO RIO DE JANEIRO, ATRAVÉS DE FISCALIZAÇÃO ELETRÔNICA REFERENTE A AVANÇO DE SINAL, PARADA SOBRE FAIXA DE PEDESTRE E REGISTRO DE EXCESSO  DE VELOCIDADE. - RD 2014/28
+66|36|integer|1
+66|37|character|BANCO DO BRASIL S/A
+66|38|integer|2234
+66|39|integer|2986728
+66|40|character|CET RIO - CTA MOVIMENTO - VINC. A MULTAS DE TRANSITO
+66|41|character|N
+66|42|character|N
+66|43|missing|NA
+66|44|missing|NA
+66|45|missing|NA
+66|46|missing|NA
+67|1|character|Executivo
+67|2|character|OUTRAS DESPESAS CORRENTES
+67|3|character|APLICACOES DIRETAS
+67|4|integer|39
+67|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+67|6|integer|26
+67|7|character|SERVICOS DE TELEFONIA
+67|8|integer|3351
+67|9|character|Empresa de Turismo do Município do Rio de Janeiro
+67|10|integer|3351
+67|11|character|Empresa de Turismo do Município do Rio de Janeiro
+67|12|integer|3351
+67|13|character|Empresa de Turismo do Município do Rio de Janeiro
+67|14|double|352294000110
+67|15|character|EMPRESA BRASILEIRA DE INFRA-ESTRUTURA AEROPORTUARIA
+67|16|integer|100
+67|17|character|ORDINARIOS NAO VINCULADOS
+67|18|double|124000572010
+67|19|integer|23
+67|20|character|COMERCIO E SERVICOS
+67|21|integer|695
+67|22|character|TURISMO
+67|23|character|0045
+67|24|character|RIO CAPITAL DO TURISMO
+67|25|integer|4233
+67|26|character|MARKETING DO PRODUTO TURISTICO RIO
+67|27|character|INEXIGIBILIDADE
+67|28|date|02/01/2014
+67|29|character|EMPENHO
+67|30|double|13127,460000
+67|31|integer|2014
+67|32|character|65/2014
+67|33|missing|NA
+67|34|missing|NA
+67|35|character|DESPESA REFERENTE AO COMPLEMENTO DO EMPENHO 2013/00122, RELATIVO AOS SERVIÇOS TELEFÔNICOS NOS POSTOS DE INFORMAÇÕES TURÍSTICAS DA RIOTUR NO AIRJ, NO PERÍODO DE 01/01  30/09/2014.
+67|36|integer|104
+67|37|character|CEF
+67|38|integer|4064
+67|39|integer|9991
+67|40|character|CONTA MOVIMENTO
+67|41|character|N
+67|42|character|N
+67|43|missing|NA
+67|44|missing|NA
+67|45|missing|NA
+67|46|missing|NA
+68|1|character|Executivo
+68|2|character|OUTRAS DESPESAS CORRENTES
+68|3|character|APLICACOES DIRETAS
+68|4|integer|37
+68|5|character|LOCACAO DE MAO-DE-OBRA
+68|6|character|01
+68|7|character|SERVICOS DE LIMPEZA, CONSERVACAO, HIGIENE E COPA POR PESSOA JURIDICA
+68|8|integer|1815
+68|9|character|Subsecretaria de Vigilância, Fiscalização Sanitária e Controle de Zoonoses
+68|10|integer|1815
+68|11|character|Subsecretaria de Vigilância, Fiscalização Sanitária e Controle de Zoonoses
+68|12|integer|1815
+68|13|character|Subsecretaria de Vigilância, Fiscalização Sanitária e Controle de Zoonoses
+68|14|double|33285255000105
+68|15|character|CNS NACIONAL DE SERVICOS LTDA
+68|16|integer|120
+68|17|character|INSPECAO SANITARIA
+68|18|double|99215742010
+68|19|integer|10
+68|20|character|SAUDE
+68|21|integer|304
+68|22|character|VIGILANCIA SANITARIA
+68|23|character|0309
+68|24|character|VIGILANCIA E CONTROLE DO RISCO SANITARIO
+68|25|integer|2292
+68|26|character|VIGILANCIA E FISCALIZACAO SANITARIA
+68|27|character|PREGÃO
+68|28|date|02/01/2014
+68|29|character|EMPENHO
+68|30|double|167302,800000
+68|31|integer|2014
+68|32|character|6/2014
+68|33|missing|NA
+68|34|missing|NA
+68|35|character|PRESTAÇÃO SERVIÇO DE LIMPEZA E CONSERVAÇÃO PARA ATENDER A UNIDADE DE VIGILÂNCIA, FISCALIZAÇÃO SANITÁRIA EM ZOONOSES PAULO DARCOSO FILHO.
+68|36|integer|1
+68|37|character|BANCO DO BRASIL S/A
+68|38|integer|2234
+68|39|integer|2956837
+68|40|character|PCRJ TAXA INSPEÇAO SANITARIA
+68|41|character|N
+68|42|character|N
+68|43|missing|NA
+68|44|missing|NA
+68|45|missing|NA
+68|46|missing|NA
+69|1|character|Executivo
+69|2|character|OUTRAS DESPESAS CORRENTES
+69|3|character|APLICACOES DIRETAS
+69|4|integer|30
+69|5|character|MATERIAL DE CONSUMO
+69|6|character|05
+69|7|character|MATERIAIS PARA USO MEDICINAL, CIRURGICO E ODONTOLOGICO
+69|8|integer|1878
+69|9|character|Hospital Municipal Lourenço Jorge - Coordenadoria Geral de Emergência da AP 4
+69|10|integer|1878
+69|11|character|Hospital Municipal Lourenço Jorge - Coordenadoria Geral de Emergência da AP 4
+69|12|integer|1878
+69|13|character|Hospital Municipal Lourenço Jorge - Coordenadoria Geral de Emergência da AP 4
+69|14|double|31673254000102
+69|15|character|LABORATORIOS B. BRAUN S.A.
+69|16|integer|100
+69|17|character|ORDINARIOS NAO VINCULADOS
+69|18|double|9630002442013
+69|19|integer|10
+69|20|character|SAUDE
+69|21|integer|302
+69|22|character|ASSISTENCIA HOSPITALAR E AMBULATORIAL
+69|23|character|0306
+69|24|character|ATENCAO HOSPITALAR
+69|25|integer|2009
+69|26|character|MANUTENCAO DO CUSTEIO DA REDE HOSPITALAR
+69|27|character|PREÇO REGISTRADO/PREGÃO
+69|28|date|02/01/2014
+69|29|character|EMPENHO
+69|30|double|6552,000000
+69|31|integer|2014
+69|32|character|2/2014
+69|33|missing|NA
+69|34|missing|NA
+69|35|missing|NA
+69|36|integer|1
+69|37|character|BANCO DO BRASIL S/A
+69|38|integer|2234
+69|39|integer|2951983
+69|40|character|CONTA MOVIMENTO
+69|41|character|S
+69|42|character|N
+69|43|missing|NA
+69|44|missing|NA
+69|45|missing|NA
+69|46|missing|NA
+70|1|character|Executivo
+70|2|character|OUTRAS DESPESAS CORRENTES
+70|3|character|APLICACOES DIRETAS
+70|4|integer|37
+70|5|character|LOCACAO DE MAO-DE-OBRA
+70|6|character|02
+70|7|character|SERVICOS DE VIGILANCIA E POLICIAMENTO POR PESSOA JURIDICA
+70|8|integer|1871
+70|9|character|Hospital Maternidade Carmela Dutra
+70|10|integer|1871
+70|11|character|Hospital Maternidade Carmela Dutra
+70|12|integer|1871
+70|13|character|Hospital Maternidade Carmela Dutra
+70|14|double|2606943000198
+70|15|character|PROL SEGURANCA EIRELI
+70|16|integer|181
+70|17|character|ATENCAO DE MEDIA E ALTA COMPLEXIDADE AMBULATORIAL E HOSPITALAR
+70|18|double|9660000522011
+70|19|integer|10
+70|20|character|SAUDE
+70|21|integer|302
+70|22|character|ASSISTENCIA HOSPITALAR E AMBULATORIAL
+70|23|character|0306
+70|24|character|ATENCAO HOSPITALAR
+70|25|integer|2009
+70|26|character|MANUTENCAO DO CUSTEIO DA REDE HOSPITALAR
+70|27|character|PREGÃO
+70|28|date|02/01/2014
+70|29|character|EMPENHO
+70|30|double|98261,420000
+70|31|integer|2014
+70|32|character|2/2014
+70|33|missing|NA
+70|34|missing|NA
+70|35|character|SERVIÇO DE VIGILANCIA E SEGURANÇA DESARMADA.
+70|36|integer|1
+70|37|character|BANCO DO BRASIL S/A
+70|38|integer|2234
+70|39|integer|82279
+70|40|character|FMS/FNS - MEDIA E ALTA COMPLEXIDADE - MAC
+70|41|character|N
+70|42|character|N
+70|43|missing|NA
+70|44|missing|NA
+70|45|missing|NA
+70|46|missing|NA
+71|1|character|Executivo
+71|2|character|OUTRAS DESPESAS CORRENTES
+71|3|character|APLICACOES DIRETAS
+71|4|integer|39
+71|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+71|6|integer|23
+71|7|character|VALE REFEICAO VALE ALIMENTACAO E FORNECIMENTO DE CAFE DA MANHA
+71|8|integer|2951
+71|9|character|Companhia de Engenharia de Tráfego do Rio de Janeiro
+71|10|integer|2951
+71|11|character|Companhia de Engenharia de Tráfego do Rio de Janeiro
+71|12|integer|2951
+71|13|character|Companhia de Engenharia de Tráfego do Rio de Janeiro
+71|14|double|69034668000156
+71|15|character|SODEXO PASS DO BRASIL SERVICOS E COMERCIO SA
+71|16|integer|100
+71|17|character|ORDINARIOS NAO VINCULADOS
+71|18|double|32025552012
+71|19|integer|26
+71|20|character|TRANSPORTE
+71|21|integer|452
+71|22|character|SERVICOS URBANOS
+71|23|character|0386
+71|24|character|GESTAO ADMINISTRATIVA - TRANSPORTES
+71|25|integer|4346
+71|26|character|DESPESAS OBRIGATORIAS E OUTROS CUSTEIOS - ADM. INDIRETA - TRANSPORTES
+71|27|character|PREÇO REGISTRADO/PREGÃO
+71|28|date|02/01/2014
+71|29|character|EMPENHO
+71|30|double|1920000,000000
+71|31|integer|2014
+71|32|character|2/2014
+71|33|missing|NA
+71|34|missing|NA
+71|35|character|CONTRATO 2012/001 - PRESTAÇÃO DE SERVIÇOS DE VALES REFEIÇÃO E ALIMENTAÇÃO PARA OS FUNCIONÁRIOS DA CET-RIO. - RD 2014/03
+71|36|integer|1
+71|37|character|BANCO DO BRASIL S/A
+71|38|integer|2234
+71|39|integer|2980177
+71|40|character|CET RIO - CTA MOVIMENTO
+71|41|character|N
+71|42|character|N
+71|43|missing|NA
+71|44|missing|NA
+71|45|missing|NA
+71|46|missing|NA
+72|1|character|Executivo
+72|2|character|OUTRAS DESPESAS CORRENTES
+72|3|character|APLICACOES DIRETAS
+72|4|integer|39
+72|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+72|6|integer|13
+72|7|character|SERVICOS DE TRANSPORTE, FRETE E CARRETOS
+72|8|integer|1135
+72|9|character|Instituto Municipal de Urbanismo Pereira Passos
+72|10|integer|1135
+72|11|character|Instituto Municipal de Urbanismo Pereira Passos
+72|12|integer|1135
+72|13|character|Instituto Municipal de Urbanismo Pereira Passos
+72|14|double|17162280000137
+72|15|character|EMPRESA BRASILEIRA DE ENGENHARIA E COMERCIO S.A. EBEC
+72|16|integer|100
+72|17|character|ORDINARIOS NAO VINCULADOS
+72|18|double|24003122011
+72|19|integer|23
+72|20|character|COMERCIO E SERVICOS
+72|21|integer|122
+72|22|character|ADMINISTRACAO GERAL
+72|23|character|0384
+72|24|character|GESTAO ADMINISTRATIVA - HABITACAO E URBANIZACAO
+72|25|integer|4164
+72|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - HABITACAO E URBANIZACAO
+72|27|character|PREGÃO
+72|28|date|02/01/2014
+72|29|character|EMPENHO
+72|30|double|21801,000000
+72|31|integer|2014
+72|32|character|3/2014
+72|33|missing|NA
+72|34|missing|NA
+72|35|character|PRESTAÇÃO DE SERVIÇOS DE LOCAÇÃO DE VEÍCULO,SEM MOTORISTA E COM COMBÚSTIVEL,PARA ATENDER AOS DESLOCAMENTOS DO PRESIDENTE DO INSTITUTO PEREIRA PASSOS-IPP.
+72|36|integer|1
+72|37|character|BANCO DO BRASIL S/A
+72|38|integer|2234
+72|39|integer|2951983
+72|40|character|CONTA MOVIMENTO
+72|41|character|N
+72|42|character|N
+72|43|missing|NA
+72|44|missing|NA
+72|45|missing|NA
+72|46|missing|NA
+73|1|character|Executivo
+73|2|character|OUTRAS DESPESAS CORRENTES
+73|3|character|APLICACOES DIRETAS
+73|4|integer|39
+73|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+73|6|integer|17
+73|7|character|SERVICOS PARA FINS EDUCATIVOS, CULTURAIS E SOCIAIS, INCLUSIVE DIVULGACAO
+73|8|integer|3351
+73|9|character|Empresa de Turismo do Município do Rio de Janeiro
+73|10|integer|3351
+73|11|character|Empresa de Turismo do Município do Rio de Janeiro
+73|12|integer|3351
+73|13|character|Empresa de Turismo do Município do Rio de Janeiro
+73|14|double|5101903000182
+73|15|character|IANNACONI NEVES AUDIO LTDA
+73|16|integer|100
+73|17|character|ORDINARIOS NAO VINCULADOS
+73|18|double|181008082013
+73|19|integer|23
+73|20|character|COMERCIO E SERVICOS
+73|21|integer|695
+73|22|character|TURISMO
+73|23|character|0045
+73|24|character|RIO CAPITAL DO TURISMO
+73|25|integer|3551
+73|26|character|PROJETO CARNAVAL
+73|27|character|PREGÃO
+73|28|date|02/01/2014
+73|29|character|EMPENHO
+73|30|double|14200,000000
+73|31|integer|2014
+73|32|character|16/2014
+73|33|missing|NA
+73|34|missing|NA
+73|35|character|DESPESA REFERENTE AO COMPLEMENTO DO EMPENHO 201301014, RELATIVO OS SERVIÇOS DE ILUMINAÇÃO CÊNICA NO TERREIRÃO DO SAMBA, VISANDO O CARNAVAL 2014, CORRESPONDENTE A 40% FINAIS DOS SERVIÇOS.
+73|36|integer|104
+73|37|character|CEF
+73|38|integer|4064
+73|39|integer|9991
+73|40|character|CONTA MOVIMENTO
+73|41|character|N
+73|42|character|N
+73|43|missing|NA
+73|44|missing|NA
+73|45|missing|NA
+73|46|missing|NA
+74|1|character|Executivo
+74|2|character|OUTRAS DESPESAS CORRENTES
+74|3|character|APLICACOES DIRETAS
+74|4|integer|39
+74|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+74|6|integer|17
+74|7|character|SERVICOS PARA FINS EDUCATIVOS, CULTURAIS E SOCIAIS, INCLUSIVE DIVULGACAO
+74|8|integer|3351
+74|9|character|Empresa de Turismo do Município do Rio de Janeiro
+74|10|integer|3351
+74|11|character|Empresa de Turismo do Município do Rio de Janeiro
+74|12|integer|3351
+74|13|character|Empresa de Turismo do Município do Rio de Janeiro
+74|14|double|973616000149
+74|15|character|SOM BERNARDO LTDA
+74|16|integer|100
+74|17|character|ORDINARIOS NAO VINCULADOS
+74|18|double|181008082013
+74|19|integer|23
+74|20|character|COMERCIO E SERVICOS
+74|21|integer|695
+74|22|character|TURISMO
+74|23|character|0045
+74|24|character|RIO CAPITAL DO TURISMO
+74|25|integer|3551
+74|26|character|PROJETO CARNAVAL
+74|27|character|PREGÃO
+74|28|date|02/01/2014
+74|29|character|EMPENHO
+74|30|double|12800,000000
+74|31|integer|2014
+74|32|character|17/2014
+74|33|missing|NA
+74|34|missing|NA
+74|35|character|DESPESA REFERENTE AO COMPLEMENTO DO EMPENHO 2013/01015, RELATIVO AOS SERVIÇOS DE ILUMINAÇÃO CÊNICA NOS BAILES POPULARES, VISANDO O CARNAVAL 2014, CORRESPONDENTE A 40% FINAIS.
+74|36|integer|104
+74|37|character|CEF
+74|38|integer|4064
+74|39|integer|9991
+74|40|character|CONTA MOVIMENTO
+74|41|character|N
+74|42|character|N
+74|43|missing|NA
+74|44|missing|NA
+74|45|missing|NA
+74|46|missing|NA
+75|1|character|Executivo
+75|2|character|OUTRAS DESPESAS CORRENTES
+75|3|character|APLICACOES DIRETAS
+75|4|integer|34
+75|5|character|OUTRAS DESPESAS DE PESSOAL DECORRENTES DE CONTRATOS DE TERCEIRIZACAO
+75|6|character|04
+75|7|character|SERVICOS DE LIMPEZA URBANA DE CARATER CONTINUADO
+75|8|integer|4351
+75|9|character|Companhia Municipal de Limpeza Urbana
+75|10|integer|4351
+75|11|character|Companhia Municipal de Limpeza Urbana
+75|12|integer|4351
+75|13|character|Companhia Municipal de Limpeza Urbana
+75|14|double|40206054000122
+75|15|character|ASSOCIACAO DE MORADORES DA ARVORE SECA
+75|16|integer|100
+75|17|character|ORDINARIOS NAO VINCULADOS
+75|18|double|15028062013
+75|19|integer|17
+75|20|character|SANEAMENTO
+75|21|integer|512
+75|22|character|SANEAMENTO BASICO URBANO
+75|23|character|0051
+75|24|character|GESTAO SUSTENTAVEL DA LIMPEZA URBANA
+75|25|integer|4060
+75|26|character|LIMPEZA E COLETA DE RESIDUOS EM COMUNIDADES CARENTES
+75|27|character|INEXIGIBILIDADE
+75|28|date|02/01/2014
+75|29|character|EMPENHO
+75|30|double|207935,460000
+75|31|integer|2014
+75|32|character|61/2014
+75|33|missing|NA
+75|34|missing|NA
+75|35|character|DESPESA REFERENTE A PRESTAÇÃO DE SERVIÇOS DE LIMPEZA URBANA E DE EDUCAÇÃO AMBIENTAL
+75|36|integer|1
+75|37|character|BANCO DO BRASIL S/A
+75|38|integer|2234
+75|39|integer|73067
+75|40|character|CONTA MOVIMENTO
+75|41|character|N
+75|42|character|N
+75|43|missing|NA
+75|44|missing|NA
+75|45|missing|NA
+75|46|missing|NA
+76|1|character|Executivo
+76|2|character|OUTRAS DESPESAS CORRENTES
+76|3|character|APLICACOES DIRETAS
+76|4|integer|39
+76|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+76|6|integer|47
+76|7|character|SERVS.DE REPARO, ADAPTACAO,CONSERV.RESTAURACAO E INSTALACAO DE SISTEMA DE REFRIGERACAO
+76|8|integer|1135
+76|9|character|Instituto Municipal de Urbanismo Pereira Passos
+76|10|integer|1135
+76|11|character|Instituto Municipal de Urbanismo Pereira Passos
+76|12|integer|1135
+76|13|character|Instituto Municipal de Urbanismo Pereira Passos
+76|14|double|73678005000141
+76|15|character|MITRA ENGENHARIA E MONTAGENS INDUSTRIAIS LTDA
+76|16|integer|100
+76|17|character|ORDINARIOS NAO VINCULADOS
+76|18|double|24005712011
+76|19|integer|23
+76|20|character|COMERCIO E SERVICOS
+76|21|integer|122
+76|22|character|ADMINISTRACAO GERAL
+76|23|character|0384
+76|24|character|GESTAO ADMINISTRATIVA - HABITACAO E URBANIZACAO
+76|25|integer|4164
+76|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - HABITACAO E URBANIZACAO
+76|27|character|PREGÃO
+76|28|date|02/01/2014
+76|29|character|EMPENHO
+76|30|double|71499,960000
+76|31|integer|2014
+76|32|character|21/2014
+76|33|missing|NA
+76|34|missing|NA
+76|35|character|PRESTAÇÃO DE SERVIÇOS DE MANUTENÇÃO DO SISTEMA DE REFRIGERAÇÃO CENTRAL E DE CINCO APARELHOS DE AR CONDICIONADO DE 7.000, 10.500 E 12.000 BTU'S, INSTALADOS NO PRÉDIO DESTE INSTITUTO, VISANDO A PRORROGAÇÃO POR VINTE E QUATRO MESES (TERMO ADITIVO).
+76|36|integer|1
+76|37|character|BANCO DO BRASIL S/A
+76|38|integer|2234
+76|39|integer|2951983
+76|40|character|CONTA MOVIMENTO
+76|41|character|N
+76|42|character|N
+76|43|missing|NA
+76|44|missing|NA
+76|45|missing|NA
+76|46|missing|NA
+77|1|character|Executivo
+77|2|character|OUTRAS DESPESAS CORRENTES
+77|3|character|APLICACOES DIRETAS
+77|4|integer|36
+77|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA FISICA
+77|6|character|07
+77|7|character|SERVICOS PRESTADOS POR ESTUDANTES
+77|8|integer|3351
+77|9|character|Empresa de Turismo do Município do Rio de Janeiro
+77|10|integer|3351
+77|11|character|Empresa de Turismo do Município do Rio de Janeiro
+77|12|integer|3351
+77|13|character|Empresa de Turismo do Município do Rio de Janeiro
+77|14|double|5598043777
+77|15|character|MONIQUE DE ANDRADE DANTAS
+77|16|integer|100
+77|17|character|ORDINARIOS NAO VINCULADOS
+77|18|double|181005322013
+77|19|integer|23
+77|20|character|COMERCIO E SERVICOS
+77|21|integer|695
+77|22|character|TURISMO
+77|23|character|0045
+77|24|character|RIO CAPITAL DO TURISMO
+77|25|integer|4233
+77|26|character|MARKETING DO PRODUTO TURISTICO RIO
+77|27|character|INEXIGIBILIDADE
+77|28|date|02/01/2014
+77|29|character|EMPENHO
+77|30|double|5408,750000
+77|31|integer|2014
+77|32|character|55/2014
+77|33|missing|NA
+77|34|missing|NA
+77|35|character|DESPESA REFERENTE AO COMPLEMENTO DO EMPENHO 2013/00632, RELATIVO A BOLSA AUXÍLIO A ESTAGIÁRIO DE NÍVEL SUPERIOR, PELO PERÍODO DE 01/01 A  04/08/2014.
+77|36|integer|104
+77|37|character|CEF
+77|38|integer|4064
+77|39|integer|9991
+77|40|character|CONTA MOVIMENTO
+77|41|character|N
+77|42|character|N
+77|43|missing|NA
+77|44|missing|NA
+77|45|missing|NA
+77|46|missing|NA
+78|1|character|Executivo
+78|2|character|OUTRAS DESPESAS CORRENTES
+78|3|character|APLICACOES DIRETAS
+78|4|integer|30
+78|5|character|MATERIAL DE CONSUMO
+78|6|character|05
+78|7|character|MATERIAIS PARA USO MEDICINAL, CIRURGICO E ODONTOLOGICO
+78|8|integer|1878
+78|9|character|Hospital Municipal Lourenço Jorge - Coordenadoria Geral de Emergência da AP 4
+78|10|integer|1878
+78|11|character|Hospital Municipal Lourenço Jorge - Coordenadoria Geral de Emergência da AP 4
+78|12|integer|1878
+78|13|character|Hospital Municipal Lourenço Jorge - Coordenadoria Geral de Emergência da AP 4
+78|14|double|61418042000131
+78|15|character|CIRURGICA FERNANDES COMERCIO DE MATERIAIS CIRURGICOS E HOSPITALARES SOCIEDADE LIMITADA.
+78|16|integer|100
+78|17|character|ORDINARIOS NAO VINCULADOS
+78|18|double|9630000682013
+78|19|integer|10
+78|20|character|SAUDE
+78|21|integer|302
+78|22|character|ASSISTENCIA HOSPITALAR E AMBULATORIAL
+78|23|character|0306
+78|24|character|ATENCAO HOSPITALAR
+78|25|integer|2009
+78|26|character|MANUTENCAO DO CUSTEIO DA REDE HOSPITALAR
+78|27|character|PREÇO REGISTRADO/PREGÃO
+78|28|date|02/01/2014
+78|29|character|EMPENHO
+78|30|double|1440,000000
+78|31|integer|2014
+78|32|character|20/2014
+78|33|missing|NA
+78|34|missing|NA
+78|35|missing|NA
+78|36|integer|1
+78|37|character|BANCO DO BRASIL S/A
+78|38|integer|2234
+78|39|integer|2951983
+78|40|character|CONTA MOVIMENTO
+78|41|character|S
+78|42|character|N
+78|43|missing|NA
+78|44|missing|NA
+78|45|missing|NA
+78|46|missing|NA
+79|1|character|Executivo
+79|2|character|OUTRAS DESPESAS CORRENTES
+79|3|character|APLICACOES DIRETAS
+79|4|integer|39
+79|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+79|6|integer|13
+79|7|character|SERVICOS DE TRANSPORTE, FRETE E CARRETOS
+79|8|integer|2800
+79|9|character|Secretaria Especial do Envelhecimento Saudável e Qualidade de Vida
+79|10|integer|2801
+79|11|character|Gabinete da Secretaria Especial do Envelhecimento Saudável e Qualidade de Vida
+79|12|integer|2800
+79|13|character|Secretaria Especial do Envelhecimento Saudável e Qualidade de Vida
+79|14|double|7613502000137
+79|15|character|M3RIO LOGISTICA LTDA. ME
+79|16|integer|100
+79|17|character|ORDINARIOS NAO VINCULADOS
+79|18|double|280005982011
+79|19|character|04
+79|20|character|ADMINISTRACAO
+79|21|integer|122
+79|22|character|ADMINISTRACAO GERAL
+79|23|character|0388
+79|24|character|GESTAO ADMINISTRATIVA - DESENVOLVIMENTO SOCIAL
+79|25|integer|2168
+79|26|character|APOIO ADMINISTRATIVO - DESENVOLVIMENTO SOCIAL
+79|27|character|PREGÃO
+79|28|date|02/01/2014
+79|29|character|EMPENHO
+79|30|double|95040,000000
+79|31|integer|2014
+79|32|character|10/2014
+79|33|missing|NA
+79|34|missing|NA
+79|35|character|FUELTIME TRANSPORTE
+79|36|integer|1
+79|37|character|BANCO DO BRASIL S/A
+79|38|integer|2234
+79|39|integer|2951983
+79|40|character|CONTA MOVIMENTO
+79|41|character|N
+79|42|character|N
+79|43|missing|NA
+79|44|missing|NA
+79|45|missing|NA
+79|46|missing|NA
+80|1|character|Executivo
+80|2|character|OUTRAS DESPESAS CORRENTES
+80|3|character|APLICACOES DIRETAS
+80|4|integer|39
+80|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+80|6|character|04
+80|7|character|SERVS.DE REPARO,ADPTACAO,CONSERV.RESTAUR.E INSTAL.DE BENS MOVEIS E IMOV.P/PESSOA JURIDICA
+80|8|integer|1874
+80|9|character|Hospital Maternidade Herculano Pinheiro
+80|10|integer|1874
+80|11|character|Hospital Maternidade Herculano Pinheiro
+80|12|integer|1874
+80|13|character|Hospital Maternidade Herculano Pinheiro
+80|14|double|32280604000125
+80|15|character|TX COMERCIO DE PRODUTOS MEDICOS LTDA
+80|16|integer|100
+80|17|character|ORDINARIOS NAO VINCULADOS
+80|18|double|9750000522010
+80|19|integer|10
+80|20|character|SAUDE
+80|21|integer|302
+80|22|character|ASSISTENCIA HOSPITALAR E AMBULATORIAL
+80|23|character|0306
+80|24|character|ATENCAO HOSPITALAR
+80|25|integer|2009
+80|26|character|MANUTENCAO DO CUSTEIO DA REDE HOSPITALAR
+80|27|character|PREGÃO
+80|28|date|02/01/2014
+80|29|character|EMPENHO
+80|30|double|27621,000000
+80|31|integer|2014
+80|32|character|1/2014
+80|33|missing|NA
+80|34|missing|NA
+80|35|character|PRESTAÇÃO DE SERVIÇOS DE MANUTENÇÃO PREVENTIVA E CORRETIVA DOS EQUIPAMENTOS DE RAIO - X E PROCESSADORA AUTOMÁTICA DE FILMES RADIOLÓGICOS.
+80|36|integer|1
+80|37|character|BANCO DO BRASIL S/A
+80|38|integer|2234
+80|39|integer|2951983
+80|40|character|CONTA MOVIMENTO
+80|41|character|S
+80|42|character|N
+80|43|missing|NA
+80|44|missing|NA
+80|45|missing|NA
+80|46|missing|NA
+81|1|character|Executivo
+81|2|character|OUTRAS DESPESAS CORRENTES
+81|3|character|APLICACOES DIRETAS
+81|4|integer|36
+81|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA FISICA
+81|6|character|07
+81|7|character|SERVICOS PRESTADOS POR ESTUDANTES
+81|8|integer|3000
+81|9|character|Secretaria Municipal de Cultura
+81|10|integer|3002
+81|11|character|Administração Setorial
+81|12|integer|3000
+81|13|character|Secretaria Municipal de Cultura
+81|14|double|5552930762
+81|15|character|RODRIGO MANOEL PENTAGNA GUIMARAES
+81|16|integer|100
+81|17|character|ORDINARIOS NAO VINCULADOS
+81|18|double|120001172013
+81|19|integer|13
+81|20|character|CULTURA
+81|21|integer|122
+81|22|character|ADMINISTRACAO GERAL
+81|23|character|0387
+81|24|character|GESTAO ADMINISTRATIVA - CULTURA
+81|25|integer|2167
+81|26|character|APOIO ADMINISTRATIVO - CULTURA
+81|27|character|INEXIGIBILIDADE
+81|28|date|02/01/2014
+81|29|character|EMPENHO
+81|30|double|41000,000000
+81|31|integer|2014
+81|32|character|1/2014
+81|33|missing|NA
+81|34|missing|NA
+81|35|character|EXTAGIÁRIO.
+81|36|integer|1
+81|37|character|BANCO DO BRASIL S/A
+81|38|integer|2234
+81|39|integer|2951983
+81|40|character|CONTA MOVIMENTO
+81|41|character|N
+81|42|character|N
+81|43|missing|NA
+81|44|missing|NA
+81|45|missing|NA
+81|46|missing|NA
+82|1|character|Executivo
+82|2|character|OUTRAS DESPESAS CORRENTES
+82|3|character|APLICACOES DIRETAS
+82|4|integer|37
+82|5|character|LOCACAO DE MAO-DE-OBRA
+82|6|character|01
+82|7|character|SERVICOS DE LIMPEZA, CONSERVACAO, HIGIENE E COPA POR PESSOA JURIDICA
+82|8|integer|3000
+82|9|character|Secretaria Municipal de Cultura
+82|10|integer|3002
+82|11|character|Administração Setorial
+82|12|integer|3000
+82|13|character|Secretaria Municipal de Cultura
+82|14|double|4101398000103
+82|15|character|A ACQUAMARE PISCINAS 2000 LTDA - ME.
+82|16|integer|100
+82|17|character|ORDINARIOS NAO VINCULADOS
+82|18|double|120023332009
+82|19|integer|13
+82|20|character|CULTURA
+82|21|integer|392
+82|22|character|DIFUSAO CULTURAL
+82|23|character|0154
+82|24|character|REVISAO DA REDE DE EQUIPAMENTOS CULTURAIS
+82|25|integer|2263
+82|26|character|GESTAO E EXPANSAO DA REDE DE ESPACOS CULTURAIS
+82|27|character|CONVITE
+82|28|date|02/01/2014
+82|29|character|EMPENHO
+82|30|double|42940,000000
+82|31|integer|2014
+82|32|character|2/2014
+82|33|missing|NA
+82|34|missing|NA
+82|35|character|PRESTAÇÃO DE SERVIÇOS NA CASA DE MÁQUINA, CONFORME CONTATO Nº 2009/12059.
+82|36|integer|1
+82|37|character|BANCO DO BRASIL S/A
+82|38|integer|2234
+82|39|integer|2951983
+82|40|character|CONTA MOVIMENTO
+82|41|character|N
+82|42|character|N
+82|43|missing|NA
+82|44|missing|NA
+82|45|missing|NA
+82|46|missing|NA
+83|1|character|Executivo
+83|2|character|OUTRAS DESPESAS CORRENTES
+83|3|character|APLICACOES DIRETAS
+83|4|integer|37
+83|5|character|LOCACAO DE MAO-DE-OBRA
+83|6|character|01
+83|7|character|SERVICOS DE LIMPEZA, CONSERVACAO, HIGIENE E COPA POR PESSOA JURIDICA
+83|8|integer|1813
+83|9|character|Coordenadoria Geral de Atenção Primária da AP5.2
+83|10|integer|1813
+83|11|character|Coordenadoria Geral de Atenção Primária da AP5.2
+83|12|integer|1813
+83|13|character|Coordenadoria Geral de Atenção Primária da AP5.2
+83|14|double|42407445000130
+83|15|character|CONSTRUIR FACILITIES ARQUITETURA E SERVICOS EIRELI
+83|16|integer|180
+83|17|character|ATENCAO BASICA
+83|18|double|9520001302010
+83|19|integer|10
+83|20|character|SAUDE
+83|21|integer|301
+83|22|character|ATENCAO BASICA
+83|23|character|0330
+83|24|character|SAUDE PRESENTE
+83|25|integer|2854
+83|26|character|MANUTENCAO DO CUSTEIO DA REDE DE ATENCAO PRIMARIA A SAUDE
+83|27|character|PREGÃO
+83|28|date|02/01/2014
+83|29|character|EMPENHO
+83|30|double|465492,800000
+83|31|integer|2014
+83|32|character|10/2014
+83|33|missing|NA
+83|34|missing|NA
+83|35|character|SERVIÇO DE LIMPEZA E CONSERVAÇÃO - 6° TERMO ADITIVO N° 19/2013 - CAP 5.2, BELIZÁRIO, ALVIMAR, ALMOXARIFADO, MARIO VITOR
+83|36|integer|1
+83|37|character|BANCO DO BRASIL S/A
+83|38|integer|2234
+83|39|integer|82252
+83|40|character|FMS/FNS -  ATENÇÃO BÁSICA
+83|41|character|N
+83|42|character|N
+83|43|missing|NA
+83|44|missing|NA
+83|45|missing|NA
+83|46|missing|NA
+84|1|character|Executivo
+84|2|character|OUTRAS DESPESAS CORRENTES
+84|3|character|APLICACOES DIRETAS
+84|4|integer|37
+84|5|character|LOCACAO DE MAO-DE-OBRA
+84|6|character|01
+84|7|character|SERVICOS DE LIMPEZA, CONSERVACAO, HIGIENE E COPA POR PESSOA JURIDICA
+84|8|integer|1813
+84|9|character|Coordenadoria Geral de Atenção Primária da AP5.2
+84|10|integer|1813
+84|11|character|Coordenadoria Geral de Atenção Primária da AP5.2
+84|12|integer|1813
+84|13|character|Coordenadoria Geral de Atenção Primária da AP5.2
+84|14|double|42407445000130
+84|15|character|CONSTRUIR FACILITIES ARQUITETURA E SERVICOS EIRELI
+84|16|integer|100
+84|17|character|ORDINARIOS NAO VINCULADOS
+84|18|double|9520001302010
+84|19|integer|10
+84|20|character|SAUDE
+84|21|integer|302
+84|22|character|ASSISTENCIA HOSPITALAR E AMBULATORIAL
+84|23|character|0330
+84|24|character|SAUDE PRESENTE
+84|25|integer|2847
+84|26|character|MANUTENCAO DO CUSTEIO DA REDE DE APOIO SECUNDARIO A SAUDE
+84|27|character|PREGÃO
+84|28|date|02/01/2014
+84|29|character|EMPENHO
+84|30|double|127881,040000
+84|31|integer|2014
+84|32|character|11/2014
+84|33|missing|NA
+84|34|missing|NA
+84|35|character|SERVIÇO DE LIMPEZA E CONSERVAÇÃO - 6° TERMO ADITIVO N° 19/2013 - LABORATÓRIO, POLICLINICA CARLOS ALBERTO NASCIMENTO
+84|36|integer|1
+84|37|character|BANCO DO BRASIL S/A
+84|38|integer|2234
+84|39|integer|2951983
+84|40|character|CONTA MOVIMENTO
+84|41|character|S
+84|42|character|N
+84|43|missing|NA
+84|44|missing|NA
+84|45|missing|NA
+84|46|missing|NA
+85|1|character|Executivo
+85|2|character|OUTRAS DESPESAS CORRENTES
+85|3|character|APLICACOES DIRETAS
+85|4|integer|39
+85|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+85|6|integer|14
+85|7|character|ASSINATURAS E PUBLICACOES
+85|8|integer|1813
+85|9|character|Coordenadoria Geral de Atenção Primária da AP5.2
+85|10|integer|1813
+85|11|character|Coordenadoria Geral de Atenção Primária da AP5.2
+85|12|integer|1813
+85|13|character|Coordenadoria Geral de Atenção Primária da AP5.2
+85|14|double|29418316000180
+85|15|character|ADINP DISTRIBUIDORA DE DIARIOS OFICIAIS LTDA EPP
+85|16|integer|180
+85|17|character|ATENCAO BASICA
+85|18|double|9520003712011
+85|19|integer|10
+85|20|character|SAUDE
+85|21|integer|301
+85|22|character|ATENCAO BASICA
+85|23|character|0330
+85|24|character|SAUDE PRESENTE
+85|25|integer|2854
+85|26|character|MANUTENCAO DO CUSTEIO DA REDE DE ATENCAO PRIMARIA A SAUDE
+85|27|character|PREGÃO
+85|28|date|02/01/2014
+85|29|character|EMPENHO
+85|30|double|632,480000
+85|31|integer|2014
+85|32|character|9/2014
+85|33|missing|NA
+85|34|missing|NA
+85|35|character|FORNECIMENTO DE D.O.. 1º TA Nº 06/2013 AO CONTRATO Nº 12/2012. CAP.
+85|36|integer|1
+85|37|character|BANCO DO BRASIL S/A
+85|38|integer|2234
+85|39|integer|82252
+85|40|character|FMS/FNS -  ATENÇÃO BÁSICA
+85|41|character|N
+85|42|character|N
+85|43|missing|NA
+85|44|missing|NA
+85|45|missing|NA
+85|46|missing|NA
+86|1|character|Executivo
+86|2|character|OUTRAS DESPESAS CORRENTES
+86|3|character|APLICACOES DIRETAS
+86|4|integer|39
+86|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+86|6|integer|14
+86|7|character|ASSINATURAS E PUBLICACOES
+86|8|integer|1132
+86|9|character|Instituto de Previdência e Assistência do Município do Rio de Janeiro
+86|10|integer|1132
+86|11|character|Instituto de Previdência e Assistência do Município do Rio de Janeiro
+86|12|integer|1132
+86|13|character|Instituto de Previdência e Assistência do Município do Rio de Janeiro
+86|14|double|62652961000138
+86|15|character|AGENCIA ESTADO S A
+86|16|integer|200
+86|17|character|RECEITA PROPRIA DE AUTARQUIAS, FUNDACOES E EMPRESAS
+86|18|double|55042202012
+86|19|character|09
+86|20|character|PREVIDENCIA SOCIAL
+86|21|integer|122
+86|22|character|ADMINISTRACAO GERAL
+86|23|character|0389
+86|24|character|GESTAO ADMINISTRATIVA - GESTAO E FINANCAS PUBLICAS
+86|25|integer|4169
+86|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - GESTAO E FNINANCAS PUBLICAS
+86|27|character|INEXIGIBILIDADE
+86|28|date|02/01/2014
+86|29|character|EMPENHO
+86|30|double|15716,560000
+86|31|integer|2014
+86|32|character|7/2014
+86|33|missing|NA
+86|34|missing|NA
+86|35|missing|NA
+86|36|integer|104
+86|37|character|CEF
+86|38|integer|4064
+86|39|character|0060005028
+86|40|character|PREVIRIO-CTA MOVIMENTO
+86|41|character|N
+86|42|character|N
+86|43|missing|NA
+86|44|missing|NA
+86|45|missing|NA
+86|46|missing|NA
+87|1|character|Executivo
+87|2|character|OUTRAS DESPESAS CORRENTES
+87|3|character|APLICACOES DIRETAS
+87|4|integer|37
+87|5|character|LOCACAO DE MAO-DE-OBRA
+87|6|character|09
+87|7|character|SERVICOS DE APOIO ADMINISTRATIVO E OPERACIONAL
+87|8|integer|1132
+87|9|character|Instituto de Previdência e Assistência do Município do Rio de Janeiro
+87|10|integer|1132
+87|11|character|Instituto de Previdência e Assistência do Município do Rio de Janeiro
+87|12|integer|1132
+87|13|character|Instituto de Previdência e Assistência do Município do Rio de Janeiro
+87|14|double|11838748000184
+87|15|character|CRYSTAL SERVICE CONSERVACAO LTDA
+87|16|integer|200
+87|17|character|RECEITA PROPRIA DE AUTARQUIAS, FUNDACOES E EMPRESAS
+87|18|double|55067152012
+87|19|character|09
+87|20|character|PREVIDENCIA SOCIAL
+87|21|integer|122
+87|22|character|ADMINISTRACAO GERAL
+87|23|character|0389
+87|24|character|GESTAO ADMINISTRATIVA - GESTAO E FINANCAS PUBLICAS
+87|25|integer|4169
+87|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - GESTAO E FNINANCAS PUBLICAS
+87|27|character|PREÇO REGISTRADO/PREGÃO
+87|28|date|02/01/2014
+87|29|character|EMPENHO
+87|30|double|350917,340000
+87|31|integer|2014
+87|32|character|8/2014
+87|33|missing|NA
+87|34|missing|NA
+87|35|missing|NA
+87|36|integer|104
+87|37|character|CEF
+87|38|integer|4064
+87|39|character|0060005028
+87|40|character|PREVIRIO-CTA MOVIMENTO
+87|41|character|N
+87|42|character|N
+87|43|missing|NA
+87|44|missing|NA
+87|45|missing|NA
+87|46|missing|NA
+88|1|character|Executivo
+88|2|character|OUTRAS DESPESAS CORRENTES
+88|3|character|APLICACOES DIRETAS
+88|4|integer|30
+88|5|character|MATERIAL DE CONSUMO
+88|6|integer|24
+88|7|character|GENEROS ALIMENTICIOS, INCLUSIVE BEBIDAS
+88|8|integer|1132
+88|9|character|Instituto de Previdência e Assistência do Município do Rio de Janeiro
+88|10|integer|1132
+88|11|character|Instituto de Previdência e Assistência do Município do Rio de Janeiro
+88|12|integer|1132
+88|13|character|Instituto de Previdência e Assistência do Município do Rio de Janeiro
+88|14|double|604434000109
+88|15|character|PARADISO AQUA FRESH INDUSTRIA COMERCIO MINERACAO E DISTRIBUIDORA LTDA.
+88|16|integer|200
+88|17|character|RECEITA PROPRIA DE AUTARQUIAS, FUNDACOES E EMPRESAS
+88|18|double|55065652013
+88|19|character|09
+88|20|character|PREVIDENCIA SOCIAL
+88|21|integer|122
+88|22|character|ADMINISTRACAO GERAL
+88|23|character|0389
+88|24|character|GESTAO ADMINISTRATIVA - GESTAO E FINANCAS PUBLICAS
+88|25|integer|4169
+88|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - GESTAO E FNINANCAS PUBLICAS
+88|27|character|PREÇO REGISTRADO/PREGÃO
+88|28|date|02/01/2014
+88|29|character|EMPENHO
+88|30|double|3609,310000
+88|31|integer|2014
+88|32|character|9/2014
+88|33|missing|NA
+88|34|missing|NA
+88|35|missing|NA
+88|36|integer|104
+88|37|character|CEF
+88|38|integer|4064
+88|39|character|0060005028
+88|40|character|PREVIRIO-CTA MOVIMENTO
+88|41|character|N
+88|42|character|N
+88|43|missing|NA
+88|44|missing|NA
+88|45|missing|NA
+88|46|missing|NA
+89|1|character|Executivo
+89|2|character|OUTRAS DESPESAS CORRENTES
+89|3|character|APLICACOES DIRETAS
+89|4|integer|39
+89|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+89|6|integer|13
+89|7|character|SERVICOS DE TRANSPORTE, FRETE E CARRETOS
+89|8|integer|1132
+89|9|character|Instituto de Previdência e Assistência do Município do Rio de Janeiro
+89|10|integer|1132
+89|11|character|Instituto de Previdência e Assistência do Município do Rio de Janeiro
+89|12|integer|1132
+89|13|character|Instituto de Previdência e Assistência do Município do Rio de Janeiro
+89|14|double|4088208000165
+89|15|character|CENTRO DE GESTAO DE MEIOS DE PAGAMENTO SA
+89|16|integer|200
+89|17|character|RECEITA PROPRIA DE AUTARQUIAS, FUNDACOES E EMPRESAS
+89|18|double|55023312012
+89|19|character|09
+89|20|character|PREVIDENCIA SOCIAL
+89|21|integer|122
+89|22|character|ADMINISTRACAO GERAL
+89|23|character|0389
+89|24|character|GESTAO ADMINISTRATIVA - GESTAO E FINANCAS PUBLICAS
+89|25|integer|4169
+89|26|character|APOIO ADMINISTRATIVO - ADM. INDIRETA - GESTAO E FNINANCAS PUBLICAS
+89|27|character|INEXIGIBILIDADE
+89|28|date|02/01/2014
+89|29|character|EMPENHO
+89|30|double|1622,430000
+89|31|integer|2014
+89|32|character|1/2014
+89|33|missing|NA
+89|34|missing|NA
+89|35|missing|NA
+89|36|integer|104
+89|37|character|CEF
+89|38|integer|4064
+89|39|character|0060005028
+89|40|character|PREVIRIO-CTA MOVIMENTO
+89|41|character|N
+89|42|character|N
+89|43|missing|NA
+89|44|missing|NA
+89|45|missing|NA
+89|46|missing|NA
+90|1|character|Executivo
+90|2|character|OUTRAS DESPESAS CORRENTES
+90|3|character|APLICACOES DIRETAS
+90|4|integer|39
+90|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+90|6|integer|28
+90|7|character|SERVICOS DE AGUA E ESGOTO
+90|8|integer|1603
+90|9|character|2a. Coordenadoria Regional de Educação
+90|10|integer|1603
+90|11|character|2a. Coordenadoria Regional de Educação
+90|12|integer|1603
+90|13|character|2a. Coordenadoria Regional de Educação
+90|14|double|33352394000104
+90|15|character|CEDAE  CIA ESTADUAL DE AGUAS E ESGOTO
+90|16|integer|142
+90|17|character|FUNDEB
+90|18|double|7020000012014
+90|19|integer|12
+90|20|character|EDUCACAO
+90|21|integer|361
+90|22|character|ENSINO FUNDAMENTAL
+90|23|character|0381
+90|24|character|GESTAO ADMINISTRATIVA - EDUCACAO
+90|25|integer|2411
+90|26|character|CONCESSIONARIAS DE SERVICOS PUBLICOS - ADM. DIRETA - EDUCACAO
+90|27|character|INEXIGIBILIDADE
+90|28|date|02/01/2014
+90|29|character|EMPENHO
+90|30|double|3612268,000000
+90|31|integer|2014
+90|32|character|1/2014
+90|33|missing|NA
+90|34|missing|NA
+90|35|character|CEDAE
+90|36|integer|1
+90|37|character|BANCO DO BRASIL S/A
+90|38|integer|2234
+90|39|integer|74802
+90|40|character|C/MOVIMENTO - FUNDEB
+90|41|character|N
+90|42|character|S
+90|43|missing|NA
+90|44|missing|NA
+90|45|missing|NA
+90|46|missing|NA
+91|1|character|Executivo
+91|2|character|OUTRAS DESPESAS CORRENTES
+91|3|character|APLICACOES DIRETAS
+91|4|integer|39
+91|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+91|6|integer|27
+91|7|character|FORNECIMENTO DE GAS
+91|8|integer|1603
+91|9|character|2a. Coordenadoria Regional de Educação
+91|10|integer|1603
+91|11|character|2a. Coordenadoria Regional de Educação
+91|12|integer|1603
+91|13|character|2a. Coordenadoria Regional de Educação
+91|14|double|33938119000240
+91|15|character|CEG COMPANHIA ESTADUAL DE GAS
+91|16|integer|142
+91|17|character|FUNDEB
+91|18|double|7020000022014
+91|19|integer|12
+91|20|character|EDUCACAO
+91|21|integer|361
+91|22|character|ENSINO FUNDAMENTAL
+91|23|character|0381
+91|24|character|GESTAO ADMINISTRATIVA - EDUCACAO
+91|25|integer|2411
+91|26|character|CONCESSIONARIAS DE SERVICOS PUBLICOS - ADM. DIRETA - EDUCACAO
+91|27|character|INEXIGIBILIDADE
+91|28|date|02/01/2014
+91|29|character|EMPENHO
+91|30|double|650000,000000
+91|31|integer|2014
+91|32|character|2/2014
+91|33|missing|NA
+91|34|missing|NA
+91|35|character|CEG
+91|36|integer|1
+91|37|character|BANCO DO BRASIL S/A
+91|38|integer|2234
+91|39|integer|74802
+91|40|character|C/MOVIMENTO - FUNDEB
+91|41|character|N
+91|42|character|S
+91|43|missing|NA
+91|44|missing|NA
+91|45|missing|NA
+91|46|missing|NA
+92|1|character|Executivo
+92|2|character|OUTRAS DESPESAS CORRENTES
+92|3|character|APLICACOES DIRETAS
+92|4|integer|37
+92|5|character|LOCACAO DE MAO-DE-OBRA
+92|6|character|02
+92|7|character|SERVICOS DE VIGILANCIA E POLICIAMENTO POR PESSOA JURIDICA
+92|8|integer|1873
+92|9|character|Instituto Municipal de Assistência à Saúde Nise da Silveira
+92|10|integer|1873
+92|11|character|Instituto Municipal de Assistência à Saúde Nise da Silveira
+92|12|integer|1873
+92|13|character|Instituto Municipal de Assistência à Saúde Nise da Silveira
+92|14|double|2606943000198
+92|15|character|PROL SEGURANCA EIRELI
+92|16|integer|100
+92|17|character|ORDINARIOS NAO VINCULADOS
+92|18|double|9760000242011
+92|19|integer|10
+92|20|character|SAUDE
+92|21|integer|302
+92|22|character|ASSISTENCIA HOSPITALAR E AMBULATORIAL
+92|23|character|0426
+92|24|character|ATENDIMENTO PSICOSSOCIAL
+92|25|integer|2747
+92|26|character|ACOES DE ATENCAO PSIQUIATRICA HOSPITALAR
+92|27|character|PREGÃO
+92|28|date|02/01/2014
+92|29|character|EMPENHO
+92|30|double|371279,030000
+92|31|integer|2014
+92|32|character|7/2014
+92|33|missing|NA
+92|34|missing|NA
+92|35|character|EMPENHAMENTO DESPESA SERVIÇOS VIGILANCIA DESARMADA PERIODO 01/01/2014 A 27/02/2014
+92|36|integer|1
+92|37|character|BANCO DO BRASIL S/A
+92|38|integer|2234
+92|39|integer|2951983
+92|40|character|CONTA MOVIMENTO
+92|41|character|S
+92|42|character|N
+92|43|missing|NA
+92|44|missing|NA
+92|45|missing|NA
+92|46|missing|NA
+93|1|character|Executivo
+93|2|character|OUTRAS DESPESAS CORRENTES
+93|3|character|APLICACOES DIRETAS
+93|4|integer|39
+93|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+93|6|integer|13
+93|7|character|SERVICOS DE TRANSPORTE, FRETE E CARRETOS
+93|8|integer|1609
+93|9|character|8a. Coordenadoria Regional de Educação
+93|10|integer|1609
+93|11|character|8a. Coordenadoria Regional de Educação
+93|12|integer|1609
+93|13|character|8a. Coordenadoria Regional de Educação
+93|14|double|40160558000159
+93|15|character|TRANSPORTE E TURISMO REAL BRASIL LTDA.
+93|16|integer|100
+93|17|character|ORDINARIOS NAO VINCULADOS
+93|18|double|7080034522011
+93|19|integer|12
+93|20|character|EDUCACAO
+93|21|integer|361
+93|22|character|ENSINO FUNDAMENTAL
+93|23|character|0315
+93|24|character|MODERNIZACAO DA GESTAO E MELHORIA DA INFRAESTRUTURA NA EDUCACAO
+93|25|integer|2081
+93|26|character|MANUTENCAO E REVITALIZACAO DAS UNIDADES DA REDE DE ENSINO
+93|27|character|PREGÃO
+93|28|date|02/01/2014
+93|29|character|EMPENHO
+93|30|double|1101200,000000
+93|31|integer|2014
+93|32|character|1/2014
+93|33|missing|NA
+93|34|missing|NA
+93|35|missing|NA
+93|36|integer|1
+93|37|character|BANCO DO BRASIL S/A
+93|38|integer|2234
+93|39|integer|2951983
+93|40|character|CONTA MOVIMENTO
+93|41|character|N
+93|42|character|S
+93|43|missing|NA
+93|44|missing|NA
+93|45|missing|NA
+93|46|missing|NA
+94|1|character|Executivo
+94|2|character|OUTRAS DESPESAS CORRENTES
+94|3|character|TRANSFERENCIAS A INSTITUICOES PRIVADAS SEM FINS LUCRATIVOS
+94|4|integer|39
+94|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+94|6|character|07
+94|7|character|SERV. DE GERENCIAMENTO, OPERACIONALIZACAO E EXECUCAO DE ATIVIDADES DIRIGIDAS AO ESPORTE
+94|8|integer|2500
+94|9|character|Secretaria Municipal de Esportes e Lazer
+94|10|integer|2501
+94|11|character|Gabinete do Secretário Municipal de Esportes e Lazer
+94|12|integer|2500
+94|13|character|Secretaria Municipal de Esportes e Lazer
+94|14|double|2539959000125
+94|15|character|ESPACO CIDADANIA E OPORTUNIDADES SOCIAIS - ECOS
+94|16|integer|100
+94|17|character|ORDINARIOS NAO VINCULADOS
+94|18|double|150006982011
+94|19|integer|27
+94|20|character|DESPORTO E LAZER
+94|21|integer|812
+94|22|character|DESPORTO COMUNITARIO
+94|23|character|0032
+94|24|character|DESENVOLVIMENTO DO ESPORTE E LAZER NA CIDADE
+94|25|integer|2068
+94|26|character|PROMOCAO DE ATIVIDADES ESPORTIVAS E RECREATIVAS PARA PREVENCAO DAS VULNERABILIDADES SOCIAI
+94|27|character|DISPENSA
+94|28|date|02/01/2014
+94|29|character|EMPENHO
+94|30|double|87174,970000
+94|31|integer|2014
+94|32|character|11/2014
+94|33|missing|NA
+94|34|missing|NA
+94|35|character|GESTÃO ADMINISTRATIVA E ESPORTIVA DA VILA OLÍMPICA OSCAR SCHMIDT.CONTRTO DE GESTÃO SMEL Nº 010/2012.
+94|36|integer|1
+94|37|character|BANCO DO BRASIL S/A
+94|38|integer|2234
+94|39|integer|2951983
+94|40|character|CONTA MOVIMENTO
+94|41|character|N
+94|42|character|N
+94|43|missing|NA
+94|44|missing|NA
+94|45|missing|NA
+94|46|missing|NA
+95|1|character|Executivo
+95|2|character|OUTRAS DESPESAS CORRENTES
+95|3|character|TRANSFERENCIAS A INSTITUICOES PRIVADAS SEM FINS LUCRATIVOS
+95|4|integer|39
+95|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+95|6|character|07
+95|7|character|SERV. DE GERENCIAMENTO, OPERACIONALIZACAO E EXECUCAO DE ATIVIDADES DIRIGIDAS AO ESPORTE
+95|8|integer|2500
+95|9|character|Secretaria Municipal de Esportes e Lazer
+95|10|integer|2501
+95|11|character|Gabinete do Secretário Municipal de Esportes e Lazer
+95|12|integer|2500
+95|13|character|Secretaria Municipal de Esportes e Lazer
+95|14|double|3852999000195
+95|15|character|MOVIMENTO CULTURAL SOCIAL  MCS
+95|16|integer|100
+95|17|character|ORDINARIOS NAO VINCULADOS
+95|18|double|150000622010
+95|19|integer|27
+95|20|character|DESPORTO E LAZER
+95|21|integer|812
+95|22|character|DESPORTO COMUNITARIO
+95|23|character|0032
+95|24|character|DESENVOLVIMENTO DO ESPORTE E LAZER NA CIDADE
+95|25|integer|2068
+95|26|character|PROMOCAO DE ATIVIDADES ESPORTIVAS E RECREATIVAS PARA PREVENCAO DAS VULNERABILIDADES SOCIAI
+95|27|character|INEXIGIBILIDADE
+95|28|date|02/01/2014
+95|29|character|EMPENHO
+95|30|double|80493,000000
+95|31|integer|2014
+95|32|character|6/2014
+95|33|missing|NA
+95|34|missing|NA
+95|35|character|GESTÃO ADMINISTRATIVA E ESPORTIVA DA VILA OLÍMPICA MESTRE ANDRÉ.1º TERMO ADITIVO AO CONTRATO DE GESTÃO SMEL Nº 020/2010.
+95|36|integer|1
+95|37|character|BANCO DO BRASIL S/A
+95|38|integer|2234
+95|39|integer|2951983
+95|40|character|CONTA MOVIMENTO
+95|41|character|N
+95|42|character|N
+95|43|missing|NA
+95|44|missing|NA
+95|45|missing|NA
+95|46|missing|NA
+96|1|character|Executivo
+96|2|character|OUTRAS DESPESAS CORRENTES
+96|3|character|APLICACOES DIRETAS
+96|4|integer|39
+96|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+96|6|integer|78
+96|7|character|LOCACAO DE EQUIPAMENTOS COM OPERACAO E INSUMOS
+96|8|integer|1870
+96|9|character|Hospital Municipal Salgado Filho - Coordenadoria Geral de Emergência da AP 3.2
+96|10|integer|1870
+96|11|character|Hospital Municipal Salgado Filho - Coordenadoria Geral de Emergência da AP 3.2
+96|12|integer|1870
+96|13|character|Hospital Municipal Salgado Filho - Coordenadoria Geral de Emergência da AP 3.2
+96|14|double|4530781000187
+96|15|character|ZIULEO COPY COMERCIO E SERVICOS LTDA
+96|16|integer|181
+96|17|character|ATENCAO DE MEDIA E ALTA COMPLEXIDADE AMBULATORIAL E HOSPITALAR
+96|18|double|9620005392011
+96|19|integer|10
+96|20|character|SAUDE
+96|21|integer|302
+96|22|character|ASSISTENCIA HOSPITALAR E AMBULATORIAL
+96|23|character|0306
+96|24|character|ATENCAO HOSPITALAR
+96|25|integer|2009
+96|26|character|MANUTENCAO DO CUSTEIO DA REDE HOSPITALAR
+96|27|character|PREGÃO
+96|28|date|02/01/2014
+96|29|character|EMPENHO
+96|30|double|128892,000000
+96|31|integer|2014
+96|32|character|18/2014
+96|33|missing|NA
+96|34|missing|NA
+96|35|character|PRESTAÇÃO DE SERVIÇO DE IMPRESSÃO COM LOCAÇÃO DE EQUIPAMENTOS E FORNECIMENTO DE INSUMOS. NAD 644/2013 . VIGÊNCIA 19/10/2013 A 18/10/2015. 1° T. A. 35/2013.
+96|36|integer|1
+96|37|character|BANCO DO BRASIL S/A
+96|38|integer|2234
+96|39|integer|82279
+96|40|character|FMS/FNS - MEDIA E ALTA COMPLEXIDADE - MAC
+96|41|character|N
+96|42|character|N
+96|43|missing|NA
+96|44|missing|NA
+96|45|missing|NA
+96|46|missing|NA
+97|1|character|Executivo
+97|2|character|OUTRAS DESPESAS CORRENTES
+97|3|character|APLICACOES DIRETAS
+97|4|integer|39
+97|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+97|6|character|04
+97|7|character|SERVS.DE REPARO,ADPTACAO,CONSERV.RESTAUR.E INSTAL.DE BENS MOVEIS E IMOV.P/PESSOA JURIDICA
+97|8|integer|1870
+97|9|character|Hospital Municipal Salgado Filho - Coordenadoria Geral de Emergência da AP 3.2
+97|10|integer|1870
+97|11|character|Hospital Municipal Salgado Filho - Coordenadoria Geral de Emergência da AP 3.2
+97|12|integer|1870
+97|13|character|Hospital Municipal Salgado Filho - Coordenadoria Geral de Emergência da AP 3.2
+97|14|double|68599869000138
+97|15|character|ANGLOMED PRODUTOS HOSPITALARES LTDA
+97|16|integer|181
+97|17|character|ATENCAO DE MEDIA E ALTA COMPLEXIDADE AMBULATORIAL E HOSPITALAR
+97|18|double|9620005812011
+97|19|integer|10
+97|20|character|SAUDE
+97|21|integer|302
+97|22|character|ASSISTENCIA HOSPITALAR E AMBULATORIAL
+97|23|character|0306
+97|24|character|ATENCAO HOSPITALAR
+97|25|integer|2009
+97|26|character|MANUTENCAO DO CUSTEIO DA REDE HOSPITALAR
+97|27|character|INEXIGIBILIDADE
+97|28|date|02/01/2014
+97|29|character|EMPENHO
+97|30|double|416217,120000
+97|31|integer|2014
+97|32|character|2/2014
+97|33|missing|NA
+97|34|missing|NA
+97|35|character|PRESTAÇÃO DE SERVIÇO PREVENTIVA E CORRETIVA DOS RESPIRADORES DA MARCA BIRD. NAD 568/2013. VIGÊNCIA 20/10/2013 A 19/10/2015. CONTRATO 029/2013.
+97|36|integer|1
+97|37|character|BANCO DO BRASIL S/A
+97|38|integer|2234
+97|39|integer|82279
+97|40|character|FMS/FNS - MEDIA E ALTA COMPLEXIDADE - MAC
+97|41|character|N
+97|42|character|N
+97|43|missing|NA
+97|44|missing|NA
+97|45|missing|NA
+97|46|missing|NA
+98|1|character|Executivo
+98|2|character|OUTRAS DESPESAS CORRENTES
+98|3|character|APLICACOES DIRETAS
+98|4|integer|39
+98|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+98|6|character|04
+98|7|character|SERVS.DE REPARO,ADPTACAO,CONSERV.RESTAUR.E INSTAL.DE BENS MOVEIS E IMOV.P/PESSOA JURIDICA
+98|8|integer|1874
+98|9|character|Hospital Maternidade Herculano Pinheiro
+98|10|integer|1874
+98|11|character|Hospital Maternidade Herculano Pinheiro
+98|12|integer|1874
+98|13|character|Hospital Maternidade Herculano Pinheiro
+98|14|double|7270468000145
+98|15|character|SINAL VITAL COMERCIAL DE PRODUTOS MEDICOS E SERVICOS LTDA
+98|16|integer|100
+98|17|character|ORDINARIOS NAO VINCULADOS
+98|18|double|9750005172011
+98|19|integer|10
+98|20|character|SAUDE
+98|21|integer|302
+98|22|character|ASSISTENCIA HOSPITALAR E AMBULATORIAL
+98|23|character|0306
+98|24|character|ATENCAO HOSPITALAR
+98|25|integer|2009
+98|26|character|MANUTENCAO DO CUSTEIO DA REDE HOSPITALAR
+98|27|character|INEXIGIBILIDADE
+98|28|date|02/01/2014
+98|29|character|CANCELAMENTO EMPENHO
+98|30|double|19756,000000
+98|31|integer|2014
+98|32|character|8/2014
+98|33|missing|NA
+98|34|missing|NA
+98|35|character|PRESTAÇÃO DE SERVIÇOS DE MANUTENÇÃO PREVENTIVA E CORRETIVA DOS MONITORES DA MARCA DIXTAL.
+98|36|integer|1
+98|37|character|BANCO DO BRASIL S/A
+98|38|integer|2234
+98|39|integer|2951983
+98|40|character|CONTA MOVIMENTO
+98|41|character|S
+98|42|character|N
+98|43|missing|NA
+98|44|missing|NA
+98|45|missing|NA
+98|46|missing|NA
+99|1|character|Executivo
+99|2|character|OUTRAS DESPESAS CORRENTES
+99|3|character|APLICACOES DIRETAS
+99|4|integer|37
+99|5|character|LOCACAO DE MAO-DE-OBRA
+99|6|character|09
+99|7|character|SERVICOS DE APOIO ADMINISTRATIVO E OPERACIONAL
+99|8|integer|1874
+99|9|character|Hospital Maternidade Herculano Pinheiro
+99|10|integer|1874
+99|11|character|Hospital Maternidade Herculano Pinheiro
+99|12|integer|1874
+99|13|character|Hospital Maternidade Herculano Pinheiro
+99|14|double|33285255000105
+99|15|character|CNS NACIONAL DE SERVICOS LTDA
+99|16|integer|181
+99|17|character|ATENCAO DE MEDIA E ALTA COMPLEXIDADE AMBULATORIAL E HOSPITALAR
+99|18|double|9750007242012
+99|19|integer|10
+99|20|character|SAUDE
+99|21|integer|302
+99|22|character|ASSISTENCIA HOSPITALAR E AMBULATORIAL
+99|23|character|0306
+99|24|character|ATENCAO HOSPITALAR
+99|25|integer|2009
+99|26|character|MANUTENCAO DO CUSTEIO DA REDE HOSPITALAR
+99|27|character|PREGÃO
+99|28|date|02/01/2014
+99|29|character|EMPENHO
+99|30|double|114552,000000
+99|31|integer|2014
+99|32|character|9/2014
+99|33|missing|NA
+99|34|missing|NA
+99|35|character|ADITIVO 420/2012 - PRESTAÇÃO DE SERVIÇOS DE APOIO OPERACIONAL - RECEPÇÃO ESPECIALIZADA.
+99|36|integer|1
+99|37|character|BANCO DO BRASIL S/A
+99|38|integer|2234
+99|39|integer|82279
+99|40|character|FMS/FNS - MEDIA E ALTA COMPLEXIDADE - MAC
+99|41|character|N
+99|42|character|N
+99|43|missing|NA
+99|44|missing|NA
+99|45|missing|NA
+99|46|missing|NA
+100|1|character|Executivo
+100|2|character|OUTRAS DESPESAS CORRENTES
+100|3|character|APLICACOES DIRETAS
+100|4|integer|39
+100|5|character|OUTROS SERVICOS DE TERCEIROS - PESSOA JURIDICA
+100|6|integer|29
+100|7|character|MAQUINAS E EQUIPAMENTOS, MOVEIS E UTENSILIOS - LOCACAO
+100|8|integer|2951
+100|9|character|Companhia de Engenharia de Tráfego do Rio de Janeiro
+100|10|integer|2951
+100|11|character|Companhia de Engenharia de Tráfego do Rio de Janeiro
+100|12|integer|2951
+100|13|character|Companhia de Engenharia de Tráfego do Rio de Janeiro
+100|14|double|6965293000128
+100|15|character|SPLICE INDUSTRIA COMERCIO E SERVICOS LTDA
+100|16|integer|109
+100|17|character|MULTAS POR INFRACAO A LEGISLACAO DO TRANSITO
+100|18|double|32012492011
+100|19|integer|26
+100|20|character|TRANSPORTE
+100|21|integer|452
+100|22|character|SERVICOS URBANOS
+100|23|character|0414
+100|24|character|TRAFEGO INTELIGENTE
+100|25|integer|4005
+100|26|character|EQUIPAMENTOS E SISTEMAS INTELIGENTES
+100|27|character|PREGÃO
+100|28|date|02/01/2014
+100|29|character|EMPENHO
+100|30|double|5606555,920000
+100|31|integer|2014
+100|32|character|13/2014
+100|33|missing|NA
+100|34|missing|NA
+100|35|character|CONTRATO 2011/20 - PRESTAÇÃO DE SERVIÇOS DE LOCAÇÃO DE EQUIPAMENTOS E SISTEMAS PARA FISCALIZAÇÃO E MONITORAMENTO DE INVASÃO E CIRCULAÇÃO CONDICIONADA EM CORREDORES EXCLUSIVOS PARA ÔNIBUS EM VIAS DA CIDADE DO RIO DE JANEIRO. RD 13
+100|36|integer|1
+100|37|character|BANCO DO BRASIL S/A
+100|38|integer|2234
+100|39|integer|2986728
+100|40|character|CET RIO - CTA MOVIMENTO - VINC. A MULTAS DE TRANSITO
+100|41|character|N
+100|42|character|N
+100|43|missing|NA
+100|44|missing|NA
+100|45|missing|NA
+100|46|missing|NA
