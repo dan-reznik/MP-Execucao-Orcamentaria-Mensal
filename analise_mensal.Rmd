@@ -9,6 +9,7 @@ output:
     toc_depth: 3
     toc_float: true
     theme: united
+    df_print: paged
     highlight: tango
 ---
 
@@ -33,7 +34,7 @@ source("util.R")
 
 ## Leitura do arquivo de execuções
 
-### Lê .rds
+Lê .rds preparado [aqui](preparo_mensal.html)
 
 ```{r}
 fname_despesas <- "./data/MP_EMPENHOS_ALL.rds"
@@ -42,13 +43,13 @@ df_despesas <- read_rds(fname_despesas)
 toc()
 ```
 
-### Linhas x colunas
+Linhas x colunas
 
 ```{r}
 dim(df_despesas)
 ```
 
-### Tamanho em Mb
+Tamanho em Mb
 
 ```{r}
 object.size(df_despesas)%>%format(units="Mb")
@@ -56,37 +57,37 @@ object.size(df_despesas)%>%format(units="Mb")
 
 ## Análise Estrutural, NAs
 
-### Examina c/ glimpse)
+Examina c/ glimpse)
 
 ```{r}
 df_despesas%>%glimpse
 ```
 
-### Classes das colunas
+Classes das colunas
 
 ```{r}
 df_despesas %>% map_chr(class)%>%table
 ```
 
-### Cardinalidade das nao-numericas
+Cardinalidade das nao-numericas
 
 ```{r}
 df_despesas %>% get_card_fact
 ```
 
-### Quais colunas numéricas?
+Quais colunas numéricas?
 
 ```{r}
 df_despesas %>% select_if(is.numeric) %>% colnames
 ```
 
-### Sumariza-as
+Sumariza-as
 
 ```{r}
 df_despesas %>% select_if(is.numeric) %>% summary
 ```
 
-### Algumas colunas numéricas tem NAs excessivos
+Algumas colunas numéricas tem NAs excessivos
 
 ```{r}
 df_despesas %>% pct_na %>% filter(pct_na>.1)
@@ -94,4 +95,4 @@ df_despesas %>% pct_na %>% filter(pct_na>.1)
 
 ## Análise Quantitativa
 
-### To do
+To do
