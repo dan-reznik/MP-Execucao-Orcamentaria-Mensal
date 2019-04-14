@@ -3,6 +3,6 @@
 .RData
 .Ruserdata
 .Rproj.user
-*_cache
+*_cache/
 data/Despesas MRJ.zip
 data/*.TXT
