@@ -5,6 +5,9 @@ date: Abril, 2019
 output: 
   html_document:
     mathjax: null
+    df_print: paged
+    number_sections: false
+    code_folding: show
     toc: true
     toc_depth: 3
     toc_float: true
@@ -21,7 +24,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-## Carrega bibliotecas
+### Carrega bibliotecas
 
 ```{r,message=F}
 library(tidyverse)
@@ -34,12 +37,14 @@ library(tictoc)
 source("util.R")
 ```
 
+Lista .zips em diretorio de dados
+
 ```{r}
 data_dir <- "data"
 dir_ls(data_dir,regexp=".*zip")
 ```
 
-## Lista conteúdo do zip
+Lista conteúdo do zip
 
 ```{r}
 fname_zip <- dir_slash_fname(data_dir,"Despesas MRJ.zip")
@@ -47,7 +52,7 @@ fnames_in_zip <- zip_list(fname_zip)
 fnames_in_zip
 ```
 
-## Vamos analizar o primeiro arquivo
+### Análise do primeiro arquivo no .zip
 
 ```{r}
 fname1 <- fnames_in_zip$filename[1]
@@ -55,21 +60,15 @@ zip::unzip(fname_zip,files=fname1,exdir=data_dir)
 dir_ls(data_dir,regexp="*.TXT")
 ```
 
-### Adiciona o diretório
+Adivinha o encoding do arquivo
 
 ```{r}
 fname1_txt <- dir_slash_fname(data_dir,fname1) %>%
   path_norm
-fname1_txt
-```
-
-### Estima o encoding do arquivo
-
-```{r}
 guess_encoding(fname1_txt)
 ```
 
-### Dados de localização típicos do Brasil
+Localização típica p/ dados brasileiros
 
 ```{r}
 locale_bra <- locale(encoding="ISO-8859-1",
@@ -77,28 +76,30 @@ locale_bra <- locale(encoding="ISO-8859-1",
                      date_format="%d/%m/%Y")
 ```
 
-### Olha para as primeiras 2 linhas
+Olha para as primeiras 2 linhas
 
 ```{r}
-first2 <- read_lines(fname1_txt,
-                     locale=locale_bra,n_max=2)
+first2 <- read_lines(fname1_txt,n_max=2,
+                     locale=locale_bra) %>%
+  str_squish() 
 first2
 ```
 
-Quantos separadores nestas duas primeiras linhas
+Conta separadores nas primeiras duas linhas
 
 ```{r}
 first2 %>% cnt_seps(";")
 ```
 
-Quantos separadores ";" por linha? Note que a maioria tem 45 mas algumas linhas tem 46 e 48 separadores
+Contabiliza separadores em todas as linhas: Note que a maioria tem 45 mas algumas linhas tem 46 e 48 separadores
 
 ```{r}
-read_lines(fname1_txt,locale=locale_bra) %>%
+read_lines(fname1_txt,
+           locale=locale_bra) %>%
   cnt_seps(";")
 ```
 
-Usando melt_delim para ler "ragged"
+Experimento: usa `melt_delim` para ler "ragged"
 
 ```{r}
 melt_delim(fname1_txt,
@@ -110,7 +111,7 @@ melt_delim(fname1_txt,
   write_delim("tests/melt100.txt",delim='|')
 ```
 
-Analize columns
+Lento: Analisa colunas com frame longo ("melt")
 
 ```{r}
 df_melt1 <- melt_delim(fname1_txt
@@ -134,7 +135,7 @@ Mostre quais linhas tem separadores anomalos
 cnt_seps_df(fname1_txt,locale_bra,";",45,5)
 ```
 
-### Reporta quais linhas tem problemas no arquivo "bad_lines_txt"
+Reporta quais linhas tem problemas no arquivo `bad_lines.txt`
 
 ```{r}
 bad_lines <- read_lines(fname1_txt,locale=locale_bra)%>%
@@ -142,7 +143,7 @@ bad_lines <- read_lines(fname1_txt,locale=locale_bra)%>%
 c(first2[1],bad_lines)%>%write_lines("tests/bad_lines.txt")
 ```
 
-### Reporta campos lado a lado (transpostos) num arquivo "bad_lines_transp.txt" para análise
+Reporta campos lado a lado (transpostos) em `bad_lines_transp.txt`
 
 ```{r,message=F}
 {
@@ -156,7 +157,7 @@ c(first2[1],bad_lines)%>%write_lines("tests/bad_lines.txt")
 }
 ```
 
-### Linhas com colunas adicionais: colunas serão ignoradas, são anotações manuais
+Linhas com colunas adicionais: colunas serão ignoradas, já que parecem ser anotações manuais e ocasionais
 
 ```{r}
 read_delim("tests/bad_lines_transp.txt",
@@ -165,15 +166,15 @@ read_delim("tests/bad_lines_transp.txt",
   #%>%View
 ```
 
-### Verifica truncagem de todas as linhas para o numero correto de colunas (46)
+Verifica truncagem de todas as linhas para o numero correto de colunas (46)
 
 ```{r}
 trunc_cols(fname1_txt,locale_bra,
-           max_cols=46,n_max=10)%>%
+           max_cols=46,sep=";",n_max=10)%>%
   cnt_seps(";")
 ```
 
-### Obtém lista de todos os arquivos no zip e deleta .rds com o mesmo nome se existirem
+Obtém lista de todos os arquivos no zip e deleta .rds com o mesmo nome se existirem
 
 ```{r,eval=F}
 fnames <- zip_list(fname_zip) %>% pull(filename)
@@ -182,26 +183,30 @@ repl_ext(fnames,"rds") %>%
   walk(~if(file_exists(.))file_delete(.))
 ```
 
-### Lento: trunca as colunas de todos os arquivos no .zip (usando processamento paralelo do library(furrr)) e converte cada um para .rds (com alta compressao)
+### Converte arquivos no .zip para .rds
+
+Trunca colunas, usando processamento paralelo do `library(furrr))`
 
 ```{r,eval=F}
 tic()
 plan(multiprocess)
 # fnames[2] %>% 
-fnames %>%
-  future_map_chr(unzip_trunc_rds,fname_zip,data_dir,locale_bra,45)
+fnames %>% future_map_chr(unzip_trunc_rds,
+                          fname_zip,data_dir,locale_bra,45)
 toc()
 ```
 
-### Examinar o primeiro rds
+Examina o primeiro rds
 
 ```{r}
-fname_rds1 <- dir_ls(data_dir,regexp="MP_EMPENHOS.*rds") %>%
+fname_rds1 <- dir_ls(data_dir,regexp="MP_EMPENHOS_\\d{6}.*rds") %>%
   sort %>%
   first
 df_rds1 <- fname_rds1 %>% read_rds
 dim(df_rds1)
 ```
+
+Com glimpse
 
 ```{r}
 glimpse(df_rds1)
@@ -209,8 +214,8 @@ glimpse(df_rds1)
 
 Verifica cardinalidade das colunas nao numericas
 
-```{r,eval=F}
-df_rds1 %>% get_card
+```{r}
+df_rds1 %>% get_card_fact
 ```
 
 ### Combina todos os data frames num só usando "purrr::map_dfr"
@@ -221,17 +226,14 @@ df_all <- fnames_rds %>%
   map_dfr(read_rds) %>%
   mutate_if(is.character,as.factor) %>%
   arrange(Data)
-fnames_rds %>% walk(file_delete)
+# leave first in
+fnames_rds %>% tail(-1) %>% walk(file_delete)
 ```
 
-### Salva o arquivo combinado
+Salva o arquivo combinado
 
 ```{r,eval=F}
 df_all %>% 
-  arrange(Data) %>%
   write_rds(dir_slash_fname(data_dir,"MP_EMPENHOS_ALL.rds"),
             compress="bz")
 ```
-
-
-
