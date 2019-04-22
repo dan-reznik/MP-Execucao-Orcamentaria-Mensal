@@ -437,33 +437,8 @@ first2
 {"columns":[{"label":["cnt"],"name":[1],"type":["int"],"align":["right"]},{"label":["n"],"name":[2],"type":["int"],"align":["right"]}],"data":[{"1":"45","2":"31678"},{"1":"46","2":"14"},{"1":"48","2":"3"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
   </script>
 </div>
-<p>Experimento: usa <code>melt_delim</code> para ler “ragged”</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">melt_delim</span>(fname1_txt,
-           <span class="dt">delim=</span><span class="kw">fixed</span>(<span class="st">&quot;;&quot;</span>),
-           <span class="dt">locale=</span>locale_bra,
-           <span class="dt">n_max=</span><span class="dv">100</span>,
-           <span class="dt">trim_ws =</span> T,
-           <span class="dt">skip_empty_rows =</span> T) <span class="op">%&gt;%</span>
-<span class="st">  </span><span class="kw">write_delim</span>(<span class="st">&quot;tests/melt100.txt&quot;</span>,<span class="dt">delim=</span><span class="st">'|'</span>)</code></pre></div>
-<p>Lento: Analisa colunas com frame longo (“melt”)</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">df_melt1 &lt;-<span class="st"> </span><span class="kw">melt_delim</span>(fname1_txt
-           ,<span class="dt">delim=</span><span class="kw">fixed</span>(<span class="st">&quot;;&quot;</span>)
-           ,<span class="dt">locale=</span>locale_bra
-           ,<span class="dt">quote=</span><span class="st">&quot;@&quot;</span>
-           ,<span class="dt">trim_ws =</span> T
-           ,<span class="dt">skip_empty_rows =</span> T
-           ) <span class="op">%&gt;%</span>
-<span class="st">  </span><span class="kw">count</span>(row,<span class="dt">name=</span><span class="st">&quot;seps&quot;</span>) <span class="op">%&gt;%</span>
-<span class="st">  </span><span class="kw">group_by</span>(seps) <span class="op">%&gt;%</span>
-<span class="st">  </span><span class="kw">summarize</span>(<span class="dt">n=</span><span class="kw">n</span>(),<span class="dt">row_list=</span><span class="kw">if_else</span>(<span class="kw">n</span>()<span class="op">&lt;</span><span class="dv">20</span>,
-                                   <span class="kw">str_c</span>(row,<span class="dt">collapse=</span><span class="st">&quot;,&quot;</span>),
-                                   <span class="ot">NA_character_</span>))
-df_melt1</code></pre></div>
-<div data-pagedtable="false">
-<script data-pagedtable-source type="application/json">
-{"columns":[{"label":["seps"],"name":[1],"type":["int"],"align":["right"]},{"label":["n"],"name":[2],"type":["int"],"align":["right"]},{"label":["row_list"],"name":[3],"type":["chr"],"align":["left"]}],"data":[{"1":"46","2":"31678","3":"NA"},{"1":"47","2":"14","3":"24268,24269,26000,27535,29736,29737,29738,29755,29764,29936,29937,30383,30384,30385"},{"1":"49","2":"3","3":"14579,26792,26793"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
-  </script>
-</div>
+<!-- Experimento: usa `melt_delim` para ler "ragged" -->
+<!-- Lento: Analisa colunas com frame longo ("melt") -->
 <p>Mostre quais linhas tem separadores anomalos</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">cnt_seps_df</span>(fname1_txt,locale_bra,<span class="st">&quot;;&quot;</span>,<span class="dv">45</span>,<span class="dv">5</span>)</code></pre></div>
 <div data-pagedtable="false">

@@ -99,9 +99,9 @@ read_lines(fname1_txt,
   cnt_seps(";")
 ```
 
-Experimento: usa `melt_delim` para ler "ragged"
+<!-- Experimento: usa `melt_delim` para ler "ragged" -->
 
-```{r}
+```{r,include=F,eval=F}
 melt_delim(fname1_txt,
            delim=fixed(";"),
            locale=locale_bra,
@@ -111,9 +111,9 @@ melt_delim(fname1_txt,
   write_delim("tests/melt100.txt",delim='|')
 ```
 
-Lento: Analisa colunas com frame longo ("melt")
+<!-- Lento: Analisa colunas com frame longo ("melt") -->
 
-```{r}
+```{r,include=F,eval=F}
 df_melt1 <- melt_delim(fname1_txt
            ,delim=fixed(";")
            ,locale=locale_bra
