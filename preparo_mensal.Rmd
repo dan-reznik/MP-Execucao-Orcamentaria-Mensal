@@ -185,7 +185,7 @@ repl_ext(fnames,"rds") %>%
 
 ### Converte arquivos no .zip para .rds
 
-Trunca colunas, usando processamento paralelo do `library(furrr))`
+Trunca colunas, usando processamento paralelo do `library(furrr)`
 
 ```{r,eval=F}
 tic()
