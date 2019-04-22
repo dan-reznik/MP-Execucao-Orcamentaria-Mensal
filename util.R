@@ -70,8 +70,8 @@ trunc_to_rds <- function(fname_txt,locale,max_cols,sep) {
                          ,quote="'"
                          #,col_types = cols(.default = "c")
                          ,col_types = cols(
-                           # they are guesses as lgl because of
-                           # multiple NAs in beginning
+                           # they will be guessed as lgl due to
+                           # long sequence of NAs in beginning
                            Liquidacao=col_double(),
                            Pagamento=col_double(),
                            Valor=col_double(),
