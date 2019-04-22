@@ -135,17 +135,17 @@ Mostre quais linhas tem separadores anomalos
 cnt_seps_df(fname1_txt,locale_bra,";",45,5)
 ```
 
-Reporta quais linhas tem problemas no arquivo `bad_lines.txt`
+<!-- Reporta quais linhas tem problemas no arquivo `bad_lines.txt` -->
 
-```{r}
+```{r,include=F,eval=F}
 bad_lines <- read_lines(fname1_txt,locale=locale_bra)%>%
   keep(~str_count(.x,fixed(";"))!=45)
 c(first2[1],bad_lines)%>%write_lines("tests/bad_lines.txt")
 ```
 
-Reporta campos lado a lado (transpostos) em `bad_lines_transp.txt`
+<!-- Reporta campos lado a lado (transpostos) em `bad_lines_transp.txt` -->
 
-```{r,message=F}
+```{r,include=F,eval=F}
 {
   lgts<-c(first2,bad_lines)%>%str_split(fixed(";"))%>%map_int(length)
   cols<-str_c(c(letters,LETTERS),lgts)
@@ -157,9 +157,9 @@ Reporta campos lado a lado (transpostos) em `bad_lines_transp.txt`
 }
 ```
 
-Linhas com colunas adicionais: colunas serão ignoradas, já que parecem ser anotações manuais e ocasionais
+<!-- Linhas com colunas adicionais: colunas serão ignoradas, já que parecem ser anotações manuais e ocasionais -->
 
-```{r}
+```{r,include=F,eval=F}
 read_delim("tests/bad_lines_transp.txt",
            delim=fixed("|")) %>%
   mutate_all(~str_sub(.,end=10))
