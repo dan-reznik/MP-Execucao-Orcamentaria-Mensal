@@ -374,13 +374,14 @@ div.tocify {
 <div id="carrega-bibliotecas" class="section level3">
 <h3>Carrega bibliotecas</h3>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(tidyverse)
-<span class="kw">library</span>(lubridate)
-<span class="kw">library</span>(fs)
+<span class="kw">library</span>(lubridate) <span class="co"># dates</span>
+<span class="kw">library</span>(fs) <span class="co"># file system</span>
 <span class="kw">library</span>(stringi) <span class="co"># for %s+%</span>
-<span class="kw">library</span>(furrr)
-<span class="kw">library</span>(zip)
-<span class="kw">library</span>(tictoc)
-<span class="kw">source</span>(<span class="st">&quot;util.R&quot;</span>)</code></pre></div>
+<span class="kw">library</span>(furrr) <span class="co"># parallel processing</span>
+<span class="kw">library</span>(zip) <span class="co"># zip files</span>
+<span class="kw">library</span>(tictoc) <span class="co"># timing</span>
+<span class="kw">library</span>(glue) <span class="co"># string interpolation</span>
+<span class="kw">source</span>(<span class="st">&quot;util.R&quot;</span>) <span class="co"># low-level functionality</span></code></pre></div>
 <p>Lista .zips em diretorio de dados</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">data_dir &lt;-<span class="st"> &quot;data&quot;</span>
 <span class="kw">dir_ls</span>(data_dir,<span class="dt">regexp=</span><span class="st">&quot;.*zip&quot;</span>)
@@ -549,9 +550,13 @@ df_all &lt;-<span class="st"> </span>fnames_rds <span class="op">%&gt;%</span>
 <p>Deleta todos menos o primeiro (para inspeção)</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">fnames_rds <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">tail</span>(<span class="op">-</span><span class="dv">1</span>) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">walk</span>(file_delete)</code></pre></div>
 <p>Salva data frame com todos os dados num <code>.rds</code> compactado</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">df_all <span class="op">%&gt;%</span><span class="st"> </span>
-<span class="st">  </span><span class="kw">write_rds</span>(<span class="kw">dir_slash_fname</span>(data_dir,<span class="st">&quot;MP_EMPENHOS_ALL.rds&quot;</span>),
-            <span class="dt">compress=</span><span class="st">&quot;bz&quot;</span>)</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">fname_rds &lt;-<span class="st"> </span><span class="kw">dir_slash_fname</span>(data_dir,<span class="st">&quot;MP_EMPENHOS_ALL.rds&quot;</span>)</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">df_all <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">write_rds</span>(fname_rds, <span class="dt">compress=</span><span class="st">&quot;bz&quot;</span>)</code></pre></div>
+<p>Compara tamanho dos arquivos</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">glue</span>(<span class="st">&quot;{fname_zip}: {file_size(fname_zip)}</span><span class="ch">\n</span><span class="st">&quot;</span>,
+     <span class="st">&quot;{fname_rds}: {file_size(fname_rds)}</span><span class="ch">\n</span><span class="st">&quot;</span>)
+<span class="co">#&gt; data/Despesas MRJ.zip: 172M</span>
+<span class="co">#&gt; data/MP_EMPENHOS_ALL.rds: 46.1M</span></code></pre></div>
 </div>
 
 

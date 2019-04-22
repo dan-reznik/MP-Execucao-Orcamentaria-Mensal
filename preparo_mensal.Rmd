@@ -28,13 +28,14 @@ knitr::opts_chunk$set(
 
 ```{r,message=F}
 library(tidyverse)
-library(lubridate)
-library(fs)
+library(lubridate) # dates
+library(fs) # file system
 library(stringi) # for %s+%
-library(furrr)
-library(zip)
-library(tictoc)
-source("util.R")
+library(furrr) # parallel processing
+library(zip) # zip files
+library(tictoc) # timing
+library(glue) # string interpolation
+source("util.R") # low-level functionality
 ```
 
 Lista .zips em diretorio de dados
@@ -238,8 +239,19 @@ fnames_rds %>% tail(-1) %>% walk(file_delete)
 
 Salva data frame com todos os dados num `.rds` compactado
 
-```{r,eval=F}
-df_all %>% 
-  write_rds(dir_slash_fname(data_dir,"MP_EMPENHOS_ALL.rds"),
-            compress="bz")
+```{r}
+fname_rds <- dir_slash_fname(data_dir,"MP_EMPENHOS_ALL.rds")
 ```
+
+
+```{r,eval=F}
+df_all %>% write_rds(fname_rds, compress="bz")
+```
+
+Compara tamanho dos arquivos
+
+```{r}
+glue("{fname_zip}: {file_size(fname_zip)}\n",
+     "{fname_rds}: {file_size(fname_rds)}\n")
+```
+
