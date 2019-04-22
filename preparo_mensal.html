@@ -544,9 +544,11 @@ df_all &lt;-<span class="st"> </span>fnames_rds <span class="op">%&gt;%</span>
 <span class="st">  </span><span class="kw">map_dfr</span>(read_rds) <span class="op">%&gt;%</span>
 <span class="st">  </span><span class="kw">mutate_if</span>(is.character,as.factor) <span class="op">%&gt;%</span>
 <span class="st">  </span><span class="kw">arrange</span>(Data)
-<span class="co"># leave first in</span>
-fnames_rds <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">tail</span>(<span class="op">-</span><span class="dv">1</span>) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">walk</span>(file_delete)</code></pre></div>
-<p>Salva o arquivo combinado</p>
+<span class="kw">dim</span>(df_all)
+<span class="co">#&gt; 2252570      45</span></code></pre></div>
+<p>Deleta todos menos o primeiro (para inspeção)</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">fnames_rds <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">tail</span>(<span class="op">-</span><span class="dv">1</span>) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">walk</span>(file_delete)</code></pre></div>
+<p>Salva data frame com todos os dados num <code>.rds</code> compactado</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">df_all <span class="op">%&gt;%</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">write_rds</span>(<span class="kw">dir_slash_fname</span>(data_dir,<span class="st">&quot;MP_EMPENHOS_ALL.rds&quot;</span>),
             <span class="dt">compress=</span><span class="st">&quot;bz&quot;</span>)</code></pre></div>

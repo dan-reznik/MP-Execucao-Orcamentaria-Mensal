@@ -226,11 +226,17 @@ df_all <- fnames_rds %>%
   map_dfr(read_rds) %>%
   mutate_if(is.character,as.factor) %>%
   arrange(Data)
-# leave first in
+dim(df_all)
+#> 2252570      45
+```
+
+Deleta todos menos o primeiro (para inspeção)
+
+```{r,eval=F}
 fnames_rds %>% tail(-1) %>% walk(file_delete)
 ```
 
-Salva o arquivo combinado
+Salva data frame com todos os dados num `.rds` compactado
 
 ```{r,eval=F}
 df_all %>% 
