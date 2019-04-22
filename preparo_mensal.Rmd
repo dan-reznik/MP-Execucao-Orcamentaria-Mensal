@@ -34,7 +34,6 @@ library(stringi) # for %s+%
 library(furrr) # parallel processing
 library(zip) # zip files
 library(tictoc) # timing
-library(glue) # string interpolation
 source("util.R") # low-level functionality
 ```
 
@@ -251,7 +250,8 @@ df_all %>% write_rds(fname_rds, compress="bz")
 Compara tamanho dos arquivos
 
 ```{r}
-glue("{fname_zip}: {file_size(fname_zip)}\n",
-     "{fname_rds}: {file_size(fname_rds)}\n")
+c(fname_zip,fname1_txt,fname_rds) %>%
+  map_dfr(~tibble(file=.x,
+                  size=file_size(.x)%>%as.character))
 ```
 

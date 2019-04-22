@@ -380,7 +380,6 @@ div.tocify {
 <span class="kw">library</span>(furrr) <span class="co"># parallel processing</span>
 <span class="kw">library</span>(zip) <span class="co"># zip files</span>
 <span class="kw">library</span>(tictoc) <span class="co"># timing</span>
-<span class="kw">library</span>(glue) <span class="co"># string interpolation</span>
 <span class="kw">source</span>(<span class="st">&quot;util.R&quot;</span>) <span class="co"># low-level functionality</span></code></pre></div>
 <p>Lista .zips em diretorio de dados</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">data_dir &lt;-<span class="st"> &quot;data&quot;</span>
@@ -553,10 +552,14 @@ df_all &lt;-<span class="st"> </span>fnames_rds <span class="op">%&gt;%</span>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">fname_rds &lt;-<span class="st"> </span><span class="kw">dir_slash_fname</span>(data_dir,<span class="st">&quot;MP_EMPENHOS_ALL.rds&quot;</span>)</code></pre></div>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">df_all <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">write_rds</span>(fname_rds, <span class="dt">compress=</span><span class="st">&quot;bz&quot;</span>)</code></pre></div>
 <p>Compara tamanho dos arquivos</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">glue</span>(<span class="st">&quot;{fname_zip}: {file_size(fname_zip)}</span><span class="ch">\n</span><span class="st">&quot;</span>,
-     <span class="st">&quot;{fname_rds}: {file_size(fname_rds)}</span><span class="ch">\n</span><span class="st">&quot;</span>)
-<span class="co">#&gt; data/Despesas MRJ.zip: 172M</span>
-<span class="co">#&gt; data/MP_EMPENHOS_ALL.rds: 46.1M</span></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">c</span>(fname_zip,fname1_txt,fname_rds) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">map_dfr</span>(<span class="op">~</span><span class="kw">tibble</span>(<span class="dt">file=</span>.x,
+                  <span class="dt">size=</span><span class="kw">file_size</span>(.x)<span class="op">%&gt;%</span>as.character))</code></pre></div>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":["file"],"name":[1],"type":["chr"],"align":["left"]},{"label":["size"],"name":[2],"type":["chr"],"align":["left"]}],"data":[{"1":"data/Despesas MRJ.zip","2":"172M"},{"1":"data/MP_EMPENHOS_201401.TXT","2":"22.7M"},{"1":"data/MP_EMPENHOS_ALL.rds","2":"46.1M"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
 </div>
 
 
