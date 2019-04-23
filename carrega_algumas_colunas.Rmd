@@ -1,0 +1,59 @@
+---
+title: "Importa só algumas colunas"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r,message=F}
+library(tidyverse)
+library(fs)
+```
+
+Obtém nome do arquivo .TXT e verifica encoding
+
+```{r}
+fname <- dir_ls("data",regexp = ".TXT")
+guess_encoding(fname)
+```
+
+Localização Brasil
+
+```{r}
+locale_bra <- locale(encoding="ISO-8859-1",
+                     decimal_mark = ",",
+                     date_format="%d/%m/%Y")
+```
+
+Analiza cabeçalho / nome das colunas
+
+```{r}
+first_line <- read_lines(fname,n_max=1,locale=locale_bra) %>%
+  str_split(fixed(";")) %>%
+  first
+first_line
+```
+
+Numa named-list, especifica quais colunas quer ler e seus tipos:
+
+```{r}
+desired_columns <- list(Poder="f", Funcao="i", Valor="d") # named list
+```
+
+Verifica indices do cabeçalho
+
+```{r}
+which(first_line %in% names(desired_columns))
+```
+
+Lê primeiras 10 linhas, só com colunas/tipos especificados em `desired_columns`
+
+```{r,message=F,warning=F}
+read_delim(fname, n_max=10,
+           delim=fixed(";"),
+           trim_ws = T,
+           locale=locale_bra,
+           col_types = do.call(cols_only,desired_columns))
+```
+
+
