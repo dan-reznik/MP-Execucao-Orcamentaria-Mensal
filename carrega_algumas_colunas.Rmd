@@ -1,5 +1,5 @@
 ---
-title: "Importa só algumas colunas"
+title: "Tutorial: Definir Colunas Para Importação"
 output:
   html_document:
     df_print: paged

@@ -7,3 +7,8 @@ Análise de execuções orçamentárias nos meses de 2014-2018
 -   [análise](https://dan-reznik.github.io/MP-Execucao-Orcamentaria-Mensal/analise_mensal.html)
 -   [web](https://dan-reznik.github.io/MP-Execucao-Orcamentaria-Mensal/)
 -   [repo](https://github.com/dan-reznik/MP-Execucao-Orcamentaria-Mensal)
+
+Tutoriais:
+
+-   [combina arquivos](https://dan-reznik.github.io/MP-Execucao-Orcamentaria-Mensal/combina_arquivos.html)
+-   [carrega só algumas colunas](https://dan-reznik.github.io/MP-Execucao-Orcamentaria-Mensal/carrega_algumas_colunas.html)
