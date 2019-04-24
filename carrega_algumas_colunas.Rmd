@@ -44,10 +44,10 @@ Numa named-list, especifica quais colunas quer ler e seus tipos:
 
 ```{r}
 desired_columns <- list(
-   Data=col_date() # Data=col_date(format="%d/%m/%Y"), já especificado em locale_bra
-  ,Poder=col_factor()   # "f"
-  ,Funcao=col_integer() # "i"
-  ,Valor=col_double()    # "d"
+   Data=col_date()      # Data=col_date(format="%d/%m/%Y"), default em locale_bra
+  ,Poder=col_factor()   # Poder="f"
+  ,Funcao=col_integer() # Funcao="i"
+  ,Valor=col_double()   # Valor="d"
 )
 ```
 

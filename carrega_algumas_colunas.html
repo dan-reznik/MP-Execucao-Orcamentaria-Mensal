@@ -235,10 +235,10 @@ first_line</code></pre>
 ## [46] &quot;&quot;</code></pre>
 <p>Numa named-list, especifica quais colunas quer ler e seus tipos:</p>
 <pre class="r"><code>desired_columns &lt;- list(
-   Data=col_date() # Data=col_date(format=&quot;%d/%m/%Y&quot;), já especificado em locale_bra
-  ,Poder=col_factor()   # &quot;f&quot;
-  ,Funcao=col_integer() # &quot;i&quot;
-  ,Valor=col_double()    # &quot;d&quot;
+   Data=col_date()      # Data=col_date(format=&quot;%d/%m/%Y&quot;), default em locale_bra
+  ,Poder=col_factor()   # Poder=&quot;f&quot;
+  ,Funcao=col_integer() # Funcao=&quot;i&quot;
+  ,Valor=col_double()   # Valor=&quot;d&quot;
 )</code></pre>
 <p>Verifica indices do cabeçalho</p>
 <pre class="r"><code>which(first_line %in% names(desired_columns))</code></pre>
