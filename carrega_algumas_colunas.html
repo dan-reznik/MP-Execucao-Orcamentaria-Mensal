@@ -197,9 +197,12 @@ $(document).ready(function () {
 
 <pre class="r"><code>library(tidyverse)
 library(fs)</code></pre>
-<p>Obtém nome do arquivo .TXT e verifica encoding</p>
-<pre class="r"><code>fname &lt;- dir_ls(&quot;data&quot;,regexp = &quot;.TXT&quot;)
-guess_encoding(fname)</code></pre>
+<p>Obtém nome do arquivo de teste</p>
+<pre class="r"><code>fname &lt;- dir_ls(&quot;data&quot;,regexp = &quot;MP_EMPENHOS_\\d{6}.TXT&quot;)
+fname</code></pre>
+<pre><code>## data/MP_EMPENHOS_201401.TXT</code></pre>
+<p>Verifica encoding</p>
+<pre class="r"><code>guess_encoding(fname)</code></pre>
 <div data-pagedtable="false">
 <script data-pagedtable-source type="application/json">
 {"columns":[{"label":["encoding"],"name":[1],"type":["chr"],"align":["left"]},{"label":["confidence"],"name":[2],"type":["dbl"],"align":["right"]}],"data":[{"1":"ISO-8859-1","2":"0.70"},{"1":"ISO-8859-2","2":"0.32"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
@@ -231,19 +234,27 @@ first_line</code></pre>
 ## [43] &quot;ExercicioContrato&quot; &quot;NumeroContrato&quot;    &quot;ObjetoContrato&quot;   
 ## [46] &quot;&quot;</code></pre>
 <p>Numa named-list, especifica quais colunas quer ler e seus tipos:</p>
-<pre class="r"><code>desired_columns &lt;- list(Poder=&quot;f&quot;, Funcao=&quot;i&quot;, Valor=&quot;d&quot;) # named list</code></pre>
+<pre class="r"><code>desired_columns &lt;- list(
+   Data=col_date() # Data=col_date(format=&quot;%d/%m/%Y&quot;), já especificado em locale_bra
+  ,Poder=col_factor()   # &quot;f&quot;
+  ,Funcao=col_integer() # &quot;i&quot;
+  ,Valor=col_double()    # &quot;d&quot;
+)</code></pre>
 <p>Verifica indices do cabeçalho</p>
 <pre class="r"><code>which(first_line %in% names(desired_columns))</code></pre>
-<pre><code>## [1]  1 19 30</code></pre>
-<p>Lê primeiras 10 linhas, só com colunas/tipos especificados em <code>desired_columns</code></p>
-<pre class="r"><code>read_delim(fname, n_max=10,
-           delim=fixed(&quot;;&quot;),
-           trim_ws = T,
-           locale=locale_bra,
-           col_types = do.call(cols_only,desired_columns))</code></pre>
+<pre><code>## [1]  1 19 28 30</code></pre>
+<p>Lê primeiras 10 linhas, só com colunas/tipos especificados em <code>desired_columns</code>. Através da função <code>do.call</code>(), <code>desired_columns</code> é “injetada” em <code>cols_only</code> como lista de parâmetros.</p>
+<pre class="r"><code>read_delim(
+  fname,
+  n_max=10,
+  delim=fixed(&quot;;&quot;),
+  trim_ws = T,
+  locale=locale_bra,
+  col_types = do.call(cols_only,desired_columns)
+)</code></pre>
 <div data-pagedtable="false">
 <script data-pagedtable-source type="application/json">
-{"columns":[{"label":["Poder"],"name":[1],"type":["fctr"],"align":["left"]},{"label":["Funcao"],"name":[2],"type":["int"],"align":["right"]},{"label":["Valor"],"name":[3],"type":["dbl"],"align":["right"]}],"data":[{"1":"Executivo","2":"15","3":"5183.20"},{"1":"Executivo","2":"10","3":"69673.68"},{"1":"Executivo","2":"15","3":"154972.00"},{"1":"Executivo","2":"15","3":"72810.50"},{"1":"Executivo","2":"10","3":"451195.12"},{"1":"Executivo","2":"12","3":"62051.00"},{"1":"Executivo","2":"26","3":"455881.90"},{"1":"Executivo","2":"18","3":"37678.56"},{"1":"Executivo","2":"18","3":"36115.20"},{"1":"Executivo","2":"18","3":"54701.25"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+{"columns":[{"label":["Poder"],"name":[1],"type":["fctr"],"align":["left"]},{"label":["Funcao"],"name":[2],"type":["int"],"align":["right"]},{"label":["Data"],"name":[3],"type":["date"],"align":["right"]},{"label":["Valor"],"name":[4],"type":["dbl"],"align":["right"]}],"data":[{"1":"Executivo","2":"15","3":"2014-01-02","4":"5183.20"},{"1":"Executivo","2":"10","3":"2014-01-02","4":"69673.68"},{"1":"Executivo","2":"15","3":"2014-01-02","4":"154972.00"},{"1":"Executivo","2":"15","3":"2014-01-02","4":"72810.50"},{"1":"Executivo","2":"10","3":"2014-01-02","4":"451195.12"},{"1":"Executivo","2":"12","3":"2014-01-02","4":"62051.00"},{"1":"Executivo","2":"26","3":"2014-01-02","4":"455881.90"},{"1":"Executivo","2":"18","3":"2014-01-02","4":"37678.56"},{"1":"Executivo","2":"18","3":"2014-01-02","4":"36115.20"},{"1":"Executivo","2":"18","3":"2014-01-02","4":"54701.25"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
   </script>
 </div>
 

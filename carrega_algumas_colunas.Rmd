@@ -10,10 +10,16 @@ library(tidyverse)
 library(fs)
 ```
 
-Obtém nome do arquivo .TXT e verifica encoding
+Obtém nome do arquivo de teste
 
 ```{r}
-fname <- dir_ls("data",regexp = ".TXT")
+fname <- dir_ls("data",regexp = "MP_EMPENHOS_\\d{6}.TXT")
+fname
+```
+
+Verifica encoding
+
+```{r}
 guess_encoding(fname)
 ```
 
@@ -37,7 +43,12 @@ first_line
 Numa named-list, especifica quais colunas quer ler e seus tipos:
 
 ```{r}
-desired_columns <- list(Poder="f", Funcao="i", Valor="d") # named list
+desired_columns <- list(
+   Data=col_date() # Data=col_date(format="%d/%m/%Y"), já especificado em locale_bra
+  ,Poder=col_factor()   # "f"
+  ,Funcao=col_integer() # "i"
+  ,Valor=col_double()    # "d"
+)
 ```
 
 Verifica indices do cabeçalho
@@ -46,14 +57,17 @@ Verifica indices do cabeçalho
 which(first_line %in% names(desired_columns))
 ```
 
-Lê primeiras 10 linhas, só com colunas/tipos especificados em `desired_columns`
+Lê primeiras 10 linhas, só com colunas/tipos especificados em `desired_columns`. Através da função `do.call`(), `desired_columns` é "injetada" em `cols_only` como lista de parâmetros.
 
 ```{r,message=F,warning=F}
-read_delim(fname, n_max=10,
-           delim=fixed(";"),
-           trim_ws = T,
-           locale=locale_bra,
-           col_types = do.call(cols_only,desired_columns))
+read_delim(
+  fname,
+  n_max=10,
+  delim=fixed(";"),
+  trim_ws = T,
+  locale=locale_bra,
+  col_types = do.call(cols_only,desired_columns)
+)
 ```
 
 
