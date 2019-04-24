@@ -68,7 +68,7 @@ read_delim(
   locale=locale_bra,
   col_types = do.call(cols_only,desired_columns)
   # alternative: use exec() and splicing operator (!!!)
-  # col_type = purrr::exec(cols_only, !!!desired_columns)
+  # col_types = purrr::exec(cols_only, !!!desired_columns)
 )
 ```
 
