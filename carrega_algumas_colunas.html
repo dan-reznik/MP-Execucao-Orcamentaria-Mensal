@@ -251,6 +251,8 @@ first_line</code></pre>
   trim_ws = T,
   locale=locale_bra,
   col_types = do.call(cols_only,desired_columns)
+  # alternative: use exec() and splicing operator (!!!)
+  # col_type = purrr::exec(cols_only, !!!desired_columns)
 )</code></pre>
 <div data-pagedtable="false">
 <script data-pagedtable-source type="application/json">
