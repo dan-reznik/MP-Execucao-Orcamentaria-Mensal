@@ -57,7 +57,7 @@ Verifica indices do cabeçalho
 which(first_line %in% names(desired_columns))
 ```
 
-Lê primeiras 10 linhas, só com colunas/tipos especificados em `desired_columns`. Através da função `do.call`(), `desired_columns` é "injetada" em `cols_only` como lista de parâmetros.
+Lê primeiras 10 linhas, só com colunas/tipos especificados em `desired_columns`. Note que `do.call()`, "injeta" `desired_columns` como parâmetros de `cols_only()`.
 
 ```{r,message=F,warning=F}
 read_delim(

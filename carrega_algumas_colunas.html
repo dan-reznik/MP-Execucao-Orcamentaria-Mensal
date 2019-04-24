@@ -243,7 +243,7 @@ first_line</code></pre>
 <p>Verifica indices do cabeçalho</p>
 <pre class="r"><code>which(first_line %in% names(desired_columns))</code></pre>
 <pre><code>## [1]  1 19 28 30</code></pre>
-<p>Lê primeiras 10 linhas, só com colunas/tipos especificados em <code>desired_columns</code>. Através da função <code>do.call</code>(), <code>desired_columns</code> é “injetada” em <code>cols_only</code> como lista de parâmetros.</p>
+<p>Lê primeiras 10 linhas, só com colunas/tipos especificados em <code>desired_columns</code>. Note que <code>do.call()</code>, “injeta” <code>desired_columns</code> como parâmetros de <code>cols_only()</code>.</p>
 <pre class="r"><code>read_delim(
   fname,
   n_max=10,
